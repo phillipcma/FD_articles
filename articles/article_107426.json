@@ -1,0 +1,29 @@
+{
+  "id": 107426,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T17:42:36Z",
+  "category_id": 107132,
+  "folder_id": 176829,
+  "title": "XML-RPC API - Retrieving Customer Information",
+  "updated_at": "2021-06-10T11:11:08Z",
+  "description": "<h3 id=\"getCustomerInfo\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; font-size: 14px; color: rgb(0, 0, 0); line-height: normal;'><font size=\"3\">getCustomerInfo()</font></h3><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>Allows to retrieve all attributes of a given customer. Customer should belong to the customer that authenticated the request.</p><p style=\"color: rgb(0, 0, 0); font-style: normal; line-height: normal;\"><span style=\"font-family: Verdana;\"><br></span></p><p><span style=\"font-family: Verdana;\"></span></p><h4 id=\"Implementationdetails\" style=\"font-weight: bold; color: rgb(0, 0, 0);\"><span style=\"font-family: Verdana;\"><font size=\"2\">Implementation details</font></span></h4><p><span style=\"font-family: Verdana;\"></span></p><p><span style=\"font-family: Verdana;\">This function supports trusted mode in which case <strong>i_wholesaler</strong> (integer) parameter should be supplied.</span></p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'><br></p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>Parameters:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><li>\n<strong>i_customer</strong> (integer) or customer's <strong>name</strong> (string). Required</li></ul><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Returns:</p><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>\n<li>\n<strong>result</strong> - <strong>OK</strong> means that query was successful. String.</li>\n<li>\n<strong>customer</strong> - structure containing all attributes of the customer. The attributes are identical to input parameters of the <a href=\"107417\" target=\"\">createCustomer()</a><strong><a class=\"wiki\" href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/createCustomer\" style=\"color: rgb(187, 0, 0); border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(187, 187, 187);\">\u00a0</a></strong>function.</li>\n</ul><p><br></p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\">\n<li><br></li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>",
+  "description_text": " getCustomerInfo()  Allows to retrieve all attributes of a given customer. Customer should belong to the customer that authenticated the request.       Implementation details    This function supports trusted mode in which case i_wholesaler (integer) parameter should be supplied.     Parameters:   \ni_customer (integer) or customer's name (string). Required   Returns:  \n \nresult - OK means that query was successful. String. \n \ncustomer - structure containing all attributes of the customer. The attributes are identical to input parameters of the createCustomer()\u00a0function. \n     \n   \n XMLRPC fault in case of any error. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 4,
+  "hits": 1458,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0MjYtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDk1fQ.HCg8k5RHdNRT2XybkmUQRXYLVCVin2Qrw5koTjaUXl4"
+  }
+}

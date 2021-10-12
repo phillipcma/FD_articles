@@ -1,0 +1,32 @@
+{
+  "id": 3000085016,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3012089524,
+  "created_at": "2018-12-20T15:54:19Z",
+  "category_id": 81138,
+  "folder_id": 3000020074,
+  "title": "Payment Processor Integrations",
+  "updated_at": "2021-08-17T06:12:40Z",
+  "description": "<p>We often receive requests to integrate into new payment processors into our soft switch. &nbsp;Before we can do so we need to collect some important information before we can work on the task.</p><p><br></p><p>Business Requirements:</p><p>&nbsp;- A list of countries they are supported in</p><p>&nbsp;- A list of currencies the payment processor can support</p><p><br></p><p>Technical Requirements:</p><p>&nbsp;- API documentation for the payment processor</p><p>&nbsp;- Test payment methods (typically included in the API documentation)</p><p>&nbsp;- Working Test credentials for the payment processor. &nbsp;This is typically included in the API documentation.</p><p>&nbsp;- A technical contact in case we have questions on integration.</p><p><br></p><p><br></p>",
+  "description_text": " We often receive requests to integrate into new payment processors into our soft switch. \u00a0Before we can do so we need to collect some important information before we can work on the task.     Business Requirements:  \u00a0- A list of countries they are supported in  \u00a0- A list of currencies the payment processor can support     Technical Requirements:  \u00a0- API documentation for the payment processor  \u00a0- Test payment methods (typically included in the API documentation)  \u00a0- Working Test credentials for the payment processor. \u00a0This is typically included in the API documentation.  \u00a0- A technical contact in case we have questions on integration.       ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "Payment Processor",
+    "integration"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 0,
+  "hits": 47,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDg1MDE2LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA1M30.qonwo-SwzgZOV-oea3YDH8NFLG8ZXF_OXbokAXfviL4"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": 77544,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-04-19T14:31:08Z",
+  "category_id": 81138,
+  "folder_id": 133168,
+  "title": "Call Process",
+  "updated_at": "2020-02-19T20:08:20Z",
+  "description": "<h3><span style=\"font-size: 18px;\">Call Process</span></h3><p><br>The process starts when the softswitch receives the incoming call from the originating gateway or SIP endpoint. <em>The switch then identifies the caller\u2019s Account</em> (1). \u00a0The start of the process is called Authentication. \u00a0If the Account cannot be identified the call is rejected. Once the Account has been identified the <em>switch enumerates all Customers that need to be charged for the call</em> (2). For each Account and Customer in the list, the<strong>\u00a0</strong>switch then locates the associated Tariff and Rate; it then <em>calculates the maximum duration for the call</em> (3) based on the number called.  If at least one Rate cannot be found or if the balance of the Account or  Customer is not sufficient the call is rejected.<br><br>The next step is <strong>Routing</strong> \u2013 <em>based on the number called and routing configuration assigned to the Account or Customer</em> the switch <em>enumerates one or more Connections for terminating the call to</em> (4). Based on that information the switch performs actual overflow <em>routing</em> (5) until the call is either connected or there are no more connections to try.<br><br>Once the call has been completed, either successfully or unsuccessfully the switch charges Account, Customer(s) and Vendor associated with the call and <em>creates the appropriate CDRs</em> (6).\u00a0</p><p><br></p><p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/4994927/original/call_process.png?1366381813\" class=\"fr-fic fr-dii\"></p>",
+  "description_text": " Call Process   The process starts when the softswitch receives the incoming call from the originating gateway or SIP endpoint. The switch then identifies the caller\u2019s Account (1). \u00a0The start of the process is called Authentication. \u00a0If the Account cannot be identified the call is rejected. Once the Account has been identified the switch enumerates all Customers that need to be charged for the call (2). For each Account and Customer in the list, the\u00a0switch then locates the associated Tariff and Rate; it then calculates the maximum duration for the call (3) based on the number called.  If at least one Rate cannot be found or if the balance of the Account or  Customer is not sufficient the call is rejected.  The next step is Routing \u2013 based on the number called and routing configuration assigned to the Account or Customer the switch enumerates one or more Connections for terminating the call to (4). Based on that information the switch performs actual overflow routing (5) until the call is either connected or there are no more connections to try.  Once the call has been completed, either successfully or unsuccessfully the switch charges Account, Customer(s) and Vendor associated with the call and creates the appropriate CDRs (6).\u00a0      ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": "Call Process, Process"
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 13,
+  "thumbs_down": 4,
+  "hits": 1862,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI3NzU0NC1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwMjN9.2D7RoanqONa7z-26KynLIO_Mfb0NkUBrGDTeNb5jrcw"
+  }
+}

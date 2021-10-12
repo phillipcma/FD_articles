@@ -1,0 +1,29 @@
+{
+  "id": 3000050898,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2016-03-29T08:26:38Z",
+  "category_id": 81239,
+  "folder_id": 3000009545,
+  "title": "Freshdesk chat instead of support skype (for support only)",
+  "updated_at": "2016-03-29T11:29:19Z",
+  "description": "<p><b><font size=\"4\">General information</font></b></p>\r\n<p><br></p>\r\n<p>This document describes how to deal with cases when clients are asking support to organize a quick chat to resolve some urgent case. Or if customer asks support to add him to support skype. <br></p>\r\n<p><br></p>\r\n<p><b><font size=\"4\">How to deal with such cases:</font></b></p>\r\n<p><br></p>\r\n<p>1. Explain to the client that according to company policy all issues Sippy support team discussing with clients via ticket. You can use the following canned response: <a href=\"http://support.sippysoft.com/helpdesk/canned_responses/folders/47126/responses/38200/edit\" target=\"_blank\">Skype policy</a></p>\r\n<p>2. If client has some very urgent case and there is no possibility to resolve the issue quickly without chat, support can organize direct messaging via integrated into Freshdesk \"chat\".</p>\r\n<p>3. To activate the Freshdesk chat - click button on the agent portal(like on screenshot below):</p>\r\n<p></p>\r\n<p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3017720359/original/chat%20activation.jpg?1459239244\" class=\"inline-image\" data-id=\"3017720359\"></p>4. Give the instruction to the client how to find this chat from their side. We have a separate document that describes steps to find it on the customer portal. This documentation is internal, thus please send it to the client in reply to the ticket. Link to that document see below:<br><a href=\"http://support.sippysoft.com/solution/articles/3000050705-how-to-find-open-chat-on-the-freshdesk-portal\" target=\"_blank\">http://support.sippysoft.com/solution/articles/3000050705-how-to-find-open-chat-on-the-freshdesk-portal</a><br><br>See how to insert it to the ticket:<br><br><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3017726710/original/reply.jpg?1459250923\" class=\"inline-image\" data-id=\"3017726710\"></p>\n<br><br><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3017726626/original/find%20chat.jpg?1459250771\" class=\"inline-image\" data-id=\"3017726626\"></p>\n<br><br>6. If some other client detected that chat is available and writing you some questions, you can ignore such request and proceed with supporting of a particular client.<p>7. When you finish with help to some particular client, it is enough to deactivate chat to avoid constant messages from other clients.</p>\r\n<p><br></p>\r\n<p>P.S. please try to avoid of adding clients to the <b>sippy_software_inc._support</b> skype. Instead of skype we are planning to use freshdesk chat, to reduce inconvenient requests from clients in skype.</p>\r\n",
+  "description_text": " General information \n   \n This document describes how to deal with cases when clients are asking support to organize a quick chat to resolve some urgent case. Or if customer asks support to add him to support skype.   \n   \n How to deal with such cases: \n   \n 1. Explain to the client that according to company policy all issues Sippy support team discussing with clients via ticket. You can use the following canned response: Skype policy \n 2. If client has some very urgent case and there is no possibility to resolve the issue quickly without chat, support can organize direct messaging via integrated into Freshdesk \"chat\". \n 3. To activate the Freshdesk chat - click button on the agent portal(like on screenshot below): \n \n  4. Give the instruction to the client how to find this chat from their side. We have a separate document that describes steps to find it on the customer portal. This documentation is internal, thus please send it to the client in reply to the ticket. Link to that document see below: http://support.sippysoft.com/solution/articles/3000050705-how-to-find-open-chat-on-the-freshdesk-portal  See how to insert it to the ticket:    \n    \n  6. If some other client detected that chat is available and writing you some questions, you can ignore such request and proceed with supporting of a particular client. 7. When you finish with help to some particular client, it is enough to deactivate chat to avoid constant messages from other clients. \n   \n P.S. please try to avoid of adding clients to the sippy_software_inc._support skype. Instead of skype we are planning to use freshdesk chat, to reduce inconvenient requests from clients in skype. \n",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDUwODk4LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA3OX0.ZGfAQHvdFDJQfMTKtrKlOu5nOEfNUsvrKZOzjEnFq5Q"
+  }
+}

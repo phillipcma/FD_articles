@@ -1,0 +1,29 @@
+{
+  "id": 130229,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T07:44:12Z",
+  "category_id": 81239,
+  "folder_id": 211622,
+  "title": "Re-generate invoices",
+  "updated_at": "2021-06-10T11:11:59Z",
+  "description": "<pre class=\"wiki\">psql -U sippy sippyX \n</pre>\n<pre class=\"wiki\">INSERT INTO invoice_queue (\"period_begin\", \"period_end\", i_account, i_billing_plan) VALUES ('start_date','end_date', 'i_accountX', 'i_billing_planX');\n</pre>\n<p><br></p>\n<p>Next step will be:\n</p>\n<pre class=\"wiki\">/tmp/envX/invoiced.sh start\n\n</pre>\n<p>\n\"start_date\" and \"end_date\"  - you should set account's timezone time. \n</p>\n<p>\nFor example:\n</p>\n<pre class=\"wiki\"><b>INSERT INTO invoice_queue (\"period_begin\", \"period_end\", i_account, i_billing_plan) VALUES ('2013-07-04 17:00:00+00','2013-07-08 00:00:00+00', '5', '7');\n\n</b>\n\nif records already exists in queue, it can value for column \"done\" to be reset to 'false':\n<b>update invoice_queue set done ='FALSE';\n</b>\nthen\n<b>sudo ~ssp/apps/billingd/billingd.py</b>\n<b>sudo /home/ssp/scripts/crontab_wrapper.sh invoiced.sh</b>\n</pre>\n<p>\nCrontab_wrapper instead of /tmp/envX/invoiced.sh start was suggested by \nAndriy - in that way there is less possibility to execute invoiced.sh \ntwice which could result in stucked processes and errors.\n</p>\n<p>\u00a0</p>",
+  "description_text": " psql -U sippy sippyX \n \n INSERT INTO invoice_queue (\"period_begin\", \"period_end\", i_account, i_billing_plan) VALUES ('start_date','end_date', 'i_accountX', 'i_billing_planX');\n \n   \n Next step will be:\n \n /tmp/envX/invoiced.sh start\n\n \n \n\"start_date\" and \"end_date\"  - you should set account's timezone time. \n \n \nFor example:\n \n INSERT INTO invoice_queue (\"period_begin\", \"period_end\", i_account, i_billing_plan) VALUES ('2013-07-04 17:00:00+00','2013-07-08 00:00:00+00', '5', '7');\n\n\n\nif records already exists in queue, it can value for column \"done\" to be reset to 'false':\nupdate invoice_queue set done ='FALSE';\n\nthen\nsudo ~ssp/apps/billingd/billingd.py\nsudo /home/ssp/scripts/crontab_wrapper.sh invoiced.sh\n \n \nCrontab_wrapper instead of /tmp/envX/invoiced.sh start was suggested by \nAndriy - in that way there is less possibility to execute invoiced.sh \ntwice which could result in stucked processes and errors.\n \n \u00a0 ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyMjktZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDczfQ.xIRoJC3trHnquHRdKA7G0FpR88FFOl6Lj5R-Qg9RGgA"
+  }
+}

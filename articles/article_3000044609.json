@@ -1,0 +1,29 @@
+{
+  "id": 3000044609,
+  "type": 1,
+  "status": 2,
+  "agent_id": 4049322,
+  "created_at": "2015-11-20T14:33:32Z",
+  "category_id": 107132,
+  "folder_id": 3000008192,
+  "title": "XML-RPC API - Queue an Action for Environment",
+  "updated_at": "2020-06-12T12:24:59Z",
+  "description": "<p><font size=\"3\"><span style=\"font-family: Arial;\"></span></font><span><font size=\"2\"><strong><span style=\"font-family: Verdana;\"><font size=\"3\"><span style=\"font-family: Arial;\">queueEnvironmentAction()</span></font></span></strong></font></span></p><h4 style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 21.45px;\"><span rel=\"tempredactor\">Available since: V4.5</span></h4><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'>Allows to queue an action for an environment.<span style=\"font-family: Verdana;\">\u00a0The application is available only for root customer and only in the first environment.</span></p><p><br><span style=\"font-family: Verdana;\"></span></p><h4 id=\"Implementationdetails\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; color: rgb(0, 0, 0);'><span style=\"font-family: Verdana;\">Implementation details</span></h4><p><span style=\"font-family: Verdana;\">This application supports trusted mode in which case <strong>i_customer</strong> (integer) parameter should be supplied.</span></p><p><span style=\"font-family: Verdana;\"><br>Mandatory parameters:<br></span></p><ul>\n<li><span style=\"font-family: Verdana;\">i_environment - i_environment of updated environment. Integer.</span></li>\n<li>\n<span style=\"font-family: Verdana;\">action - action to queue. String. Possible values are:</span><ul>\n<li><span style=\"font-family: Verdana;\">start - start the environment<br></span></li>\n<li><span style=\"font-family: Verdana;\">stop - stop the environment<br></span></li>\n<li><span style=\"font-family: Verdana;\">restart - restart the environment<br></span></li>\n<li><span style=\"font-family: Verdana;\">suspend - suspend the environment</span></li>\n<li><span style=\"font-family: Verdana;\">delete - delete the environment<br></span></li>\n</ul>\n</li>\n</ul><p><span style=\"font-family: Verdana;\">Optional parameters:<br></span></p><ul><li><span style=\"font-family: Verdana;\">suspend_message - message to show on web-interface when the environment in suspended mode. String. This parameter supports macro ${DATE} which is substituted by date when the environment was suspended.<br></span></li></ul><p><br></p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'>Returns:</p><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'><li>result - OK means that action has been queued successfully. String.</li></ul><p><br></p><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'><li>XMLRPC fault in case of any error.</li></ul>",
+  "description_text": " queueEnvironmentAction()  Available since: V4.5  Allows to queue an action for an environment.\u00a0The application is available only for root customer and only in the first environment.     Implementation details  This application supports trusted mode in which case i_customer (integer) parameter should be supplied.   Mandatory parameters:   \n i_environment - i_environment of updated environment. Integer. \n \naction - action to queue. String. Possible values are: \n start - start the environment  \n stop - stop the environment  \n restart - restart the environment  \n suspend - suspend the environment \n delete - delete the environment  \n \n \n  Optional parameters:    suspend_message - message to show on web-interface when the environment in suspended mode. String. This parameter supports macro ${DATE} which is substituted by date when the environment was suspended.       Returns:   result - OK means that action has been queued successfully. String.       XMLRPC fault in case of any error.  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 135,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDQ0NjA5LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTEwMH0.3nHDhPxF73ZuDgJmYYyjRy2YNRpi66NZSs6nWyNxwE4"
+  }
+}

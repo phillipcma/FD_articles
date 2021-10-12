@@ -1,0 +1,29 @@
+{
+  "id": 107325,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3012089524,
+  "created_at": "2013-07-09T15:57:42Z",
+  "category_id": 107132,
+  "folder_id": 176717,
+  "title": "XML-RPC API - Authenticating Accounts using WEB credentials",
+  "updated_at": "2021-06-09T07:44:44Z",
+  "description": "<blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><h3 id=\"authAccount\" style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; page-break-after: avoid; font-size: 14px; margin-left: -18px; color: rgb(0, 0, 0); line-height: normal;\"><span style=\"font-size: 18px;\">authAccount()</span></h3><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\">This application is used to authenticate an account using its WEB login and WEB password credentials.</p><p dir=\"ltr\" style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\">Parameters:</p></blockquote><ul><li>username - username to login to selfcare interface. String. Required this or <em>email</em>.</li><li>email - email of the account to be used as an account identifier. String. Required this or <em>username</em>.</li><li>password - password to login to selfcare interface. String. Required.</li><li>i_customer -you have to pass i_customer parameter only when use authAccount() in trusted mode.</li></ul><p><br></p><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><p dir=\"ltr\" style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\"><span style=\"font-size: 16px;\">Returns:</span></p></blockquote><ul><li><span style=\"font-size: 13px;\"><strong>result</strong> - <strong>OK</strong> means that account has been successfully authenticated. String.</span></li><li dir=\"ltr\"><span style=\"font-size: 13px;\"><strong>i_account</strong> - i_account of authenticated account. Integer.</span></li></ul><p><span style=\"font-size: 13px;\"><br></span></p><ul><li dir=\"ltr\"><span style=\"font-size: 13px;\">XMLRPC fault in case of any error.</span></li></ul><p><span style=\"font-size: 13px;\"><br></span></p><p dir=\"ltr\" style=\"margin-left: 40px;\"><span style=\"font-size: 13px;\">Error code <strong>410</strong> is returned when account was successfully authenticated by One Time Password (see <strong><a class=\"wiki\" href=\"https://support.sippysoft.com/a/solutions/articles/107399\" style=\"color: rgb(187, 0, 0); border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(187, 187, 187);\">resetAccountOneTimePassword()</a></strong>).</span></p><p dir=\"ltr\" style=\"margin-left: 40px;\"><span style=\"font-size: 13px;\"><strong dir=\"ltr\">NOTE:</strong> If more than one account has the same email address then the authentication with this email is impossible, you will receive XMLRPC Fault with message 'More than one account matched'.</span></p>",
+  "description_text": "  authAccount()  This application is used to authenticate an account using its WEB login and WEB password credentials.  Parameters:    username - username to login to selfcare interface. String. Required this or email.  email - email of the account to be used as an account identifier. String. Required this or username.  password - password to login to selfcare interface. String. Required.  i_customer -you have to pass i_customer parameter only when use authAccount() in trusted mode.       Returns:    result - OK means that account has been successfully authenticated. String.  i_account - i_account of authenticated account. Integer.       XMLRPC fault in case of any error.      Error code 410 is returned when account was successfully authenticated by One Time Password (see resetAccountOneTimePassword()).  NOTE: If more than one account has the same email address then the authentication with this email is impossible, you will receive XMLRPC Fault with message 'More than one account matched'. ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 3,
+  "hits": 1445,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDczMjUtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDg1fQ.5RqeopNynhhsgVb8mAXhcvxDsSZSPbUNgJVCruLFreE"
+  }
+}

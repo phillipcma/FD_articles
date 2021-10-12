@@ -1,0 +1,29 @@
+{
+  "id": 3000059950,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2016-11-09T14:21:32Z",
+  "category_id": 81138,
+  "folder_id": 134069,
+  "title": "Support For Remote-Party-ID within Trusted Networks",
+  "updated_at": "2016-11-09T14:23:38Z",
+  "description": "<div dir=\"ltr\">\r\n<p>There is a possibility to pass Remote-Party-ID through the Sippy Softswitch but such possibility could be activated only via API.\u00a0</p>\r\n<p><br></p>\r\n<p>Here are the corresponding methods: <a href=\"http://support.sippysoft.com/solution/articles/3000050243-system-config\" rel=\"noreferrer\">http://support.sippysoft.com/solution/articles/3000050243-system-config</a></p>\r\n<p><br></p>\r\n<p><u>An example of usage:</u></p>\r\n<pre rel=\"highlighter\" data-code-brush=\"text\" class=\"code-large\">curl -v -k --digest -u &lt;username&gt;:&lt;password&gt; -d '&lt;?xml version=\"1.0\"?&gt;\r\n&lt;methodCall&gt;\r\n  &lt;methodName&gt;getSystemConfig&lt;/methodName&gt;\r\n&lt;params&gt;\r\n  &lt;param&gt;\r\n  &lt;value&gt;\r\n  &lt;struct&gt;\r\n  &lt;member&gt;\r\n  &lt;name&gt;i_customer&lt;/name&gt;&lt;value&gt;&lt;int&gt;1&lt;/int&gt;&lt;/value&gt;\r\n  &lt;/member&gt;\r\n  &lt;member&gt;\r\n  &lt;name&gt;key&lt;/name&gt;&lt;value&gt;&lt;string&gt;system/sip/headers/passthrough&lt;/string&gt;&lt;/value&gt;\r\n  &lt;/member&gt;\r\n  &lt;/struct&gt;\r\n  &lt;/value&gt;\r\n  &lt;/param&gt;\r\n&lt;/params&gt;\r\n&lt;/methodCall&gt;' https://&lt;environment_ip&gt;/xmlapi/xmlapi</pre>\r\n<p><br></p>\r\n<p>where <b>system/sip/headers/passthrough</b> is a fixed value so you need only to set ssp-root password.<br>\r\n</p>\r\n<p><br></p>\r\n<p><u>Here is the update method:</u> <br></p>\r\n<p>\u00a0</p>\r\n<pre rel=\"highlighter\" data-code-brush=\"text\" class=\"code-large\">curl -v -k --digest -u &lt;username&gt;:&lt;password&gt; -d '&lt;?xml version=\"1.0\"?&gt;\r\n&lt;methodCall&gt;\r\n  &lt;methodName&gt;setSystemConfig&lt;/methodName&gt;\r\n&lt;params&gt;\r\n  &lt;param&gt;\r\n  &lt;value&gt;\r\n  &lt;struct&gt;\r\n  &lt;member&gt;\r\n  &lt;name&gt;i_customer&lt;/name&gt;&lt;value&gt;&lt;int&gt;1&lt;/int&gt;&lt;/value&gt;\r\n  &lt;/member&gt;\r\n  &lt;member&gt;\r\n  &lt;name&gt;key&lt;/name&gt;&lt;value&gt;&lt;string&gt;system/sip/headers/passthrough&lt;/string&gt;&lt;/value&gt;\r\n  &lt;/member&gt;\r\n  &lt;member&gt;\r\n  &lt;name&gt;value&lt;/name&gt;&lt;value&gt;&lt;string&gt;Remote-Party-ID&lt;/string&gt;&lt;/value&gt;\r\n  &lt;/member&gt;\r\n  &lt;/struct&gt;\r\n  &lt;/value&gt;\r\n  &lt;/param&gt;\r\n&lt;/params&gt;\r\n&lt;/methodCall&gt;' https://&lt;environment_ip&gt;/xmlapi/xmlapi</pre>\r\n<p>\u00a0<br></p>where <b>Remote-Party-ID</b> is the header which you need to pass-through.<p></p>\r\n</div>",
+  "description_text": " \n There is a possibility to pass Remote-Party-ID through the Sippy Softswitch but such possibility could be activated only via API.\u00a0 \n   \n Here are the corresponding methods: http://support.sippysoft.com/solution/articles/3000050243-system-config \n   \n An example of usage: \n curl -v -k --digest -u <username>:<password> -d '<?xml version=\"1.0\"?>\n<methodCall>\n  <methodName>getSystemConfig</methodName>\n<params>\n  <param>\n  <value>\n  <struct>\n  <member>\n  <name>i_customer</name><value><int>1</int></value>\n  </member>\n  <member>\n  <name>key</name><value><string>system/sip/headers/passthrough</string></value>\n  </member>\n  </struct>\n  </value>\n  </param>\n</params>\n</methodCall>' https://<environment_ip>/xmlapi/xmlapi \n   \n where system/sip/headers/passthrough is a fixed value so you need only to set ssp-root password. \n \n   \n Here is the update method:   \n \u00a0 \n curl -v -k --digest -u <username>:<password> -d '<?xml version=\"1.0\"?>\n<methodCall>\n  <methodName>setSystemConfig</methodName>\n<params>\n  <param>\n  <value>\n  <struct>\n  <member>\n  <name>i_customer</name><value><int>1</int></value>\n  </member>\n  <member>\n  <name>key</name><value><string>system/sip/headers/passthrough</string></value>\n  </member>\n  <member>\n  <name>value</name><value><string>Remote-Party-ID</string></value>\n  </member>\n  </struct>\n  </value>\n  </param>\n</params>\n</methodCall>' https://<environment_ip>/xmlapi/xmlapi \n \u00a0  where Remote-Party-ID is the header which you need to pass-through. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 234,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDU5OTUwLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAzOX0.TvgWHGlXyeILCdrO9ToXR2Imkr-aG3aC9zzguXrXJgo"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": 3000073011,
+  "type": 1,
+  "status": 2,
+  "agent_id": 4049322,
+  "created_at": "2017-12-12T14:50:46Z",
+  "category_id": 107132,
+  "folder_id": 3000013865,
+  "title": "getUploadToken()",
+  "updated_at": "2018-06-04T11:32:59Z",
+  "description": "<h2 style=\"\">Description</h2><p style=\"\"><strong>Method available starting from 5.1 version of Sippy.</strong></p><h2 style=\"\"><span style=\"font-size: 14px;\">The application supports <strong>trusted mode</strong> and <strong>i_customer</strong> parameter should be supplied in this case.</span></h2><p style=\"\">Initiate a new binary upload.</p><p style=\"\"><br></p><h3 style=\"\">Parameters</h3><ul><li style=\"\">i_upload_type - upload type. Integer. Mandatory. Call <a href=\"https://support.sippysoft.com/solution/articles/3000055804-xml-rpc-api-get-system-dictionaries\" rel=\"noreferrer noopener\" target=\"_blank\">getDictionary(upload_types)</a> to get all possible values.</li><li style=\"\">process_on - date and time when to start processing the uploaded file. String in <a href=\"https://support.sippysoft.com/solution/articles/3000073101-xml-rpc-api-data-types-specifications\" rel=\"noreferrer noopener\">dateTime.iso8601 format in UTC</a> format. Optional. Default is now.</li><li style=\"\">expires_on - date and time until the URL for upload is valid. String in <a href=\"https://support.sippysoft.com/solution/articles/3000073101-xml-rpc-api-data-types-specifications\" rel=\"noreferrer noopener\">dateTime.iso8601 format in UTC</a> . Optional. Default is now plus 1 day.</li><li style=\"\">params - any optional parameters to be passed. Any type or structure supported by XMLRPC. Optional.</li></ul><p style=\"\"><br></p><h3 style=\"\">Returns</h3><ul><li style=\"\">result - <strong>OK</strong> means that operation successful. String.</li><li style=\"\">token - an unique token. String.</li><li style=\"\">url - an unique URL to upload file to. String.</li></ul><p style=\"\"><br></p><h3 style=\"\">Implementation details</h3><p style=\"margin-left: 20px;\">For <strong>routes</strong> upload the <em>params</em> parameter should be a structure with a valid i_destination_set integer value.</p><p style=\"margin-left: 20px;\">For <strong>rates</strong> upload the <em>params</em> parameter should be a structure with a valid i_tariff integer value.</p>",
+  "description_text": " Description  Method available starting from 5.1 version of Sippy.  The application supports trusted mode and i_customer parameter should be supplied in this case.  Initiate a new binary upload.     Parameters   i_upload_type - upload type. Integer. Mandatory. Call getDictionary(upload_types) to get all possible values.  process_on - date and time when to start processing the uploaded file. String in dateTime.iso8601 format in UTC format. Optional. Default is now.  expires_on - date and time until the URL for upload is valid. String in dateTime.iso8601 format in UTC . Optional. Default is now plus 1 day.  params - any optional parameters to be passed. Any type or structure supported by XMLRPC. Optional.      Returns   result - OK means that operation successful. String.  token - an unique token. String.  url - an unique URL to upload file to. String.      Implementation details  For routes upload the params parameter should be a structure with a valid i_destination_set integer value.  For rates upload the params parameter should be a structure with a valid i_tariff integer value. ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 274,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDczMDExLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTEyMX0.a54VJefLnRh0lgVUEnjUlr4yWpIsY3hJM-bKZeNOMLk"
+  }
+}

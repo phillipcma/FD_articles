@@ -1,0 +1,29 @@
+{
+  "id": 107500,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T18:48:45Z",
+  "category_id": 107132,
+  "folder_id": 176892,
+  "title": "XML-RPC API - \"Check if String Matches\" Rule",
+  "updated_at": "2021-06-10T11:11:09Z",
+  "description": "<h2 id=\"checkMatchRule\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; font-size: 16px; color: rgb(0, 0, 0); line-height: normal;'>checkMatchRule()</h2><p><br></p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>This application is used to check if number matches regular expression.</p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'><br></p><h3 style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>Method could be used to check the following rules:</h3><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'>\n<li>CLI validation rule on Tariff</li>\n<li>CLI validation rule on Destination set<br>\n</li>\n</ul><p><br></p><h3 style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'>Parameters:</h3><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>\n<li>rule - rule to match. String. Required.</li>\n<li>number - the number to be checked. String. Optional. Default is empty string.</li>\n</ul><h3 style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>Returns:</h3><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>\n<li>\n<strong>result</strong> - <strong>OK</strong> means that operation was successful. String.</li>\n<li>\n<strong>match</strong> - if the number matches. Boolean.</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>",
+  "description_text": " checkMatchRule()     This application is used to check if number matches regular expression.     Method could be used to check the following rules:  \n CLI validation rule on Tariff \n CLI validation rule on Destination set \n \n     Parameters:  \n rule - rule to match. String. Required. \n number - the number to be checked. String. Optional. Default is empty string. \n  Returns:  \n \nresult - OK means that operation was successful. String. \n \nmatch - if the number matches. Boolean. \n XMLRPC fault in case of any error. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 354,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc1MDAtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMTA3fQ.erDhdrP2hiIKDFEGeh5juUPA11rB1vdSjd4CvlFe2O4"
+  }
+}

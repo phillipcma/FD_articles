@@ -1,0 +1,29 @@
+{
+  "id": 3000072950,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3005443018,
+  "created_at": "2017-12-08T18:02:21Z",
+  "category_id": 81138,
+  "folder_id": 133138,
+  "title": "Customers features",
+  "updated_at": "2021-06-17T23:49:40Z",
+  "description": "<p>This article describes features that you will find in Customer settings.</p><p><br></p><p><span rel=\"tempredactor\"><strong><u>Acct. Matching Rule</u></strong> is a regular expression used to match Accounts for sub-Customers. \u00a0To add an Account under the Customer, you have to be logged in under the specific Customer. \u00a0<span rel=\"tempredactor\">The setting affects new Accounts and partially existing Accounts. <span rel=\"tempredactor\"><span rel=\"tempredactor\">For example,\u00a0</span></span><span rel=\"tempredactor\">value \"1000[1-9]$\" will limit names of accounts from 10001 to 10009.</span></span></span></p><p><br></p><p dir=\"ltr\">When a switch operator tries to define a new matching rule for a particular Customer and there are existing Accounts under the Customer, the operator will be presented a warning and three options on how to proceed. \u00a0</p><p><br></p><ul><li dir=\"ltr\"><p dir=\"ltr\">Edit Again (Edit rule so it would match)</p></li><li dir=\"ltr\"><p dir=\"ltr\">Delete Non-Matching Accounts (Delete non-matching accounts)</p></li><li dir=\"ltr\"><p dir=\"ltr\">Proceed with Update (Ignore non-matching accounts)</p></li></ul><p><br></p><p><br></p><p><strong><u>Overcommit\u00a0</u></strong><strong><u>Protection\u00a0</u></strong>is a setting that helps avoid fraud from sub-Customers. \u00a0The setting prevents the Accounts of a sub-Customer from topping up their balance higher then the balance of the Customer. \u00a0For example if the Overcommit limit was set to 10% and the customer balance was set to $100 then the maximum balance of the client account is $110.</p><p><br></p><p><strong><u>Commission Agen</u></strong><strong><u>t\u00a0</u></strong>allows you to set a payment of dividends for all calls of a specified entity to the Agent. \u00a0See more information in related articles:</p><p><a href=\"https://support.sippysoft.com/solution/articles/3000021046-commission-agent-setup\" rel=\"noreferrer\">https://support.sippysoft.com/solution/articles/3000021046-commission-agent-setup</a></p><p><a href=\"https://support.sippysoft.com/solution/articles/3000058549-different-commission-models-configurable-in-sippy\" rel=\"noreferrer\">https://support.sippysoft.com/solution/articles/3000058549-different-commission-models-configurable-in-sippy</a></p><p><br></p><p><strong><u>Extended Routing</u></strong></p><p>This feature allows you to assign several Routing Groups with different Tariffs for one Customer. \u00a0As result, the Customer will be able to choose different Routing Groups and assign them to his Accounts.</p><p><br></p><p><img class=\"fr-dii\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3001578134/original/ext_routing.jpg?1399367547\" data-id=\"3001578134\"></p>",
+  "description_text": " This article describes features that you will find in Customer settings.     Acct. Matching Rule is a regular expression used to match Accounts for sub-Customers. \u00a0To add an Account under the Customer, you have to be logged in under the specific Customer. \u00a0The setting affects new Accounts and partially existing Accounts. For example,\u00a0value \"1000[1-9]$\" will limit names of accounts from 10001 to 10009.     When a switch operator tries to define a new matching rule for a particular Customer and there are existing Accounts under the Customer, the operator will be presented a warning and three options on how to proceed. \u00a0       Edit Again (Edit rule so it would match)    Delete Non-Matching Accounts (Delete non-matching accounts)    Proceed with Update (Ignore non-matching accounts)          Overcommit\u00a0Protection\u00a0is a setting that helps avoid fraud from sub-Customers. \u00a0The setting prevents the Accounts of a sub-Customer from topping up their balance higher then the balance of the Customer. \u00a0For example if the Overcommit limit was set to 10% and the customer balance was set to $100 then the maximum balance of the client account is $110.     Commission Agent\u00a0allows you to set a payment of dividends for all calls of a specified entity to the Agent. \u00a0See more information in related articles:  https://support.sippysoft.com/solution/articles/3000021046-commission-agent-setup  https://support.sippysoft.com/solution/articles/3000058549-different-commission-models-configurable-in-sippy     Extended Routing  This feature allows you to assign several Routing Groups with different Tariffs for one Customer. \u00a0As result, the Customer will be able to choose different Routing Groups and assign them to his Accounts.      ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 1,
+  "hits": 455,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDcyOTUwLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAyMH0.U-R1x9KXQRRu2j2CkB_-iZP1EmR40PbhSou9_NVdC0o"
+  }
+}

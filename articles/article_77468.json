@@ -1,0 +1,29 @@
+{
+  "id": 77468,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-04-19T11:53:28Z",
+  "category_id": 81138,
+  "folder_id": 133138,
+  "title": "Balance and Credit Limit",
+  "updated_at": "2020-01-13T18:38:41Z",
+  "description": "<h3><span style=\"font-size: 18px;\">Balance and Credit Limit</span></h3><p><br>In addition to Tariffs, each Customer or Account has two basic Rating and Billing parameters associated with it; they are, Balance and Credit Limit. A negative Balance represents the amount of money an Account or Customer owes the upper level Customer to which it is a Customer or Account. \u00a0A positive balance represents the amount the already paid by the Account or Customer. \u00a0</p><p><br></p><p>With each successful call, the Balance is reduced by amount equal to the price of the call. \u00a0The Credit Limit set is the maximum negative value the Balance can reach. \u00a0Once the Balance has reached the Credit Limit, an Account or Customer will be blocked and will not be allowed to make more calls.<br><br>Balances can be increased via online payment, top-up voucher or by manual maintenance performed by the upper level Customer.</p>",
+  "description_text": " Balance and Credit Limit   In addition to Tariffs, each Customer or Account has two basic Rating and Billing parameters associated with it; they are, Balance and Credit Limit. A negative Balance represents the amount of money an Account or Customer owes the upper level Customer to which it is a Customer or Account. \u00a0A positive balance represents the amount the already paid by the Account or Customer. \u00a0     With each successful call, the Balance is reduced by amount equal to the price of the call. \u00a0The Credit Limit set is the maximum negative value the Balance can reach. \u00a0Once the Balance has reached the Credit Limit, an Account or Customer will be blocked and will not be allowed to make more calls.  Balances can be increased via online payment, top-up voucher or by manual maintenance performed by the upper level Customer. ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 11,
+  "thumbs_down": 7,
+  "hits": 1198,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI3NzQ2OC1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwMTF9.VPLlHmL7OiDD-MogeYfThIbs5eAdYAWy-bsfB82oow4"
+  }
+}

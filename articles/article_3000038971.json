@@ -1,0 +1,29 @@
+{
+  "id": 3000038971,
+  "type": 1,
+  "status": 2,
+  "agent_id": 4048869,
+  "created_at": "2015-07-30T11:57:43Z",
+  "category_id": 107132,
+  "folder_id": 176892,
+  "title": "XML-RPC API - Audit Logs",
+  "updated_at": "2017-03-29T03:54:53Z",
+  "description": "<p>The following functions are only available to a root customer user.</p><p><span style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 16px; font-weight: bold; line-height: normal;\"><br></span></p><p><span style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 16px; font-weight: bold; line-height: normal;\">getAuditLogs()</span></p><p>Get audit log records. This call supports trusted mode.</p><p>Parameters:</p><ul>\n<li>start_date - start date, format is '%H:%M:%S.000 GMT %a %b %d %Y' (e.g. <strong>09:57:29.000 GMT Wed Nov 18 2009</strong>). String. Optional. Default is 1 hour ago.</li>\n<li>end_date - end date, format is '%H:%M:%S.000 GMT %a %b %d %Y' (e.g. <strong>09:57:29.000 GMT Wed Nov 18 2009</strong>). String. Optional. Default is 1 hour after start_date.</li>\n<li>limit - return no more than this number of records. Integer. Optional. Default value is 100. Maximum allowed value is 100.</li>\n<li>offset - fetch records with the specified offset. Integer. Optional.</li>\n</ul><p>Returns:</p><ul>\n<li>\n<strong>result</strong> - <strong>OK</strong> means that operation successful. String.</li>\n<li>\n<strong>records</strong> - array of audit log records.</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul><p><span style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 16px; font-weight: bold; line-height: normal;\"></span></p><div><span style=\"font-size: 16px; line-height: normal;\"><br></span></div>writeAuditLog()<p></p><p>Write an audit log record. This call supports trusted mode.</p><p>Parameters:</p><ul>\n<li>action - String. Mandatory.</li>\n<li>resource - String. Mandatory.</li>\n<li>audit_info - Struct. Optional.</li>\n</ul><p>Returns:</p><ul>\n<li>\n<strong>result</strong> - <strong>OK</strong> means that operation successful. String.</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul><p><br></p>",
+  "description_text": " The following functions are only available to a root customer user.     getAuditLogs()  Get audit log records. This call supports trusted mode.  Parameters:  \n start_date - start date, format is '%H:%M:%S.000 GMT %a %b %d %Y' (e.g. 09:57:29.000 GMT Wed Nov 18 2009). String. Optional. Default is 1 hour ago. \n end_date - end date, format is '%H:%M:%S.000 GMT %a %b %d %Y' (e.g. 09:57:29.000 GMT Wed Nov 18 2009). String. Optional. Default is 1 hour after start_date. \n limit - return no more than this number of records. Integer. Optional. Default value is 100. Maximum allowed value is 100. \n offset - fetch records with the specified offset. Integer. Optional. \n  Returns:  \n \nresult - OK means that operation successful. String. \n \nrecords - array of audit log records. \n XMLRPC fault in case of any error. \n      writeAuditLog()  Write an audit log record. This call supports trusted mode.  Parameters:  \n action - String. Mandatory. \n resource - String. Mandatory. \n audit_info - Struct. Optional. \n  Returns:  \n \nresult - OK means that operation successful. String. \n XMLRPC fault in case of any error. \n    ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 2,
+  "hits": 252,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDM4OTcxLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTExMH0.EZ8O4eZEDrjJDM3buwlRffj32hX_BAFBq3SvY_6BQgA"
+  }
+}

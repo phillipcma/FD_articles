@@ -1,0 +1,28 @@
+{
+  "id": 3000106497,
+  "type": 1,
+  "status": 1,
+  "agent_id": 3763909,
+  "created_at": "2021-03-23T12:21:44Z",
+  "category_id": 3000004960,
+  "folder_id": 3000019537,
+  "title": "Process for the Licence/Server decommissioning",
+  "updated_at": "2021-03-23T12:21:44Z",
+  "description": "<h2 dir=\"ltr\"><strong>General</strong></h2><p dir=\"ltr\"><br></p><p dir=\"ltr\">This article describes the process of server/license decommissioning and steps that clients should follow for the official stop of Licence use.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Steps:</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">1) If the customer decided to stop use the license (on a dedicated or hosted server/environment) or cancel the subscription, he should create a ticket on <a href=\"mailto:support@sippysoft.com\">support@sippysoft.com</a> with a formal request to start the process of server/license decommissioning.</p><p dir=\"ltr\">2) Sippy Support Department forwards the received request to a sales/billing department for the approval of the received request.<br>On this stage, system should still be up and the license should be in a working state for the identification and deletion of a right license. Correct KVM credentials should be shared with Sippy Support Department for the decommissioning of a license.<br>Please be aware, decommissioning of license/server means the deletion/format of data &amp; license. So backup for future use should be agreed beforehand with a sales department &amp; support.</p>",
+  "description_text": " General     This article describes the process of server/license decommissioning and steps that clients should follow for the official stop of Licence use.     Steps:     1) If the customer decided to stop use the license (on a dedicated or hosted server/environment) or cancel the subscription, he should create a ticket on support@sippysoft.com with a formal request to start the process of server/license decommissioning.  2) Sippy Support Department forwards the received request to a sales/billing department for the approval of the received request. On this stage, system should still be up and the license should be in a working state for the identification and deletion of a right license. Correct KVM credentials should be shared with Sippy Support Department for the decommissioning of a license. Please be aware, decommissioning of license/server means the deletion/format of data & license. So backup for future use should be agreed beforehand with a sales department & support. ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMTA2NDk3LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MDk5NX0.sdqmMMU8QwrAz_7ZBt3RNH6LXEr8vExXrSP5f09I7vY"
+  }
+}

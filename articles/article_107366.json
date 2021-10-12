@@ -1,0 +1,29 @@
+{
+  "id": 107366,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3012089524,
+  "created_at": "2013-07-09T17:09:05Z",
+  "category_id": 107132,
+  "folder_id": 176717,
+  "title": "XML-RPC API - Get SIP Registration Status of an Account",
+  "updated_at": "2021-06-09T14:41:34Z",
+  "description": "<h2 data-identifyelement=\"212\" style='box-sizing: border-box; font-family: Arial, Verdana, \"Bitstream Vera Sans\", Helvetica, sans-serif; font-weight: bold; line-height: normal; color: rgb(0, 0, 0); margin-bottom: 0px; margin-left: 0px; font-size: 16px;'>The application supports <strong data-identifyelement=\"213\" style=\"box-sizing: border-box; font-weight: 700;\">trusted mode</strong> and <strong data-identifyelement=\"214\" style=\"box-sizing: border-box; font-weight: 700;\">i_customer</strong> parameter should be supplied in this case.</h2><p data-identifyelement=\"215\" dir=\"ltr\" style=\"box-sizing: border-box; margin-bottom: 0px; margin-left: 0px; font-size: 13px; line-height: 18px; word-break: normal; overflow-wrap: break-word;\"><br data-identifyelement=\"216\" style='box-sizing: border-box; color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: start; text-indent: 0px;'></p><h3 data-identifyelement=\"471\" id=\"getRegistrationStatus\" style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; page-break-after: avoid; font-size: 14px; color: rgb(0, 0, 0); font-style: normal; line-height: normal;\"><span style=\"font-size: 18px;\">getRegistrationStatus()<a class=\"anchor\" href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/getRegistrationStatus#getRegistrationStatus\" title=\"Link to this section\" style=\"color: rgb(215, 215, 215); border-style: none; font-size: 0.8em; vertical-align: text-top; visibility: hidden;\" data-identifyelement=\"472\"></a></span></h3><p data-identifyelement=\"473\" style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">This application is used to get SIP registration status of an account.</p><p data-identifyelement=\"474\" style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Parameters:</p><ul data-identifyelement=\"475\" style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><li data-identifyelement=\"476\">i_account - i_account of an account. Integer. Required.</li></ul><p data-identifyelement=\"477\" style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Returns:</p><ul data-identifyelement=\"478\" style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><li data-identifyelement=\"479\"><strong data-identifyelement=\"480\">result</strong> - <strong data-identifyelement=\"481\">OK</strong> means that account is registered. String.</li><li data-identifyelement=\"482\"><strong data-identifyelement=\"483\">user_agent</strong> - User-Agent header. String.</li><li data-identifyelement=\"484\"><strong data-identifyelement=\"485\">contact</strong> - contact header. String</li><li data-identifyelement=\"486\"><strong data-identifyelement=\"487\">expires</strong> - expiration time in '%H:%M:%S.000 GMT %a %b %d %Y' format (e.g. <strong data-identifyelement=\"488\">09:57:29.000 GMT Wed Nov 18 2009</strong>). String.</li><li data-identifyelement=\"489\">XML-RPC fault with code 403 and message 'Account is not registered' when the account is not registered.</li><li data-identifyelement=\"490\">XML-RPC fault in case of any error.</li></ul>",
+  "description_text": " The application supports trusted mode and i_customer parameter should be supplied in this case.     getRegistrationStatus()  This application is used to get SIP registration status of an account.  Parameters:   i_account - i_account of an account. Integer. Required.   Returns:   result - OK means that account is registered. String.  user_agent - User-Agent header. String.  contact - contact header. String  expires - expiration time in '%H:%M:%S.000 GMT %a %b %d %Y' format (e.g. 09:57:29.000 GMT Wed Nov 18 2009). String.  XML-RPC fault with code 403 and message 'Account is not registered' when the account is not registered.  XML-RPC fault in case of any error.  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 3,
+  "thumbs_down": 3,
+  "hits": 1256,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDczNjYtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDg5fQ.ZmWNGiSEQ1UEQ4P4ZxlxnXxFDFu9nUlFqUYNrcx7vC0"
+  }
+}

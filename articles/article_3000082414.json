@@ -1,0 +1,36 @@
+{
+  "id": 3000082414,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2018-09-24T20:45:12Z",
+  "category_id": 81138,
+  "folder_id": 133168,
+  "title": "Virtual Environment(s), also referred to as Virtual Partition(s)",
+  "updated_at": "2021-06-10T11:10:25Z",
+  "description": "<p style=\"\"><strong>Virtual Environment(s), also referred to as Virtual Partition(s)</strong></p><p style=\"\"><br></p><p style=\"\">* NOTE: \u00a0Virtual Environments are only available for purchased and/or rented Sippy Softswitch Licenses</p><p style=\"\"><br></p><p style=\"\">A Virtual Environment (or Partition) is similar to a <a href=\"https://en.wikipedia.org/wiki/Virtual_machine\" title=\"Virtual machine\">virtual machine</a>, \u00a0each Environment having its own set of Administrators, Customers, Vendors, Tariffs, Routes, and Billing Options. \u00a0This makes it a safe way to seperate differenent business offerings without affecting commerical operations. \u00a0For example. seperating Retail Offerings from Wholesale offering, or to provide a virtual softswitch solution to a customer/vendor.\u00a0</p><p style=\"\"><br></p><p style=\"\">Virtualization is valuable to service providers wishing to offer their customers/vendors \u00a0more options, whilst maintaining the exsting operations securely. \u00a0 It is possible to cap the capacity provided on a virtual environment, for example, if you have 2000CC capacity, you may wish to allocate a up to 200CC and maybe 40CPS to the additional environment (the amout you allocate is completely up to you). \u00a0</p><p style=\"\"><br></p><p style=\"\"><strong>Security</strong></p><p style=\"\"><br></p><p style=\"\">As the administrator of the whole switch, you have the ability to access the Virtual Environments at anytime. \u00a0Whereas, the Virtual Envrionment Administrator can ONLY administrate his own environment.</p><p style=\"\">\u00a0</p><p style=\"\"><strong>Scale</strong></p><p style=\"\"><br></p><p style=\"\">You can run multiple virtual environments (virtual environments cannot run virtual environments); \u00a0we recommend a maximum of between 10 - 15 enviorments on a single server (hardware permitting) as each environment does consume hardware resources to operate.\u00a0</p><p style=\"\"><br></p><p style=\"\"><br></p><p style=\"\"><br></p><p style=\"\"><br></p>",
+  "description_text": " Virtual Environment(s), also referred to as Virtual Partition(s)     * NOTE: \u00a0Virtual Environments are only available for purchased and/or rented Sippy Softswitch Licenses     A Virtual Environment (or Partition) is similar to a virtual machine, \u00a0each Environment having its own set of Administrators, Customers, Vendors, Tariffs, Routes, and Billing Options. \u00a0This makes it a safe way to seperate differenent business offerings without affecting commerical operations. \u00a0For example. seperating Retail Offerings from Wholesale offering, or to provide a virtual softswitch solution to a customer/vendor.\u00a0     Virtualization is valuable to service providers wishing to offer their customers/vendors \u00a0more options, whilst maintaining the exsting operations securely. \u00a0 It is possible to cap the capacity provided on a virtual environment, for example, if you have 2000CC capacity, you may wish to allocate a up to 200CC and maybe 40CPS to the additional environment (the amout you allocate is completely up to you). \u00a0     Security     As the administrator of the whole switch, you have the ability to access the Virtual Environments at anytime. \u00a0Whereas, the Virtual Envrionment Administrator can ONLY administrate his own environment.  \u00a0  Scale     You can run multiple virtual environments (virtual environments cannot run virtual environments); \u00a0we recommend a maximum of between 10 - 15 enviorments on a single server (hardware permitting) as each environment does consume hardware resources to operate.\u00a0             ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "Environment",
+    "Virtual Environment",
+    "Virtual Partition",
+    "Partition",
+    "Hosted Partition",
+    "Hosted Environment"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 161,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDgyNDE0LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAyOH0.4V19JoTDgg0v5yOulJpxXnu7OcgYYx9BqS-mtgS9jSU"
+  }
+}

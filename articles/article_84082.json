@@ -1,0 +1,29 @@
+{
+  "id": 84082,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-05-10T08:38:33Z",
+  "category_id": 81138,
+  "folder_id": 139400,
+  "title": "DestinationPatterns",
+  "updated_at": "2013-05-10T08:38:33Z",
+  "description": "<h2><span style=\"font-size: 18px;\">Syntax of the Destination Patterns in the Service Plans</span></h2>\n<p><br></p>\n<p>\r\nA Service plan can contain Minute Plans with certain amount of included \r\nminutes. To apply a Minute Plan to a specific set of destinations only, a\r\n Destination Pattern can be specified.\r\n</p>\r\n<p>\r\nThe Destination Pattern field can contain several prefixes separated \r\nwith whitespace. <br></p>\n<p>The prefixes can be of two types - positive and \r\nnegative. A negative prefix starts with the symbol <strong>^</strong>. <br></p>\n<p>The prefix can also contain a wildcard symbol <strong>.</strong> (dot) that matches any digit.</p>\n<p><br></p>\n<h2>Example 1</h2>\n<p><br></p>\r\n<p>\r\nDestination Pattern: <br></p>\n<p><br></p>\n<table id=\"table58863\"><tbody><tr><td class=\"current\"><pre><span style=\"background-color: rgb(238, 236, 225);\">111 ^1114</span></pre></td></tr></tbody></table>\n<p><br></p>\n<p>\r\n</p>\n<p>This pattern matches all destinations starting with 111 but not starting\r\n with 1114. So the destinations 11155555 and 1110000000 match, and \r\ndestinations 111456, 11147777 and 55555 don't match.</p>\n<p><br></p>\n<h2>Example 2</h2>\n<p><br></p>\r\n<p>\r\nDestination Pattern: <br></p>\n<p><span style=\"background-color: rgb(238, 236, 225);\"><br></span></p>\n<table id=\"table90315\"><tbody><tr><td class=\"current\"><pre><span style=\"background-color: rgb(238, 236, 225);\">111 ^1114 11141</span></pre></td></tr></tbody></table>\n<p><br></p>\n<p>This pattern matches the destinations 111222 and 11141222, and doesn't match the 1114222.</p>\n<p><br></p>\n<h2>Example 3</h2>\r\n<p><br></p>\n<p>\r\nDestination Pattern: <br></p>\n<p><br></p>\n<table id=\"table2867\"><tbody><tr><td class=\"\"><pre class=\"current\"><span style=\"background-color: rgb(238, 236, 225);\">111.2</span></pre></td></tr></tbody></table>\n<p><br></p>\n<p>This pattern matches the destinations 111222 and 11142555, and doesn't match the 11133333.</p>\n<p>\r\n</p>\n<p>\r\n</p>",
+  "description_text": " Syntax of the Destination Patterns in the Service Plans \n   \n \nA Service plan can contain Minute Plans with certain amount of included \nminutes. To apply a Minute Plan to a specific set of destinations only, a\n Destination Pattern can be specified.\n \n \nThe Destination Pattern field can contain several prefixes separated \nwith whitespace.   \n The prefixes can be of two types - positive and \nnegative. A negative prefix starts with the symbol ^.   \n The prefix can also contain a wildcard symbol . (dot) that matches any digit. \n   \n Example 1 \n   \n \nDestination Pattern:   \n   \n  111 ^1114  \n   \n \n \n This pattern matches all destinations starting with 111 but not starting\n with 1114. So the destinations 11155555 and 1110000000 match, and \ndestinations 111456, 11147777 and 55555 don't match. \n   \n Example 2 \n   \n \nDestination Pattern:   \n   \n  111 ^1114 11141  \n   \n This pattern matches the destinations 111222 and 11141222, and doesn't match the 1114222. \n   \n Example 3 \n   \n \nDestination Pattern:   \n   \n  111.2  \n   \n This pattern matches the destinations 111222 and 11142555, and doesn't match the 11133333. \n \n \n \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 629,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI4NDA4Mi1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwNTB9.o789pvNUUxzI3Bpu3FqUByo5Dir2F2NHUxsqEc4-P-c"
+  }
+}

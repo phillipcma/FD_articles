@@ -1,0 +1,29 @@
+{
+  "id": 3000073012,
+  "type": 1,
+  "status": 2,
+  "agent_id": 4049322,
+  "created_at": "2017-12-12T14:51:27Z",
+  "category_id": 107132,
+  "folder_id": 3000013865,
+  "title": "getUploadStatus()",
+  "updated_at": "2020-04-30T17:30:36Z",
+  "description": "<h2>Description</h2><p><strong>Method available starting from 5.1 version of Sippy</strong></p><p><span style=\"font-size: 14px;\">The application supports <strong>trusted mode</strong> and the <strong>i_customer</strong> parameter should be provided in this case.</span></p><p>Get status of an upload</p><p><br></p><h3>Parameters</h3><ul><li>token - token returned by <a href=\"https://support.sippysoft.com/solution/articles/3000073011-getuploadtoken-\" rel=\"noreferrer noopener\" target=\"_blank\">getUploadToken().</a> String. Mandatory.</li></ul><p><br></p><h3>Returns</h3><ul><li>result - <strong>OK</strong> means that operation the operation was successful. String.</li><li>status - the status of processing of the uploaded file. String.</li><li>process_on - date and time when the processing of the files starts. String.</li><li>expires_on - date and time when the system stops any attempts to process the file. String.</li><li>status_changed_on - date and time when the <em>status</em> has been changed. String.</li><li>url - URL where the report can be downloaded from. String.</li></ul><p><br></p><h3>Implementation details</h3><p>Status would get changed only in case the file is uploaded, possible values:</p><ul><li>INIT_TOKEN</li><li>FILE_UPLOADED</li><li>PROCESSING</li><li>FAIL</li><li>DONE</li></ul><p>After <u>INIT_TOKEN</u> the file upload should be done, the next status would be <u>FILE_UPLOADED,</u> and <u>PROCESSING</u> at specified process_on, then either <u>FAIL</u> (unsuccessful update, unable to parse content, update with errors, etc) or <u>DONE</u> (successful processing of all rows with commands, no errors generated).</p><p>PROCESSING means that the new php process would be started and the start of processing of the uploaded file. If the <u>PROCESSING</u> lasts for more then 1 day, the upload task would be dropped, setting the status to <u>FAIL</u></p><p style=\"margin-left: 20px;\"><br></p><p style=\"margin-left: 20px;\"><strong>The <em>url</em> is returned only when the file has been processed.</strong></p>",
+  "description_text": " Description  Method available starting from 5.1 version of Sippy  The application supports trusted mode and the i_customer parameter should be provided in this case.  Get status of an upload     Parameters   token - token returned by getUploadToken(). String. Mandatory.      Returns   result - OK means that operation the operation was successful. String.  status - the status of processing of the uploaded file. String.  process_on - date and time when the processing of the files starts. String.  expires_on - date and time when the system stops any attempts to process the file. String.  status_changed_on - date and time when the status has been changed. String.  url - URL where the report can be downloaded from. String.      Implementation details  Status would get changed only in case the file is uploaded, possible values:   INIT_TOKEN  FILE_UPLOADED  PROCESSING  FAIL  DONE   After INIT_TOKEN the file upload should be done, the next status would be FILE_UPLOADED, and PROCESSING at specified process_on, then either FAIL (unsuccessful update, unable to parse content, update with errors, etc) or DONE (successful processing of all rows with commands, no errors generated).  PROCESSING means that the new php process would be started and the start of processing of the uploaded file. If the PROCESSING lasts for more then 1 day, the upload task would be dropped, setting the status to FAIL     The url is returned only when the file has been processed. ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 0,
+  "hits": 197,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDczMDEyLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTEyMX0.uP0WYJNJ0h4wHfyzAKX6HpHSE-GekbvEcmj7JQUpUD4"
+  }
+}

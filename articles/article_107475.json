@@ -1,0 +1,29 @@
+{
+  "id": 107475,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3901167,
+  "created_at": "2013-07-09T18:37:58Z",
+  "category_id": 107132,
+  "folder_id": 176892,
+  "title": "XML-RPC API - Validate Passwords Using a Password Policy",
+  "updated_at": "2021-06-09T13:51:29Z",
+  "description": "<div><h2 data-identifyelement=\"212\" dir=\"ltr\" style='box-sizing: border-box; font-family: Arial, Verdana, \"Bitstream Vera Sans\", Helvetica, sans-serif; font-weight: bold; line-height: normal; color: rgb(0, 0, 0); margin-bottom: 0px; margin-left: 0px; font-size: 16px;'>The application supports <strong data-identifyelement=\"213\" style=\"box-sizing: border-box; font-weight: 700;\">trusted mode</strong>.</h2><p data-identifyelement=\"215\" dir=\"ltr\" style=\"box-sizing: border-box; margin-bottom: 0px; margin-left: 0px; font-size: 13px; line-height: 18px; word-break: normal; overflow-wrap: break-word;\"><br data-identifyelement=\"216\" style='box-sizing: border-box; color: rgb(24, 50, 71); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif; font-size: 13px; font-weight: 400; text-align: start; text-indent: 0px;'></p><h2 id=\"validatePassword\">validatePassword()</h2><p dir=\"ltr\">This application is used to validate password using given password policy</p><p dir=\"ltr\">Parameters:</p><ul><li>i_password_policy - Password policy to use. Integer. Required.</li><li>lang - localize messages using this locale. String. Optional.</li><li>password - Password to validate. String. Required.</li><li>web_label - Web label of the password. Please note that this label should be localized to the same locale as given in the parameter <strong>lang</strong> prior to the API call. String. Required.</li></ul><br>Returns:<br><ul><li><strong>result</strong> - <strong>OK</strong> means that password is correct</li><li>XMLRPC fault in case of any error. The message supplied in the Fault contains localized error message.</li></ul><p>\u00a0</p></div>",
+  "description_text": "  The application supports trusted mode.     validatePassword()  This application is used to validate password using given password policy  Parameters:   i_password_policy - Password policy to use. Integer. Required.  lang - localize messages using this locale. String. Optional.  password - Password to validate. String. Required.  web_label - Web label of the password. Please note that this label should be localized to the same locale as given in the parameter lang prior to the API call. String. Required.   Returns:   result - OK means that password is correct  XMLRPC fault in case of any error. The message supplied in the Fault contains localized error message.   \u00a0  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 1,
+  "hits": 691,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0NzUtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMTA2fQ.x8lOHYYh1Z-2Ai7JpQCRCvhOFQOYuCovW6dXMGxNTeE"
+  }
+}

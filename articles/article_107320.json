@@ -1,0 +1,29 @@
+{
+  "id": 107320,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T15:48:55Z",
+  "category_id": 107132,
+  "folder_id": 176717,
+  "title": "XML-RPC API - Updating Accounts",
+  "updated_at": "2021-06-10T11:11:07Z",
+  "description": "<div dir=\"ltr\">\n<blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\">\n<h3 id=\"updateAccount\" style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; page-break-after: avoid; font-size: 14px; margin-left: -18px; color: rgb(0, 0, 0); line-height: normal;\">updateAccount()</h3>\n<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\">This application is used to update an account. Only account that belongs to authenticated customer can be updated.</p>\n<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\"><br></p>\n<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\">Implementation details:</p>\n</blockquote>\n\n\n<ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><ul><li>Any parameter from <a href=\"http://support.sippysoft.com/solution/categories/107132/folders/176717/articles/107312-account-creation-and-parameters\" target=\"\">createAccount()</a><strong> </strong>function can be used. All parameters are optional, but at least one should be specified.</li></ul></ul>\n<blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\">\n<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\">Note: to change the balance of an account you have to use the <a href=\"http://support.sippysoft.com/solution/categories/107132/folders/176838/articles/107440-refunding-an-account\" target=\"\">Refunding an Account</a> documentation<br></p>\n<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\"><br></p>\n<h2 style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; font-size: 16px; color: rgb(0, 0, 0); line-height: normal;' id=\"addVendor\">The applications support <b>trusted mode</b> and <b>i_customer</b> parameter should be supplied in this case.</h2>\n<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\"><br></p>\n<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\">Parameters:</p>\n</blockquote>\n<ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><ul><li>i_account - i_account of updated account. Integer. Required.</li></ul></ul>\n<blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\">Returns:</p></blockquote>\n<ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><ul><li>\n<strong>result</strong>\u00a0-\u00a0<strong>OK</strong>\u00a0means that account has been updated successfully. String.</li></ul></ul>\n<ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><ul><li>XMLRPC fault in case of any error.</li></ul></ul>\n</div>",
+  "description_text": " \n \n updateAccount() \n This application is used to update an account. Only account that belongs to authenticated customer can be updated. \n   \n Implementation details: \n \n\n\n   Any parameter from createAccount() function can be used. All parameters are optional, but at least one should be specified.   \n \n Note: to change the balance of an account you have to use the Refunding an Account documentation  \n   \n The applications support trusted mode and i_customer parameter should be supplied in this case. \n   \n Parameters: \n \n   i_account - i_account of updated account. Integer. Required.   \n  Returns:  \n   \nresult\u00a0-\u00a0OK\u00a0means that account has been updated successfully. String.   \n   XMLRPC fault in case of any error.   \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 2,
+  "thumbs_down": 1,
+  "hits": 2259,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDczMjAtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDg0fQ.6jiN1KvrVuc7mAWdr-3jS-ga37v0uqTXPYcXizvAZyg"
+  }
+}

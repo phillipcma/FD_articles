@@ -1,0 +1,28 @@
+{
+  "id": 3000096244,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3012089524,
+  "created_at": "2020-01-20T22:23:23Z",
+  "category_id": 3000004254,
+  "folder_id": 3000016350,
+  "title": "test for new article",
+  "updated_at": "2020-02-21T19:27:56Z",
+  "description": "<p>testy mctesty.</p><p><br></p><p>The new edit to the article. \u00a0blah blah blah\u00a0\u00a0</p><p><br></p><p>draft mcdraft</p><p><br></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3050456615/original/h2zo7MKUMeKGHXRwz7wuXbJNax2S_j8BbA.jpg?1579678977\" style=\"width: auto;\" class=\"fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3050456615\"></p><p><br></p><p><br></p><p>Edit with publish - test another one</p><table style=\"width: 100%;\"><tbody><tr><td style=\"width: 16.6667%;\">asdasd</td><td style=\"width: 16.6667%;\">asdasd</td><td style=\"width: 16.6667%;\">xzc</td><td style=\"width: 16.6667%;\">sad</td><td style=\"width: 16.6667%;\">324</td><td style=\"width: 16.6667%;\">234</td></tr><tr><td style=\"width: 16.6667%;\">ssss</td><td style=\"width: 16.6667%;\">sa</td><td style=\"width: 16.6667%;\">aaaa</td><td style=\"width: 16.6667%;\">aaddc</td><td style=\"width: 16.6667%;\">erf</td><td style=\"width: 16.6667%;\">ccx</td></tr><tr><td style=\"width: 16.6667%;\">sd</td><td style=\"width: 16.6667%;\">sadsda</td><td style=\"width: 16.6667%;\">sadasd</td><td style=\"width: 16.6667%;\">asdasd</td><td style=\"width: 16.6667%;\">asas</td><td style=\"width: 16.6667%;\">xzzxcxc</td></tr></tbody></table>",
+  "description_text": " testy mctesty.     The new edit to the article. \u00a0blah blah blah\u00a0\u00a0     draft mcdraft             Edit with publish - test another one  asdasd  asdasd  xzc  sad  324  234  ssss  sa  aaaa  aaddc  erf  ccx  sd  sadsda  sadasd  asdasd  asas  xzzxcxc ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDk2MjQ0LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MDk5MX0.WIfwo-MlA9BOumEvDt5LgrbxSpIDKW5FOMMhTZcBEaY"
+  }
+}

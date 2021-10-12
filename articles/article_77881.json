@@ -1,0 +1,32 @@
+{
+  "id": 77881,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-04-22T09:09:40Z",
+  "category_id": 81138,
+  "folder_id": 134069,
+  "title": "Charging On-Net (Account-to-Account) Calls",
+  "updated_at": "2021-09-27T22:02:49Z",
+  "description": "<p></p><h3><span style=\"font-size: 18px;\">Overview</span></h3><p dir=\"ltr\"><br>There are situations where it may be necessary to charge either caller, callee or both for on-net calls based on per-minute rate. There are several options available in Sippy Softswitch for doing that:</p><ul><li dir=\"ltr\">Charging through the rate sheet using special prefixes \"onnet_in\" and \"onnet_out\";</li><li>Charging through the service plan on per-DID basis.</li></ul><h3><br></h3><h3><span style=\"font-size: 18px;\">Charging Using Rates</span></h3><p dir=\"ltr\"><br>In order to chaRge on-net calls there are two special prefixes defined in the softswitch:</p><ul><li>\"onnet_in\" - sets per-minute rate for any incoming on-net call;</li><li>\"onnet_out\" - sets per-minute rate for any outbound on-net call.</li></ul><p dir=\"ltr\">It is also possible to charge for voicemail access using special \"voicemail_check\" prefix.<br><br>These special prefixes support the same set of charging options as regular prefixes, such as Interval 1, Interval N, Price 1, Price N, etc.&nbsp;</p><p><br></p><h3><span style=\"font-size: 18px;\">Charging Using Service Plan</span></h3><p dir=\"ltr\"><br>Another possible option for charging the user for incoming calls is by setting Accessibility Surcharges in the service plan. This is a special case for charging the user for calls that come through a specific DID only. This charge will not apply to any other types of incoming calls.</p>",
+  "description_text": "  Overview   There are situations where it may be necessary to charge either caller, callee or both for on-net calls based on per-minute rate. There are several options available in Sippy Softswitch for doing that:   Charging through the rate sheet using special prefixes \"onnet_in\" and \"onnet_out\";  Charging through the service plan on per-DID basis.      Charging Using Rates   In order to chaRge on-net calls there are two special prefixes defined in the softswitch:   \"onnet_in\" - sets per-minute rate for any incoming on-net call;  \"onnet_out\" - sets per-minute rate for any outbound on-net call.   It is also possible to charge for voicemail access using special \"voicemail_check\" prefix.  These special prefixes support the same set of charging options as regular prefixes, such as Interval 1, Interval N, Price 1, Price N, etc.\u00a0     Charging Using Service Plan   Another possible option for charging the user for incoming calls is by setting Accessibility Surcharges in the service plan. This is a special case for charging the user for calls that come through a specific DID only. This charge will not apply to any other types of incoming calls. ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "Service Plan",
+    "onnet"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 3,
+  "thumbs_down": 7,
+  "hits": 1208,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI3Nzg4MS1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwMzB9.hyexEIcBwvBbNbtjI7hCaLY8A_YYw_zqlgzI4IxjRZY"
+  }
+}

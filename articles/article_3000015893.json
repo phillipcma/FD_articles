@@ -1,0 +1,29 @@
+{
+  "id": 3000015893,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3901167,
+  "created_at": "2014-08-08T13:10:09Z",
+  "category_id": 81138,
+  "folder_id": 207618,
+  "title": "Microsip",
+  "updated_at": "2014-08-14T14:41:33Z",
+  "description": "<p>\u00a0</p>\r\n<p>MicroSIP - open source portable SIP softphone based on PJSIP stack for\r\nWindows OS.</p>\r\n<p>It allowing to do high quality VoIP calls (person-to-person or on regular\r\ntelephones) via open SIP protocol. From cloud of SIP providers you can\r\nchoose best for you, register account and use it with MicroSIP. You'll\r\nget free person-to-person calls and cheap international calls.</p>\r\n<p>Main in MicroSIP:</p>\r\n<ul>\r\n<li>small footprint (&gt;2.5MB) and RAM usage (&gt;5MB) - written in C and C++ with minimal possible system resources usage</li>\r\n<li>usability - user friendly in daily usage</li>\r\n<li>functionality - voice; video H.264 and H.263+; SIMPLE messaging (RFC 3428) and presence (RFC 3903, 6665)</li>\r\n<li>compatibility - strongly conform to SIP standards</li>\r\n<li>voice quality - supports best voice codecs: speex@8,16,32kHz, \r\niLBC@8kHz, GSM@8kHz, G.711@8kHz (PCMU and PCMA), G.722@16kHz, \r\nG.729@8kHz, SILK@8,12,16,24kHz, Linear PCM@8,16,44kHz</li>\r\n<li>privacy - configurable encryption TLS / SRTP for control and media</li>\r\n<li>portability - stores setting in ini file</li>\r\n<li>multilanguage - included localization files for\r\nbrazilian,\r\nbulgarian,\r\nchinese,\r\ndutch,\r\nestonian,\r\nfinnish,\r\nfrench,\r\ngerman,\r\nhebrew,\r\nhungarian,\r\nitalian,\r\nkorean,\r\nnorwegian,\r\npolish,\r\nrussian (\u043c\u0438\u043a\u0440\u043e\u0441\u0438\u043f),\r\nspanish,\r\nswedish,\r\nukrainian,\u00a0</li>\r\n</ul>\r\n<p><br></p>\r\n<p>Few screenshots:</p>\r\n<p></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003558972/original/microsip-1.png?1407503343\" class=\"inline-image\" data-id=\"3003558972\"></p>\r\n<br><p></p>\r\n<p></p>\r\n<p><br></p>\r\n<p></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003558975/original/microsip-2.png?1407503349\" class=\"inline-image\" data-id=\"3003558975\"></p>\r\n<br><p><br></p>\r\n<p></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003558979/original/microsip-3.png?1407503357\" class=\"inline-image\" data-id=\"3003558979\"></p>\r\n<br><p></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003558981/original/microsip-4.png?1407503364\" class=\"inline-image\" data-id=\"3003558981\"></p>\r\n<br><p></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003558984/original/microsip-5.png?1407503380\" class=\"inline-image\" data-id=\"3003558984\"></p>\r\n<br><p></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003558986/original/microsip-6.png?1407503387\" class=\"inline-image\" data-id=\"3003558986\"></p>\r\n<br><p></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003558993/original/microsip-7.png?1407503394\" class=\"inline-image\" data-id=\"3003558993\"></p>\r\n<br><p></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003558995/original/microsip-8.png?1407503398\" class=\"inline-image\" data-id=\"3003558995\"></p>\r\n<p><br></p>\r\n<br>\r\n",
+  "description_text": " \u00a0 \n MicroSIP - open source portable SIP softphone based on PJSIP stack for\nWindows OS. \n It allowing to do high quality VoIP calls (person-to-person or on regular\ntelephones) via open SIP protocol. From cloud of SIP providers you can\nchoose best for you, register account and use it with MicroSIP. You'll\nget free person-to-person calls and cheap international calls. \n Main in MicroSIP: \n \n small footprint (>2.5MB) and RAM usage (>5MB) - written in C and C++ with minimal possible system resources usage \n usability - user friendly in daily usage \n functionality - voice; video H.264 and H.263+; SIMPLE messaging (RFC 3428) and presence (RFC 3903, 6665) \n compatibility - strongly conform to SIP standards \n voice quality - supports best voice codecs: speex@8,16,32kHz, \niLBC@8kHz, GSM@8kHz, G.711@8kHz (PCMU and PCMA), G.722@16kHz, \nG.729@8kHz, SILK@8,12,16,24kHz, Linear PCM@8,16,44kHz \n privacy - configurable encryption TLS / SRTP for control and media \n portability - stores setting in ini file \n multilanguage - included localization files for\nbrazilian,\nbulgarian,\nchinese,\ndutch,\nestonian,\nfinnish,\nfrench,\ngerman,\nhebrew,\nhungarian,\nitalian,\nkorean,\nnorwegian,\npolish,\nrussian (\u043c\u0438\u043a\u0440\u043e\u0441\u0438\u043f),\nspanish,\nswedish,\nukrainian,\u00a0 \n \n   \n Few screenshots: \n \n  \n  \n \n   \n \n  \n    \n \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n   \n \n",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 20,
+  "thumbs_down": 5,
+  "hits": 3211,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDE1ODkzLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA1Mn0.DDnJIKBuo4M0BvfhtAwfTYzpWmTDYqHp3Ja59h6WeH0"
+  }
+}

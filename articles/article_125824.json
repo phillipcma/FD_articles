@@ -1,0 +1,29 @@
+{
+  "id": 125824,
+  "type": 1,
+  "status": 1,
+  "agent_id": 3012089524,
+  "created_at": "2013-08-21T15:51:26Z",
+  "category_id": 82218,
+  "folder_id": 134765,
+  "title": "IVR Supported Languages",
+  "updated_at": "2020-04-10T07:36:18Z",
+  "description": "<p>Placed to draft as duplicate of <a href=\"http://support.sippysoft.com/solution/articles/3000007379-support-languages-adding-languages\" target>http://support.sippysoft.com/solution/articles/3000007379-support-languages-adding-languages</a> on 09.09.15<br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p>IVR Supported Language list as of Version 4.0\u00a0</p>\n<div>\n<span style=\"line-height: normal;\"><br></span><table id=\"table38514\"><tbody>\n<tr>\n<td class=\"current\">Language Code</td>\n<td>Language Name</td>\n\n</tr>\n<tr>\n<td class=\"\">ar</td>\n<td>Arabic<br>\n</td>\n</tr>\n<tr>\n<td class=\"\">de</td>\n<td>German</td>\n</tr>\n<tr>\n<td>es</td>\n<td>Spanish</td>\n</tr>\n<tr>\n<td>fr</td>\n<td>French</td>\n</tr>\n<tr>\n<td>hy</td>\n<td>Armenian<br>\n</td>\n</tr>\n<tr>\n<td>ja</td>\n<td>Japanese</td>\n</tr>\n<tr>\n<td>ru</td>\n<td>Russian</td>\n</tr>\n<tr>\n<td>th</td>\n<td>Thai<br>\n</td>\n</tr>\n<tr>\n<td>tr</td>\n<td>Turkish</td>\n</tr>\n<tr>\n<td>zh</td>\n<td>Chinese</td>\n</tr>\n</tbody></table>\n</div>\n",
+  "description_text": " Placed to draft as duplicate of http://support.sippysoft.com/solution/articles/3000007379-support-languages-adding-languages on 09.09.15  \n   \n   \n   \n IVR Supported Language list as of Version 4.0\u00a0 \n \n \n\n Language Code \n Language Name \n\n\n\n ar \n Arabic \n \n\n\n de \n German \n\n\n es \n Spanish \n\n\n fr \n French \n\n\n hy \n Armenian \n \n\n\n ja \n Japanese \n\n\n ru \n Russian \n\n\n th \n Thai \n \n\n\n tr \n Turkish \n\n\n zh \n Chinese \n\n\n \n",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 3,
+  "thumbs_down": 0,
+  "hits": 71,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMjU4MjQtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMTI5fQ.M1whm3m6Ek14w8NcCx-zfOY6q1NxAxi5Qnjj07qwYh4"
+  }
+}

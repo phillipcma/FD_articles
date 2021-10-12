@@ -1,0 +1,32 @@
+{
+  "id": 89009,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-05-22T20:02:59Z",
+  "category_id": 81138,
+  "folder_id": 139400,
+  "title": "Change the amount of decimal places/precision for monetary values.",
+  "updated_at": "2021-06-10T11:11:58Z",
+  "description": "<p>By default the Sippy Switch displays two decimal places for all monetary values. You can increase the precision of monetary values by following these steps:</p>\n<p><br></p>\n<p></p>\n<ol>\n<li>Log into your softswicth</li>\n<li>Click on the \"System Parameters\" menu item.</li>\n<li>Under the \"Web Interface\" section, use the \"Display Precision\" pick-list to change the currency precision to your preferred setting.</li>\n</ol>\n<div><br></div>\n<div><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5931556/original/ssp_decimal_precision.png?1369252955\" style=\"cursor: default;\"></p></div>",
+  "description_text": " By default the Sippy Switch displays two decimal places for all monetary values. You can increase the precision of monetary values by following these steps: \n   \n \n \n Log into your softswicth \n Click on the \"System Parameters\" menu item. \n Under the \"Web Interface\" section, use the \"Display Precision\" pick-list to change the currency precision to your preferred setting. \n \n   \n    ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "precision",
+    "systemparameters"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 2,
+  "thumbs_down": 0,
+  "hits": 335,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI4OTAwOS1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwNDd9.Rup-esHfWJ5tfjYOwY1bfr14Q8uWela15OyMDtp6BJ8"
+  }
+}

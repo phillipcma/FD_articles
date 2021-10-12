@@ -1,0 +1,29 @@
+{
+  "id": 130244,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T08:09:58Z",
+  "category_id": 81239,
+  "folder_id": 211689,
+  "title": "No Rates Found for Account",
+  "updated_at": "2020-07-14T07:42:53Z",
+  "description": "<p><strong>Possible fixes:\u00a0</strong></p><p><br></p><p>1. Open some particular rate that Test Diaplan doesn't display but should and click Save &amp; Close. Sometimes you need to add and remove some letter and then click Save to emulate change.</p><p><br></p><p>2. If Customer have \u201cNo Rates Found for Account xxx\u201d in sip.log, but Test Dialplan shows it, just restart b2bua.<br>Be aware that it will drop all active calls on every environment within the one system.</p><p><br></p><pre class=\"wiki\">1. /tmp/b2bua.sh stop\n2. rm /var/env*/RatingManager.rtable.*.save\n3. /tmp/b2bua.sh start </pre>",
+  "description_text": " Possible fixes:\u00a0     1. Open some particular rate that Test Diaplan doesn't display but should and click Save & Close. Sometimes you need to add and remove some letter and then click Save to emulate change.     2. If Customer have \u201cNo Rates Found for Account xxx\u201d in sip.log, but Test Dialplan shows it, just restart b2bua. Be aware that it will drop all active calls on every environment within the one system.     1. /tmp/b2bua.sh stop\n2. rm /var/env*/RatingManager.rtable.*.save\n3. /tmp/b2bua.sh start  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyNDQtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDY1fQ.oMV706weVcUrdHDVDYkUvVgwLwF4zPcfaPIXgh2l4o8"
+  }
+}

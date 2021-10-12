@@ -1,0 +1,29 @@
+{
+  "id": 3000083421,
+  "type": 1,
+  "status": 2,
+  "agent_id": 4049322,
+  "created_at": "2018-10-31T13:49:47Z",
+  "category_id": 107132,
+  "folder_id": 176829,
+  "title": "XML-RPC API - Blocking and Unblocking Customers",
+  "updated_at": "2018-11-06T11:32:17Z",
+  "description": "<h2 style=\"\">Implementation details</h2><p style=\"\">These applications support trusted mode in which case <strong>i_wholesaler</strong> (Integer) parameter should be passed.</p><p style=\"\">Available since 5.2.</p><p style=\"\">Top level Customer could also issue this API call for any Customer in his hierarchy, including subcustomers of his subcustomers.</p><hr><h2 style=\"\">blockCustomer()</h2><p style=\"\"><br></p><p style=\"\">This application is used to block a customer.</p><p style=\"\"><br></p><h3 style=\"\">Parameters:</h3><ul><li style=\"\">i_customer - ID of customer to block. Integer. Required.</li></ul><h3 style=\"\">Returns:</h3><ul><li style=\"\"><strong>result\u00a0</strong>-<strong>\u00a0OK</strong> means that the customer has been blocked. String.</li></ul><p style=\"\"><br></p><ul><li style=\"\">XMLRPC fault in case of any error.</li></ul><hr style=\"\"><h2 style=\"\">unblockCustomer()</h2><p style=\"\"><br></p><p style=\"\">This application is used to unblock a customer.</p><p style=\"\"><br></p><h3 style=\"\">Parameters:</h3><ul><li style=\"\">i_customer - ID of customer to unblock. Integer. Required.</li></ul><h3 style=\"\">Returns:</h3><ul><li style=\"\"><strong>result\u00a0</strong>-<strong>\u00a0OK</strong> means that the customer has been unblocked. String.</li></ul><p style=\"\"><br></p><ul><li style=\"\">XMLRPC fault in case of any error.</li></ul>",
+  "description_text": " Implementation details  These applications support trusted mode in which case i_wholesaler (Integer) parameter should be passed.  Available since 5.2.  Top level Customer could also issue this API call for any Customer in his hierarchy, including subcustomers of his subcustomers.   blockCustomer()     This application is used to block a customer.     Parameters:   i_customer - ID of customer to block. Integer. Required.   Returns:   result\u00a0-\u00a0OK means that the customer has been blocked. String.       XMLRPC fault in case of any error.    unblockCustomer()     This application is used to unblock a customer.     Parameters:   i_customer - ID of customer to unblock. Integer. Required.   Returns:   result\u00a0-\u00a0OK means that the customer has been unblocked. String.       XMLRPC fault in case of any error.  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 195,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDgzNDIxLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA5M30.kikImxJVb2OpgnN6EFvJ99OkLfdOxp998qkzphBgKik"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": 84081,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-05-10T08:32:01Z",
+  "category_id": 81138,
+  "folder_id": 139400,
+  "title": "InstallingSSLCertificate",
+  "updated_at": "2021-05-27T11:00:57Z",
+  "description": "<p>\n</p>\n<table id=\"table43509\"><tbody><tr><td class=\"current\"><p>\n<sub><strong><i>Use of Proprietary Information and Copyright Notice.</i></strong><i>\n This document contains proprietary information that is to be used only \nby the Sippy Software, Inc. customers. Any unauthorized disclosure, \ncopying, distribution, or use of this information is prohibited. (c) \n2009 Sippy Software, Inc. All rights reserved.</i></sub></p></td></tr></tbody></table>\n<p><br></p>\n<p>\n</p>\n<p>1. Copy SSL private key into <tt>/usr/local/etc/apache/ssl.key/ssp.key</tt> file. <strong>The key should be without a password</strong>.<br></p>\n<p>2. Copy SSL certificate into <tt>/usr/local/etc/apache/ssl.crt/ssp.crt</tt> file.<br></p>\n<p>3. Make sure both files owned by user root and have 600 as their permissions: <br></p>\n<p><br></p>\n<table id=\"table64319\"><tbody><tr><td class=\"\"><pre class=\"current\"><span class=\"current\" style=\"background-color: rgb(238, 236, 225);\">root# chown root:wheel /usr/local/etc/apache/ssl.key/ssp.key\nroot# chown root:wheel /usr/local/etc/apache/ssl.crt/ssp.crt\nroot# chmod 600 /usr/local/etc/apache/ssl.key/ssp.key\nroot# chmod 600 /usr/local/etc/apache/ssl.crt/ssp.crt</span></pre></td></tr></tbody></table>\n<p><br></p>\n<p>4 Restart Apache web server:</p>\n<p><br></p>\n<table id=\"table88487\"><tbody><tr><td class=\"\"><pre class=\"current\"><span style=\"background-color: rgb(238, 236, 225);\">root# /usr/local/etc/rc.d/apache* restart</span></pre></td></tr></tbody></table>\n<p>\n</p>",
+  "description_text": " \n \n  \nUse of Proprietary Information and Copyright Notice.\n This document contains proprietary information that is to be used only \nby the Sippy Software, Inc. customers. Any unauthorized disclosure, \ncopying, distribution, or use of this information is prohibited. (c) \n2009 Sippy Software, Inc. All rights reserved.  \n   \n \n \n 1. Copy SSL private key into /usr/local/etc/apache/ssl.key/ssp.key file. The key should be without a password.  \n 2. Copy SSL certificate into /usr/local/etc/apache/ssl.crt/ssp.crt file.  \n 3. Make sure both files owned by user root and have 600 as their permissions:   \n   \n  root# chown root:wheel /usr/local/etc/apache/ssl.key/ssp.key\nroot# chown root:wheel /usr/local/etc/apache/ssl.crt/ssp.crt\nroot# chmod 600 /usr/local/etc/apache/ssl.key/ssp.key\nroot# chmod 600 /usr/local/etc/apache/ssl.crt/ssp.crt  \n   \n 4 Restart Apache web server: \n   \n  root# /usr/local/etc/rc.d/apache* restart  \n \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 0,
+  "hits": 83,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI4NDA4MS1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwNDh9.fWtul9i3PQsaizkB0BtH71yBSzZr8Z2MmC75fCOtjAI"
+  }
+}

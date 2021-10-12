@@ -1,0 +1,29 @@
+{
+  "id": 107876,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-10T16:17:02Z",
+  "category_id": 81239,
+  "folder_id": 3000011951,
+  "title": "Configuring Cybersource Payment Processor - deprecated starting from 5.0",
+  "updated_at": "2021-08-17T06:15:24Z",
+  "description": "<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\"><sub><strong><i>Use of Proprietary Information and Copyright Notice.</i></strong><i>&nbsp;This document contains proprietary information that is to be used only by the Sippy Software, Inc. customers. Any unauthorized disclosure, copying, distribution, or use of this information is prohibited. (c) 2006 Sippy Software, Inc. All rights reserved.</i></sub></p>\n<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">In order to set up CyberSource payment processor, CyberSource merchant account owner should request&nbsp;<strong>SOAP security key</strong>&nbsp;at CyberSource web interface.</p>\n<ol style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\">\n<li>Login into&nbsp;<a class=\"ext-link\" href=\"https://ebc.cybersource.com/\" style=\"color: rgb(187, 0, 0); border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(187, 187, 187);\"><span class=\"icon\" style=\"background-image: url(https://trac.sippysoft.com/trac/chrome/common/extlink.gif); padding-left: 12px; background-position: 50% 50%; background-repeat: no-repeat no-repeat;\">&nbsp;</span>https://ebc.cybersource.com</a>&nbsp;using your CyberSource username/password.</li>\n<li>Go into&nbsp;<strong>Account Management</strong>&nbsp;-&gt;&nbsp;<strong>Transaction Security Keys</strong>&nbsp;menu.</li>\n<li>Select&nbsp;<strong>Security Keys for the SOAP Toolkit API</strong>.</li>\n<li>Generate there your security key, download and save it.</li>\n<li>Select&nbsp;<strong>Payment Processors</strong>&nbsp;-&gt;&nbsp;<strong>Add</strong>&nbsp;in the SSP, chose CyberSource as a Payment Gateway.</li>\n<li>Use your CyberSource username as&nbsp;<strong>Username</strong>&nbsp;and the key saved on step above as&nbsp;<strong>Certificate</strong>&nbsp;to set up CyberSource payment processor in the SSP.</li>\n</ol>",
+  "description_text": " Use of Proprietary Information and Copyright Notice.\u00a0This document contains proprietary information that is to be used only by the Sippy Software, Inc. customers. Any unauthorized disclosure, copying, distribution, or use of this information is prohibited. (c) 2006 Sippy Software, Inc. All rights reserved. \n In order to set up CyberSource payment processor, CyberSource merchant account owner should request\u00a0SOAP security key\u00a0at CyberSource web interface. \n \n Login into\u00a0\u00a0https://ebc.cybersource.com\u00a0using your CyberSource username/password. \n Go into\u00a0Account Management\u00a0->\u00a0Transaction Security Keys\u00a0menu. \n Select\u00a0Security Keys for the SOAP Toolkit API. \n Generate there your security key, download and save it. \n Select\u00a0Payment Processors\u00a0->\u00a0Add\u00a0in the SSP, chose CyberSource as a Payment Gateway. \n Use your CyberSource username as\u00a0Username\u00a0and the key saved on step above as\u00a0Certificate\u00a0to set up CyberSource payment processor in the SSP. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 483,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc4NzYtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDgyfQ.sWcvpQk7E4FxNINn3HOUYktzn0YeST8OkUbdc27K_s8"
+  }
+}

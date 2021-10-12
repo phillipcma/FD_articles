@@ -1,0 +1,29 @@
+{
+  "id": 150644,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-10-16T09:08:51Z",
+  "category_id": 107132,
+  "folder_id": 176838,
+  "title": "XML-RPC API - Refund a Customer",
+  "updated_at": "2017-08-14T13:51:06Z",
+  "description": "<div dir=\"ltr\"><div dir=\"ltr\">\n<h2 id=\"customerAddFundscustomerCreditandcustomerDebit\">customerAddFunds(), customerCredit() and customerDebit()</h2>\n<p><br></p>\n<p>These applications allow to refund or charge the Customer's balance with the specified sum.</p>\n<p><br></p>\n<p>The applications support <strong>trusted mode</strong> and <strong>i_wholesaler</strong> parameter should be supplied in this case.</p>\n<h3 id=\"Input\"><br></h3>\n<h3 id=\"Input\"><span style=\"font-size: 24px;\">Input</span></h3>\n<p><br></p>\n<p>These functions receive struct with the following fields:</p>\n<h4 id=\"Mandatoryfields\"><br></h4>\n<h4 id=\"Mandatoryfields\">\u00a0 \u00a0<span style=\"font-size: 18px;\">Mandatory fields</span>\n</h4>\n<ul>\n<li>\n<strong>i_customer</strong> - which customer to update. Integer.</li>\n<li>\n<strong>amount</strong> - amount to refund or charge. Double. The amount is also applied to the customer which is used in the HTTP authentication.</li>\n<li>\n<strong>currency</strong> - currency in which the amount specified. String.</li>\n</ul>\n<h4 id=\"Optionalfields\">\u00a0 \u00a0<span style=\"font-size: 18px;\">Optional fields</span>\n</h4>\n<ul>\n<li>\n<strong>payment_notes</strong> - String.</li>\n<li>\n<strong>payment_time</strong> - time of the payment in '%H:%M:%S.000 GMT %a %b %d %Y' format (e.g. <strong>09:57:29.000 GMT Wed Nov 18 2009</strong>). (from version &gt;= 5.0). String.</li>\n</ul>\n<p style=\"\"><br></p>\n<h3 id=\"Output\" style=\"\"><span style=\"font-size: 24px;\">Output</span></h3>\n<p style=\"\">\u00a0 \u00a0</p>\n<p>\u00a0 \u00a0The function returns:</p>\n<ul>\n<li>\n<strong>result</strong> - 'OK'</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>\n</div></div>",
+  "description_text": "  \n customerAddFunds(), customerCredit() and customerDebit() \n   \n These applications allow to refund or charge the Customer's balance with the specified sum. \n   \n The applications support trusted mode and i_wholesaler parameter should be supplied in this case. \n   \n Input \n   \n These functions receive struct with the following fields: \n   \n \u00a0 \u00a0Mandatory fields\n \n \n \ni_customer - which customer to update. Integer. \n \namount - amount to refund or charge. Double. The amount is also applied to the customer which is used in the HTTP authentication. \n \ncurrency - currency in which the amount specified. String. \n \n \u00a0 \u00a0Optional fields\n \n \n \npayment_notes - String. \n \npayment_time - time of the payment in '%H:%M:%S.000 GMT %a %b %d %Y' format (e.g. 09:57:29.000 GMT Wed Nov 18 2009). (from version >= 5.0). String. \n \n   \n Output \n \u00a0 \u00a0 \n \u00a0 \u00a0The function returns: \n \n \nresult - 'OK' \n XMLRPC fault in case of any error. \n \n  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 1,
+  "hits": 597,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxNTA2NDQtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMTAyfQ.HqJOPRiPrQyQE-GlVSOwvqr_VRaGEfsW_2tQCf6V1LI"
+  }
+}

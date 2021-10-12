@@ -1,0 +1,33 @@
+{
+  "id": 3000083455,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3012089524,
+  "created_at": "2018-10-31T21:00:51Z",
+  "category_id": 81138,
+  "folder_id": 133030,
+  "title": "Tested FreeBSD Versions and PostgreSQL Versions",
+  "updated_at": "2021-09-16T14:06:44Z",
+  "description": "<p>Currently Supported and Tested versions of our software running on their respective versions of FreeBSD and PostgreSQL</p><p><br></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong dir=\"ltr\">Sippy SoftSwitch 5.1</strong></span></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3059627716/original/WBIEAHn8d6Anjj7CuQansMU1dygSMJ3gKQ.png?1608019550\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3059627716\"></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong dir=\"ltr\">Sippy SoftSwitch 5.2</strong></span><br><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3059627738/original/lz8fiZi8ALe50hzAtpHkIL-zipfspf6eWg.png?1608019589\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3059627738\"></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong dir=\"ltr\">Sippy SoftSwitch 2020</strong></span></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3059645311/original/QlesmW9NxQ-wkKmjV-dde7lvumvKKD-WsQ.png?1608044699\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3059645311\"></p><p><a href=\"https://support.sippysoft.com/a/solutions/articles/3000083595\"><span style=\"font-size: 18px;\">Supported Sippy SoftSwitch Versions FAQ</span></a></p><p><span style=\"font-size: 18px;\"><br></span></p><p dir=\"ltr\"><a href=\"https://support.sippysoft.com/a/solutions/articles/3000094213\"><span dir=\"ltr\" style=\"font-size: 18px;\">Supported Versions</span></a></p>",
+  "description_text": " Currently Supported and Tested versions of our software running on their respective versions of FreeBSD and PostgreSQL     Sippy SoftSwitch 5.1    Sippy SoftSwitch 5.2   Sippy SoftSwitch 2020    Supported Sippy SoftSwitch Versions FAQ     Supported Versions ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "FreeBSD",
+    "PostgreSQL",
+    "Supported Versions"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 0,
+  "hits": 262,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDgzNDU1LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAwOH0.Wf8LgOjd-q-YePRJeB3WpUq3FJVBf8I9YL7KyWQ_aDM"
+  }
+}

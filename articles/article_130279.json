@@ -1,0 +1,29 @@
+{
+  "id": 130279,
+  "type": 1,
+  "status": 1,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T08:47:52Z",
+  "category_id": 81239,
+  "folder_id": 211656,
+  "title": "XMLAPI troubleshoting",
+  "updated_at": "2019-09-19T12:05:42Z",
+  "description": "<p>\u00a0You may use curl utility for your testing:</p>\n<p><br></p>\n<pre class=\"wiki\">curl -v -k --digest -u root:msip2ua2ua -d '&lt;?xml version=\"1.0\"?&gt; &lt;methodCall&gt; &lt;methodName&gt;getAccountInfo&lt;/methodName&gt; &lt;params&gt; &lt;param&gt; &lt;value&gt; &lt;struct&gt; &lt;member&gt;&lt;name&gt;i_account&lt;/name&gt; &lt;value&gt;&lt;int&gt;35926&lt;/int&gt;&lt;/value&gt; &lt;/member&gt; &lt;/struct&gt;&lt;/value&gt; &lt;/param&gt; &lt;/params&gt; &lt;/methodCall&gt;' https://devel.sippysoft.com/xmlapi/xmlapi | less</pre>",
+  "description_text": " \u00a0You may use curl utility for your testing: \n   \n curl -v -k --digest -u root:msip2ua2ua -d '<?xml version=\"1.0\"?> <methodCall> <methodName>getAccountInfo</methodName> <params> <param> <value> <struct> <member><name>i_account</name> <value><int>35926</int></value> </member> </struct></value> </param> </params> </methodCall>' https://devel.sippysoft.com/xmlapi/xmlapi | less ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyNzktZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDcxfQ.DYp-XAhA3QOf9JfV6gWjGNQv3W_38bIjlzHAA0O4jzQ"
+  }
+}

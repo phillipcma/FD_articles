@@ -1,0 +1,29 @@
+{
+  "id": 3000039695,
+  "type": 1,
+  "status": 2,
+  "agent_id": 4048869,
+  "created_at": "2015-08-17T13:05:54Z",
+  "category_id": 107132,
+  "folder_id": 3000011001,
+  "title": "XML-RPC API - Retrieve SDP data of a call",
+  "updated_at": "2020-11-12T16:04:00Z",
+  "description": "<div dir=\"ltr\"><div><h3><strong><span style=\"font-size: 24px;\">getCDRSDP()</span></strong></h3><p>This application allows to read the SDP messages which were passed during the call.</p><p>The application supports <strong>trusted mode</strong> and <strong>i_customer</strong> parameter of the ID of the customer who owns the account that made the call should be supplied in this case.</p><p><br></p><p>Parameters:</p><ul><li>i_call - unique i_call value of the call. Integer.</li></ul><p><br></p><p>Returns:</p><ul><li><strong>result - OK\u00a0</strong>means that query was successfully. String.</li><li><strong>records\u00a0</strong>- an array containing structures for each SDP linked to this call:<ul><li>time_stamp - timestamp of the record in '%H:%M:%S.000 GMT %a %b %d %Y' format (e.g. 09:57:29.000 GMT Wed Nov 18 2009). String.</li><li>i_calls_sdp - unique i_calls_sdp value of the record. Not null if SDP relates to Caller. Integer.</li><li>sdp - multiline SDP record related to the requested call. String</li><li>i_cdrs_connection - unique i_cdrs_connection value of the record. Not null if SDP relates to Callee. Integer.</li><li>sip_msg_type - Type of SIP message where such SDP was received (e.g. INVITE, 183, 200, etc.) String</li></ul></li><li><strong>i_customer\u00a0</strong>-\u00a0i_customer of a customer. Integer. </li><li><strong>XMLRPC fault</strong> in case of any error.</li></ul></div></div>",
+  "description_text": "   getCDRSDP()  This application allows to read the SDP messages which were passed during the call.  The application supports trusted mode and i_customer parameter of the ID of the customer who owns the account that made the call should be supplied in this case.     Parameters:   i_call - unique i_call value of the call. Integer.      Returns:   result - OK\u00a0means that query was successfully. String.  records\u00a0- an array containing structures for each SDP linked to this call:  time_stamp - timestamp of the record in '%H:%M:%S.000 GMT %a %b %d %Y' format (e.g. 09:57:29.000 GMT Wed Nov 18 2009). String.  i_calls_sdp - unique i_calls_sdp value of the record. Not null if SDP relates to Caller. Integer.  sdp - multiline SDP record related to the requested call. String  i_cdrs_connection - unique i_cdrs_connection value of the record. Not null if SDP relates to Callee. Integer.  sip_msg_type - Type of SIP message where such SDP was received (e.g. INVITE, 183, 200, etc.) String    i_customer\u00a0-\u00a0i_customer of a customer. Integer.   XMLRPC fault in case of any error.    ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 0,
+  "hits": 621,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDM5Njk1LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTExOX0.vsV3PdQV6YvVI4zXVhz_tv9zjzYEWupjjByDTpmZlFM"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": 130236,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3012089524,
+  "created_at": "2013-09-02T07:58:07Z",
+  "category_id": 81239,
+  "folder_id": 133727,
+  "title": "SIP codes translation",
+  "updated_at": "2020-11-04T13:20:46Z",
+  "description": "<p>substitute 403 to 503 of server's domestic responses<br><span style=\"background-color: rgb(255, 230, 148);\">insert into scode_translations_internal (i_scode_translations_internal, in_scode, out_scode, reason) values (1, 403, 503, 'Service unavailable');</span></p><p><br></p><p>and to convert codes of remote party:</p><pre class=\"wiki\"><span style=\"background-color: rgb(255, 230, 148);\">INSERT INTO scode_translations_external (in_scode, out_scode, reason,i_account_class) values(403,503,'Service unavailable',2);\n</span>to get i_account_class:\n\n<span style=\"background-color: rgb(255, 230, 148);\">select username, i_account, i_customer, i_account_class from accounts \u00a0where i_account=(select i_account from cdrs where i_call=(select i_call from calls where call_id='4e4f11ff00003a580000001372586232@ens.com'));</span>\nwhere call_id is the call with 403 error code.\n\n</pre><p><br></p><p><span style=\"font-size: 24px;\">Useful documentations:</span></p><p><br></p><p>Starting in our 5.1 Release we have added support for 3xx SIP Redirects. \u00a0For more information please see<br><a href=\"https://support.sippysoft.com/a/solutions/articles/3000072772\" rel=\"noreferrer\">https://support.sippysoft.com/a/solutions/articles/3000072772</a></p><p><br></p><div>Reason Header Field mapping RFC 3326, Q850 / Q.850, SIP codes translation</div><div style='box-sizing: border-box; word-break: normal; overflow-wrap: break-word; color: rgb(24, 50, 71); margin-bottom: 0px; margin-left: 0px; padding: 0px; font-size: 13px; line-height: 18px; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif; font-weight: 400; text-align: start; text-indent: 0px;'><a href=\"https://support.sippysoft.com/a/solutions/articles/3000009757\">https://support.sippysoft.com/a/solutions/articles/3000009757</a></div><p><br></p><p>Prompts substitution of error responses</p><p><a href=\"https://support.sippysoft.com/a/solutions/articles/130227\">https://support.sippysoft.com/a/solutions/articles/130227</a></p>",
+  "description_text": " substitute 403 to 503 of server's domestic responses insert into scode_translations_internal (i_scode_translations_internal, in_scode, out_scode, reason) values (1, 403, 503, 'Service unavailable');     and to convert codes of remote party:  INSERT INTO scode_translations_external (in_scode, out_scode, reason,i_account_class) values(403,503,'Service unavailable',2);\nto get i_account_class:\n\nselect username, i_account, i_customer, i_account_class from accounts \u00a0where i_account=(select i_account from cdrs where i_call=(select i_call from calls where call_id='4e4f11ff00003a580000001372586232@ens.com'));\nwhere call_id is the call with 403 error code.\n\n     Useful documentations:     Starting in our 5.1 Release we have added support for 3xx SIP Redirects. \u00a0For more information please see https://support.sippysoft.com/a/solutions/articles/3000072772     Reason Header Field mapping RFC 3326, Q850 / Q.850, SIP codes translation  https://support.sippysoft.com/a/solutions/articles/3000009757     Prompts substitution of error responses  https://support.sippysoft.com/a/solutions/articles/130227 ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 150,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyMzYtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDY3fQ.1hBOXK89cL-SlpdJ78RpMW3lUnSsfGkXSKcZnaTeJy4"
+  }
+}

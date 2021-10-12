@@ -1,0 +1,33 @@
+{
+  "id": 3000053408,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3901167,
+  "created_at": "2016-05-19T13:03:10Z",
+  "category_id": 81138,
+  "folder_id": 3000020074,
+  "title": "Configuring PayPal REST API V2 Payment Processor",
+  "updated_at": "2021-08-16T11:51:29Z",
+  "description": "<div dir=\"ltr\"><div dir=\"ltr\"><p dir=\"ltr\">This Payment Processor is available starting from Sippy 2020.</p><p dir=\"ltr\">With it switch operator is able to receive payments from his client using PayPal provider - all details like credit card number, expiration, CVV2/CVC2 are entered on PayPal during payment and not kept on Sippy's side.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">&nbsp;In order to accept payment via PayPal it's required to:</p><ol><li>Create and configure REST API application on <a href=\"https://developer.paypal.com/developer/applications/\" target=\"_blank\">PayPal developer site</a>. For more information please read <a href=\"https://developer.paypal.com/docs/integration/admin/manage-apps/\" target=\"_blank\">Manage your applications</a>.</li><li><div dir=\"ltr\"><p dir=\"ltr\">PayPal portal self-care screenshots of the pages (taken from PayPal portal on Jul 6, 2018) where you can get <strong>Client ID</strong> and <strong>Secret</strong>:</p></div><p><br></p><p><img class=\"fr-dib\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3037613280/original/pblPbjEJYCg_TkdgNm0G06hDXESCgK0okg?1530891404\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3037613280/original/pblPbjEJYCg_TkdgNm0G06hDXESCgK0okg?1530891404\" data-fileid=\"3037613280\" data-uniquekey=\"1530891267030\" style=\"width: 866px; height: 348.424px;\"></p><p><br></p><p><img class=\"fr-dib\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3037613404/original/x7Py9EO32yNj-icX7G01QxbS7-KcvNcOaA?1530891772\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3037613404/original/x7Py9EO32yNj-icX7G01QxbS7-KcvNcOaA?1530891772\" data-fileid=\"3037613404\" data-uniquekey=\"1530891267030\" style=\"width: 860px; height: 499.716px;\"></p></li><li dir=\"ltr\">Add payment processor on Sippy Softswitch. Use <strong dir=\"ltr\">PayPal REST API V2&nbsp;</strong>payment gateway to accept PayPal payments (starting from Sippy 2020)</li><li dir=\"ltr\">Configure <strong>API Credentials</strong> - the sandbox (Test) or live (Production) account <strong>Client ID</strong> and <strong>Secret</strong> used to make API calls:<img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3064730075/original/A1-eYKu-URG9YTAXAVK1UUDQL86SCZGpCg.png?1622129900\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3064730075\"></li><li dir=\"ltr\">Example of the payment page: &nbsp;<img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3067068431/original/BdMhoxoXXVqCQwll_prv9jF375rIBT9hmg.jpg?1626951523\" style=\"width: auto;\" class=\"fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3067068431\">&nbsp; <img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3067068161/original/bZE234VY_3ip7-HlMK4y9gx9qzMjS2UcKQ.jpg?1626951058\" style=\"width: auto;\" class=\"fr-dib fr-fil\" data-attachment=\"[object Object]\" data-id=\"3067068161\"></li></ol><p><br></p></div><p><br></p></div>",
+  "description_text": "   This Payment Processor is available starting from Sippy 2020.  With it switch operator is able to receive payments from his client using PayPal provider - all details like credit card number, expiration, CVV2/CVC2 are entered on PayPal during payment and not kept on Sippy's side.        \u00a0In order to accept payment via PayPal it's required to:   Create and configure REST API application on PayPal developer site. For more information please read Manage your applications.    PayPal portal self-care screenshots of the pages (taken from PayPal portal on Jul 6, 2018) where you can get Client ID and Secret:              Add payment processor on Sippy Softswitch. Use PayPal REST API V2\u00a0payment gateway to accept PayPal payments (starting from Sippy 2020)  Configure API Credentials - the sandbox (Test) or live (Production) account Client ID and Secret used to make API calls:  Example of the payment page: \u00a0\u00a0           ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "Paypal",
+    "Payment Processor",
+    "payments"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 4,
+  "hits": 924,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDUzNDA4LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA1NH0.PSBJ0GGM0wqsWrquTvotbtVq0wvfYneZgULFbOwO5as"
+  }
+}

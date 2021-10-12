@@ -1,0 +1,28 @@
+{
+  "id": 3000099576,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3901167,
+  "created_at": "2020-05-04T09:12:08Z",
+  "category_id": 3000002839,
+  "folder_id": 3000010540,
+  "title": "Kamushani test1",
+  "updated_at": "2020-05-04T13:08:11Z",
+  "description": "<p data-identifyelement=\"477\">sadasdasd</p><p data-identifyelement=\"478\">test2</p><p data-identifyelement=\"478\">dasasdasd</p><p data-identifyelement=\"478\"></p>",
+  "description_text": " sadasdasd  test2  dasasdasd  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDk5NTc2LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MDk5M30.w2CKaukqvdB4XOd2iPg1rs8u1QwhCA_SxFDkf95z1W4"
+  }
+}

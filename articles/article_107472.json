@@ -1,0 +1,29 @@
+{
+  "id": 107472,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T18:36:35Z",
+  "category_id": 107132,
+  "folder_id": 176892,
+  "title": "XML-RPC API - Send an Email",
+  "updated_at": "2017-03-29T03:52:53Z",
+  "description": "<div><div dir=\"ltr\">\n<h2 id=\"sendEMail\">sendEMail()</h2>\n<p dir=\"ltr\">This application is used to send an E-Mail.<br></p>\n<p dir=\"ltr\">Parameters:<br></p>\n<ul>\n<li>from - E-Mail address of sender. String. Required.</li>\n<li>to - comma separated list of recipients E-Mails. String. Required.</li>\n<li>cc - comma separated list of CC's E-Mails. String. Required.</li>\n<li>bcc - comma separated list of BCC's E-Mails. String. Required.</li>\n<li>subject - subject of E-Mail. String. Required.</li>\n<li>body - body of E-Mail. String. Required.</li>\n</ul>Returns:<br><ul>\n<li>\n<strong>result</strong> - <strong>OK</strong> means that e-mail was sent. String.</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>\n<p>\u00a0</p>\n</div></div>",
+  "description_text": "  \n sendEMail() \n This application is used to send an E-Mail.  \n Parameters:  \n \n from - E-Mail address of sender. String. Required. \n to - comma separated list of recipients E-Mails. String. Required. \n cc - comma separated list of CC's E-Mails. String. Required. \n bcc - comma separated list of BCC's E-Mails. String. Required. \n subject - subject of E-Mail. String. Required. \n body - body of E-Mail. String. Required. \n Returns:  \n \nresult - OK means that e-mail was sent. String. \n XMLRPC fault in case of any error. \n \n \u00a0 \n  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 3,
+  "thumbs_down": 1,
+  "hits": 568,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0NzItZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMTA1fQ.AxqRtakSFn5oP_qtk7cj9cmpvPLKKrHQe31oOh6FFZE"
+  }
+}

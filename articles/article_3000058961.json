@@ -1,0 +1,29 @@
+{
+  "id": 3000058961,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3005443018,
+  "created_at": "2016-10-11T00:49:36Z",
+  "category_id": 155349,
+  "folder_id": 255859,
+  "title": "How to invoice your customers",
+  "updated_at": "2020-02-06T23:41:39Z",
+  "description": "<div dir=\"ltr\"><h1 style=\"text-align: center;\">Setting up Invoicing</h1><h3><span data-darkreader-inline-color=\"\" style=\"color: rgb(128, 128, 128); --darkreader-inline-color:#bab5ab;\">The Sippy Softswitch can generate and email invoices to your customers at the end of their billing cycle. Invoice generation will only be actioned by the system on an automatic basis, not manually, so should be one of the first configurations implemented when provisioning a new Account for your customer.</span></h3><p><br></p><p><span data-darkreader-inline-color=\"\" style=\"color: rgb(128, 128, 128); --darkreader-inline-color:#bab5ab;\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3050203851/original/LfUyobuXND8FKkz0uKlXhRT7qFyuezPjFw.png?1578939439\" style=\"width: auto;\" class=\"fr-fil fr-dib\" data-id=\"3050203851\"></span><br></p><p><br></p><p><br></p><h4>Set up SMTP Server and reply to header for all outgoing mail:</h4><p><br>The configuration of the SMTP server and header will forward invoices and notifications.</p><p><br></p><p>SMTP Server configuration:</p><ul><li>Configure SMTP Server in <strong>Customer Menu</strong> &gt; <strong>System Parameters</strong>.</li><li>Navigate to SMTP Server title:<br><br><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3022965213/original/blob1476081284613.png?1476081285\" class=\"inline-image fr-dii\" data-id=\"3022965213\" alt=\"blob1476081284613.png\" title=\"blob1476081284613.png\"><br><br></p></li><li><p>Configure Server Address, Server Port, Connection Mode, Username and Password parameters according to your mail server's specification</p></li><li><p>Note, the Gmail SMTP server and authentication using <strong>info@sippysoft.com<i class=\"_crmio_extn_\" data-email=\"info@sippysoft.com\">\u00a0</i></strong>has been entered in the above image only as example</p></li></ul><div><br></div><div>Mail \"From\" Header:</div><div><ul><li>The Mail \"From\" Header will result in your emails. This should be configured in preferences of the root user according to your SMTP settings:<img class=\"fr-dib fr-fil\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3030393890/original/1lTqvx55SxLh-TZ9-9FSKV4sFaGZGTxAwQ.png?1501844512\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3030393890/original/1lTqvx55SxLh-TZ9-9FSKV4sFaGZGTxAwQ.png?1501844512\" data-fileid=\"3030393890\" data-uniquekey=\"1501844257627\"></li></ul><p><br></p></div></div>",
+  "description_text": "  Setting up Invoicing  The Sippy Softswitch can generate and email invoices to your customers at the end of their billing cycle. Invoice generation will only be actioned by the system on an automatic basis, not manually, so should be one of the first configurations implemented when provisioning a new Account for your customer.              Set up SMTP Server and reply to header for all outgoing mail:   The configuration of the SMTP server and header will forward invoices and notifications.     SMTP Server configuration:   Configure SMTP Server in Customer Menu > System Parameters.  Navigate to SMTP Server title:         Configure Server Address, Server Port, Connection Mode, Username and Password parameters according to your mail server's specification    Note, the Gmail SMTP server and authentication using info@sippysoft.com\u00a0has been entered in the above image only as example       Mail \"From\" Header:    The Mail \"From\" Header will result in your emails. This should be configured in preferences of the root user according to your SMTP settings:       ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 3,
+  "thumbs_down": 7,
+  "hits": 1036,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDU4OTYxLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MDk5OX0.hJMqXfSyipSgj4M-n-bSmcQfbqS3sd0dJMFz_5IkmIA"
+  }
+}

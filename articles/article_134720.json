@@ -1,0 +1,31 @@
+{
+  "id": 134720,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-11T23:44:55Z",
+  "category_id": 133603,
+  "folder_id": 219723,
+  "title": "Sippy VoIP Softswitch Introduction Video Tutorial",
+  "updated_at": "2020-03-02T22:05:11Z",
+  "description": "<p><br></p><p><span class=\"fr-video fr-fvc fr-dvi fr-draggable\"><iframe src=\"//www.youtube.com/embed/0zjvLFlfFfs?rel=0\" allowfullscreen=\"\" sandbox=\"allow-scripts allow-forms allow-same-origin allow-presentation\" class=\"fr-draggable\" width=\"640\" height=\"480\" frameborder=\"0\"></iframe></span></p><p><br></p><p><br></p><p><span style=\"font-size: 16px;\"><strong>More video tutorials you may find on our official <span style=\"color: rgb(184, 49, 47);\">YouTube</span> channel by the following link:</strong></span></p><p><a href=\"https://www.youtube.com/user/sippysoft\">https://www.youtube.com/user/sippysoft</a><br><br><br></p><p>\u00a0</p>",
+  "description_text": "            More video tutorials you may find on our official YouTube channel by the following link:  https://www.youtube.com/user/sippysoft     \u00a0 ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "gettingstarted"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 35,
+  "thumbs_down": 11,
+  "hits": 3907,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzQ3MjAtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcwOTk1fQ.3NqW6H-Z7knNOsPIKl2G6ePC_3usXoMvvmp27ec3_5A"
+  }
+}

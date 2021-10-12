@@ -1,0 +1,29 @@
+{
+  "id": 130250,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T08:20:10Z",
+  "category_id": 81239,
+  "folder_id": 211658,
+  "title": "Customer doesn't receive mails",
+  "updated_at": "2021-06-10T11:11:59Z",
+  "description": "<p>\u00a0Customer doesn't receive mails (reports, notifications and so on)<br></p>\n<p>\nCheck:       \n</p>\n<pre class=\"wiki\"><span style=\"background-color: rgb(255, 230, 148);\">ps ax | grep maild</span>\n</pre>\n<p>\nDo:           \n</p>\n<pre class=\"wiki\"><span style=\"background-color: rgb(255, 230, 148);\">/tmp/env1/ssp_maild.sh start</span>\n</pre>\n<blockquote>\n<p>\n<i>ssp_maild environment: 1</i><br><i>Starting ssp_maild.</i><br></p>\n</blockquote>\n<p>\nIn case of such error:\n1: error: unable to connect to SMTP server 'localhost:25': [Errno 61] Connection refused\ncheck if SMTP server is running on that port:\n</p>\n<pre class=\"wiki\"><span style=\"background-color: rgb(255, 230, 148);\">telnet localhost 25</span>\n</pre>\n<p>\nthen check the status of it:\n</p>\n<pre class=\"wiki\"><span style=\"background-color: rgb(255, 230, 148);\">sudo /etc/rc.d/sendmail status</span>\n</pre>\n<p>\nMost likely it was disabled in rc.conf, then enable it and perform\n</p>\n<pre class=\"wiki\"><span style=\"background-color: rgb(255, 230, 148);\">sudo /etc/rc.d/sendmail start</span>\n</pre>",
+  "description_text": " \u00a0Customer doesn't receive mails (reports, notifications and so on)  \n \nCheck:       \n \n ps ax | grep maild\n \n \nDo:           \n \n /tmp/env1/ssp_maild.sh start\n \n \n \nssp_maild environment: 1 Starting ssp_maild.  \n \n \nIn case of such error:\n1: error: unable to connect to SMTP server 'localhost:25': [Errno 61] Connection refused\ncheck if SMTP server is running on that port:\n \n telnet localhost 25\n \n \nthen check the status of it:\n \n sudo /etc/rc.d/sendmail status\n \n \nMost likely it was disabled in rc.conf, then enable it and perform\n \n sudo /etc/rc.d/sendmail start\n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyNTAtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDcyfQ.10kZJCwXv0HLZjwYZ2ngwmfheEiOtNzxyoQAfk4PSGM"
+  }
+}

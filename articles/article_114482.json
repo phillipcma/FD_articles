@@ -1,0 +1,42 @@
+{
+  "id": 114482,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-26T21:07:43Z",
+  "category_id": 81239,
+  "folder_id": 133727,
+  "title": "  we want to fail the call if CLI starts with +27",
+  "updated_at": "2021-06-10T11:11:59Z",
+  "description": "<p>\u00a0You should add new authentication rule with CLD translation rule s/.*[^0-9].*/REJ/ \nwhich will be translating CLD into symbolic for the account. If you want\n to block all calls that start with CLI +27 add +27* as incoming CLI.</p>\n<p><br></p>\n<p><img class=\"decoded\" alt=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/8114100/original/8096085.png?AWSAccessKeyId=AKIAJWGOEYKNTQ75K5TQ&amp;Expires=1378109055&amp;Signature=ZRqVDLrJexI8DL0P%2B%2BEMq2T4FM0%3D\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/8114100/original/8096085.png?AWSAccessKeyId=AKIAJWGOEYKNTQ75K5TQ&amp;Expires=1378109055&amp;Signature=ZRqVDLrJexI8DL0P%2B%2BEMq2T4FM0%3D\"></p>",
+  "description_text": " \u00a0You should add new authentication rule with CLD translation rule s/.*[^0-9].*/REJ/ \nwhich will be translating CLD into symbolic for the account. If you want\n to block all calls that start with CLI +27 add +27* as incoming CLI. \n   \n  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "Auth rules"
+  ],
+  "attachments": [
+    {
+      "id": 8114100,
+      "name": "8096085.png",
+      "content_type": "image/png",
+      "size": 10627,
+      "created_at": "2013-07-26T21:08:32Z",
+      "updated_at": "2013-07-26T21:08:32Z",
+      "attachment_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/8114100/original/8096085.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20211012%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211012T214426Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=c9b60e6745bda90fb4a078882230348c9ca6ffd17d0b17d1a24fdf8649676dc3",
+      "thumb_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/8114100/thumb/8096085.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20211012%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211012T214426Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=d66d0fd44394941a2b6025a37fc684834862e84be5c2a3e0b9313d7a67ed4392"
+    }
+  ],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 0,
+  "hits": 205,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMTQ0ODItZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDY2fQ.Ml9ukdyE35T39mO4UUH3pL2p6wbX9grCH4RjbWjkmCI"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": 84079,
+  "type": 1,
+  "status": 1,
+  "agent_id": 3763909,
+  "created_at": "2013-05-10T08:22:23Z",
+  "category_id": 81239,
+  "folder_id": 3000011951,
+  "title": "Configuring PayPal 'Direct Payment' Payment Processor",
+  "updated_at": "2021-07-22T10:39:44Z",
+  "description": "<table id=\"table72044\"><tbody><tr><td><p class=\"current\"><sub><strong><i class=\"current\">Use of Proprietary Information and Copyright Notice.</i></strong><i class=\"current\">&nbsp;This document contains proprietary information that is to be used only by the Sippy Software, Inc. customers. Any unauthorized disclosure, copying, distribution, or use of this information is prohibited. (c) 2009 Sippy Software, Inc. All rights reserved.</i></sub></p></td></tr></tbody></table><p><br></p><p>In order to set up PayPal Direct Payment payment processor, PayPal merchant account owner should request special login/password and certificate via PayPal interface. <a href=\"http://www.paypay.com\" rel=\"noreferrer\">www.paypay.com</a> username/password SHOULD NOT be used for setting up PayPal Direct Payment payment processor, as they won't work.</p><p>In addition, unlike with PayPal Express Checkout, there is approval process that has to be completed before the account can be used. More details are available&nbsp; <a class=\"ext-link\" href=\"https://registration.paypal.com/welcomePage.do?bundleCode=C3&amp;country=US&amp;partner=PayPal\"></a><a href=\"https://registration.paypal.com/welcomePage.do?bundleCode=C3&amp;country=US&amp;partner=PayPal\" target=\"_blank\">here</a> .</p><p>Once the use of PayPal Direct Payment has been approved, username/password/certificate can be obtained as specified below.</p><ol><li>Follow instructions in <a href=\"https://sippysoft.freshdesk.com/solution/categories/81138/folders/139400/articles/84073-configuring-paypal-ec-payment-processor\" target=\"_blank\">Configuring PayPal EC Payment Processor</a>  to obtain API Username, API Password and download certificate.</li><li>Select Payment Processors-&gt;Add in the Softswitch, chose PayPal DP as a Payment Gateway.</li><li>Use username/password/certificate saved on step above to set up PayPal DP payment processor in the Softswitch.</li></ol><p>Detailed instructions on obtaining API username/password and API Certificate can be found <a href=\"https://developer.paypal.com/webapps/developer/docs/classic/api/\" target=\"_blank\">here</a> .</p><p><br></p><p dir=\"ltr\"><strong>Direct Payment processor is deprecated for at least 5 years.</strong></p>",
+  "description_text": "  Use of Proprietary Information and Copyright Notice.\u00a0This document contains proprietary information that is to be used only by the Sippy Software, Inc. customers. Any unauthorized disclosure, copying, distribution, or use of this information is prohibited. (c) 2009 Sippy Software, Inc. All rights reserved.      In order to set up PayPal Direct Payment payment processor, PayPal merchant account owner should request special login/password and certificate via PayPal interface. www.paypay.com username/password SHOULD NOT be used for setting up PayPal Direct Payment payment processor, as they won't work.  In addition, unlike with PayPal Express Checkout, there is approval process that has to be completed before the account can be used. More details are available\u00a0 here .  Once the use of PayPal Direct Payment has been approved, username/password/certificate can be obtained as specified below.   Follow instructions in Configuring PayPal EC Payment Processor  to obtain API Username, API Password and download certificate.  Select Payment Processors->Add in the Softswitch, chose PayPal DP as a Payment Gateway.  Use username/password/certificate saved on step above to set up PayPal DP payment processor in the Softswitch.   Detailed instructions on obtaining API username/password and API Certificate can be found here .     Direct Payment processor is deprecated for at least 5 years. ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 2,
+  "thumbs_down": 1,
+  "hits": 834,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI4NDA3OS1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwODB9.AAA5r0JEw0a1ufjWZtHbyJVpNkAEbjh_XlaEJ6ivMPc"
+  }
+}

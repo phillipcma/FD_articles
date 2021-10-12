@@ -1,0 +1,29 @@
+{
+  "id": 107321,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T15:53:43Z",
+  "category_id": 107132,
+  "folder_id": 176717,
+  "title": "XML-RPC API - Account Deletion",
+  "updated_at": "2021-06-10T11:11:07Z",
+  "description": "<div dir=\"ltr\"><div>\n<h3 id=\"deleteAccount\" style=\"font-family: Arial,Verdana,'Bitstream Vera Sans',Helvetica,sans-serif; font-weight: bold; font-size: 14px; color: rgb(0, 0, 0);\"><span rel=\"tempredactor\" style='font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif; font-size: 13px; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);'>deleteAccount()</span></h3>\n<p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'><span rel=\"tempredactor\" style='font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);'>This application is used to delete an account. Only account that belongs to authenticated customer can be delete.</span></p>\n<p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'><span rel=\"tempredactor\" style='font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);'><br></span></p>\n<p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'><span rel=\"tempredactor\" style='font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);'>Any active calls of the deleted accounts will be disconnected. (since 5.0)</span></p>\n<p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'><br><span rel=\"tempredactor\" style='font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);'></span></p>\n<h2 id=\"addVendor\" style=\"font-size: 16px; color: rgb(0, 0, 0); line-height: normal;\"><span style=\"font-family: Arial;\"><font size=\"2\"><span rel=\"tempredactor\" style=\"color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);\">The application support trusted mode and i_customer parameter should be supplied in this case.</span></font></span></h2>\n<p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'><span rel=\"tempredactor\" style='font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);'></span></p>\n<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\"><span rel=\"tempredactor\" style='font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);'><br></span></p>\n<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Parameters:</p>\n<ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><li>i_account - i_account of deleted account. Integer. Required.</li></ul>\n<p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Returns:</p>\n<ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\">\n<li>\n<strong>result</strong> - <strong>OK</strong> means that account has been deleted successfully. String.</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>\n</div></div>",
+  "description_text": "  \n deleteAccount() \n This application is used to delete an account. Only account that belongs to authenticated customer can be delete. \n   \n Any active calls of the deleted accounts will be disconnected. (since 5.0) \n   \n The application support trusted mode and i_customer parameter should be supplied in this case. \n  \n   \n Parameters: \n  i_account - i_account of deleted account. Integer. Required.  \n Returns: \n \n \nresult - OK means that account has been deleted successfully. String. \n XMLRPC fault in case of any error. \n \n  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 2,
+  "thumbs_down": 1,
+  "hits": 625,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDczMjEtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDg0fQ.glGdAk5ualeuoZUJSIThRBE494G293Xi4bkA9Xr845w"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": 3000084684,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3901167,
+  "created_at": "2018-12-05T14:17:31Z",
+  "category_id": 81138,
+  "folder_id": 133138,
+  "title": "Environment's features",
+  "updated_at": "2020-02-18T21:05:58Z",
+  "description": "<ul><li><strong><strong>Configure the host name (domain name) of the server used to access the softswitch via web interface.</strong></strong></li></ul><p><br></p><p>Ping the domain; if it is pingable and the domain resolves to the IP address assigned to the Environment, change \"Web address\" from IP to domain in the Environment's properties.</p><p><br></p><p><img class=\"fr-dii\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3001578015/original/domain.jpg?1399367248\" data-id=\"3001578015\"></p><p><br></p><p><br></p><ul><li><strong>Manage the list of available graphs per environment on the Monitoring page</strong></li></ul><p><br></p><p>From version 2.1 you can enable/disable graphics and choose those your require. Below is how:</p><p>\u00a0</p><p><img class=\"fr-dii\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3000865098/original/5.jpg?1396334629\" data-id=\"3000865098\"></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+  "description_text": "  Configure the host name (domain name) of the server used to access the softswitch via web interface.      Ping the domain; if it is pingable and the domain resolves to the IP address assigned to the Environment, change \"Web address\" from IP to domain in the Environment's properties.              Manage the list of available graphs per environment on the Monitoring page      From version 2.1 you can enable/disable graphics and choose those your require. Below is how:  \u00a0               ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "Web",
+    "Environments"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 146,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDg0Njg0LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAyMX0.1ZdVaWrNh3JkQ_cltaSSLGlfGcMAA8sv87sJj2OoPzc"
+  }
+}

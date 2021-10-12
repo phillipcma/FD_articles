@@ -1,0 +1,28 @@
+[
+  {
+    "id": 107841,
+    "type": 1,
+    "status": 2,
+    "agent_id": 3763909,
+    "created_at": "2013-07-10T15:46:05Z",
+    "category_id": 107132,
+    "folder_id": 177541,
+    "title": "XML-RPC API - Caveats",
+    "updated_at": "2021-06-10T11:10:23Z",
+    "description": "<ol>\n<li>\n<a href=\"http://ws.apache.org/xmlrpc/client.html\" target=\"\">Apache XML-RPC Client</a> doesn't support HTTP-Digest authentication scheme when used with the default java.net.URLConnection http client classes. Much more feature-rich <a href=\"http://hc.apache.org/httpclient-3.x/\" target=\"\">Jakarta HTTP Client</a> should be used instead.\u00a0</li>\n<li>\n<a href=\"http://libjack.com/2009/03/26/java-magento-xmlrpc-api-nil-issue/\" target=\"\">How to resolved issue in java xmlrpc client.\u00a0</a>\u00a0<br>\n</li>\n</ol>",
+    "description_text": " \n \nApache XML-RPC Client doesn't support HTTP-Digest authentication scheme when used with the default java.net.URLConnection http client classes. Much more feature-rich Jakarta HTTP Client should be used instead.\u00a0 \n \nHow to resolved issue in java xmlrpc client.\u00a0\u00a0 \n \n ",
+    "seo_data": {
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": ""
+    },
+    "tags": [],
+    "attachments": [],
+    "cloud_files": [],
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 746,
+    "suggested": 0,
+    "feedback_count": 0
+  }
+]

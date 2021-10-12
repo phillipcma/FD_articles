@@ -1,0 +1,29 @@
+{
+  "id": 107402,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T17:31:46Z",
+  "category_id": 107132,
+  "folder_id": 176717,
+  "title": "XML-RPC API - Get Account Minute Plans",
+  "updated_at": "2021-06-09T12:44:22Z",
+  "description": "<h2 dir=\"ltr\" id=\"addVendor\" style='font-family: Arial, Verdana, \"Bitstream Vera Sans\", Helvetica, sans-serif; font-weight: bold; font-size: 16px; color: rgb(0, 0, 0); line-height: normal;'>The application does NOT support <strong>trusted mode</strong>.</h2><h3 style='font-family: Arial, Verdana, \"Bitstream Vera Sans\", Helvetica, sans-serif; font-weight: bold; break-after: avoid; font-size: 14px; color: rgb(0, 0, 0); font-style: normal; line-height: normal;'><br></h3><h3 id=\"getAccountMinutePlans\" style='font-family: Arial, Verdana, \"Bitstream Vera Sans\", Helvetica, sans-serif; font-weight: bold; break-after: avoid; font-size: 14px; color: rgb(0, 0, 0); font-style: normal; line-height: normal;'>getAccountMinutePlans()<a class=\"anchor\" href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/getAccountMinutePlans#getAccountMinutePlans\" title=\"Link to this section\" style=\"color: rgb(215, 215, 215); border-style: none; font-size: 0.8em; vertical-align: text-top; visibility: hidden;\"></a></h3><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">This application is used to get Minute Plans of an account. Only Minute Plans of account that belongs to authenticated customer can be retrieved.</p><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Parameters:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><li>i_account - i_account of account. Integer. Required.</li></ul><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Returns:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><li><strong>result</strong> - <strong>OK</strong> means that query was successfully. String.</li><li><strong>minute_plans</strong>- an array containing structures:<ul><li><strong>i_service_plan</strong> - an ID of minute plan. Integer.</li><li><strong>description</strong> - Description of minute plan. String.</li><li><strong>price</strong> - price of minute plan. Double.</li><li><strong>seconds_total</strong> - total seconds included in minute plan. Integer. Null value means <em>Unlimited</em>.</li><li><strong>seconds_left</strong> - seconds left in minute plan. Integer. Null value means <em>Unlimited</em>.</li><li><strong>chargeable_seconds</strong> - seconds charged over included ones in the plan. Integer.</li></ul></li><li>XMLRPC fault in case of any error.</li></ul>",
+  "description_text": " The application does NOT support trusted mode.     getAccountMinutePlans()  This application is used to get Minute Plans of an account. Only Minute Plans of account that belongs to authenticated customer can be retrieved.  Parameters:   i_account - i_account of account. Integer. Required.   Returns:   result - OK means that query was successfully. String.  minute_plans- an array containing structures:  i_service_plan - an ID of minute plan. Integer.  description - Description of minute plan. String.  price - price of minute plan. Double.  seconds_total - total seconds included in minute plan. Integer. Null value means Unlimited.  seconds_left - seconds left in minute plan. Integer. Null value means Unlimited.  chargeable_seconds - seconds charged over included ones in the plan. Integer.    XMLRPC fault in case of any error.  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 676,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0MDItZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDkwfQ.kjXqvoRziu0TatEsTS-buPp4EuThtjjzQjN4xAe-snw"
+  }
+}

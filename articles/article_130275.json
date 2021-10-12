@@ -1,0 +1,29 @@
+{
+  "id": 130275,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T08:44:14Z",
+  "category_id": 81239,
+  "folder_id": 211656,
+  "title": "Enabling simple api without authentication ",
+  "updated_at": "2021-06-10T11:12:00Z",
+  "description": "<p>\u00a0</p>\n<p>\nPlease allow simple api without authentication for below Env.(i_Env=21)  <a class=\"ext-link\" href=\"http://xxx.xxx.xxx.xxx/simpleapi/available_credit.php?username=1111\"><span class=\"icon\">\u00a0</span>http://xxx.xxx.xxx.xxx/simpleapi/available_credit.php?username=1111</a>\n</p>\n<p>\n<span style=\"background-color: rgb(255, 230, 148);\">sudo ee ~ssp/etc/econfig/httpd.conf:</span></p>\n<p><br></p>\n<pre class=\"wiki\">%%IF %%I_ENVIRONMENT%% = 21\n RewriteRule ^(/simpleapi/available_credit\\.php.*) $1 [L]\n%%ENDIF\n%%IF %%I_ENVIRONMENT%% = 21\n &lt;Directory \"/home/ssp/jvs_web/simpleapi\"&gt;\n    Allow from all\n &lt;/Directory&gt;\n%%ENDIF\n\n</pre>\n<p>\nIf you need to allow simple api without authentication by HTTPS <br></p>\n<p><span style=\"background-color: rgb(255, 230, 148);\">sudo ee /usr/home/ssp/etc/econfig/httpd.conf: <br></span></p>\n<p><span style=\"background-color: rgb(255, 230, 148);\"><br></span></p>\n<pre class=\"wiki\">  &lt;Directory \"/home/ssp/sippy_web/simpleapi\"&gt;\n     RewriteEngine Off\n     Options -Indexes\n     #AuthType Basic\n     #AuthName \"Simple API\"\n     #AuthUserFile /home/ssp/sippy_web/simpleapi/%%HTPASSWORD%%\n     #Require valid-user\n   &lt;/Directory&gt;\n\n</pre>\n<p>\nAllowing simple API without authentication for specific environment (by \ndefault it is allowed, you mention parameters for the case when \nI_ENV!=21) <br></p>\n<p><br></p>\n<pre class=\"wiki\">  &lt;Directory \"/home/ssp/sippy_web/simpleapi\"&gt;\n    RewriteEngine Off\n    Options -Indexes\n%%UNLESS_ENV_IN 21\n    AuthType Basic\n    AuthName \"Simple API\"\n    AuthUserFile /home/ssp/sippy_web/simpleapi/%%HTPASSWORD%%\n    Require valid-user\n%%ENDIF\n  &lt;/Directory&gt;\n</pre>",
+  "description_text": " \u00a0 \n \nPlease allow simple api without authentication for below Env.(i_Env=21)  \u00a0http://xxx.xxx.xxx.xxx/simpleapi/available_credit.php?username=1111\n \n \nsudo ee ~ssp/etc/econfig/httpd.conf: \n   \n %%IF %%I_ENVIRONMENT%% = 21\n RewriteRule ^(/simpleapi/available_credit\\.php.*) $1 [L]\n%%ENDIF\n%%IF %%I_ENVIRONMENT%% = 21\n <Directory \"/home/ssp/jvs_web/simpleapi\">\n    Allow from all\n </Directory>\n%%ENDIF\n\n \n \nIf you need to allow simple api without authentication by HTTPS   \n sudo ee /usr/home/ssp/etc/econfig/httpd.conf:   \n   \n   <Directory \"/home/ssp/sippy_web/simpleapi\">\n     RewriteEngine Off\n     Options -Indexes\n     #AuthType Basic\n     #AuthName \"Simple API\"\n     #AuthUserFile /home/ssp/sippy_web/simpleapi/%%HTPASSWORD%%\n     #Require valid-user\n   </Directory>\n\n \n \nAllowing simple API without authentication for specific environment (by \ndefault it is allowed, you mention parameters for the case when \nI_ENV!=21)   \n   \n   <Directory \"/home/ssp/sippy_web/simpleapi\">\n    RewriteEngine Off\n    Options -Indexes\n%%UNLESS_ENV_IN 21\n    AuthType Basic\n    AuthName \"Simple API\"\n    AuthUserFile /home/ssp/sippy_web/simpleapi/%%HTPASSWORD%%\n    Require valid-user\n%%ENDIF\n  </Directory>\n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyNzUtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDcxfQ.hiHbN0SYFMsxdJHj-2r_Gi4CsMawjqMgQPSXgk52V6E"
+  }
+}

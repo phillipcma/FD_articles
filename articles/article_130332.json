@@ -1,0 +1,29 @@
+{
+  "id": 130332,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T09:52:01Z",
+  "category_id": 81239,
+  "folder_id": 211691,
+  "title": "How to create clean database",
+  "updated_at": "2021-10-08T05:04:17Z",
+  "description": "<h1 dir=\"ltr\"> <strong>Up to date documentation:</strong></h1><h1 dir=\"ltr\"><a href=\"https://sippysoft.atlassian.net/wiki/spaces/SUP/pages/8230463/RecreateDB\">https://sippysoft.atlassian.net/wiki/spaces/SUP/pages/8230463/RecreateDB</a></h1>",
+  "description_text": "  Up to date documentation:  https://sippysoft.atlassian.net/wiki/spaces/SUP/pages/8230463/RecreateDB ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAzMzItZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDcwfQ.3aBqs-RYkrH5yShINVoDrfGpru0hrROi0yKVnTMRMBA"
+  }
+}

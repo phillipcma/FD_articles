@@ -1,0 +1,28 @@
+{
+  "id": 3000103429,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2020-10-23T09:20:27Z",
+  "category_id": 81138,
+  "folder_id": 139400,
+  "title": "Flat file CDR export (Thrift)",
+  "updated_at": "2021-09-27T21:42:35Z",
+  "description": "<h2 dir=\"ltr\"><span style=\"font-size: 14px;\">Pulling CDRs directly from PostgreSQL is not always a viable solution for our users.</span></h2><p>With the Thrift feature enabled, the system processes CDRs normally but you can configure an aggressive CDR purge cycle (two days or so).</p><p>The advantage of using Thrift is that you are empowered to ingest, process and analyze your CDRs autonomously.</p><p><br></p><p>Below is a request made by one of our users which prompted our extending of the Thrift functionality with the softswitch.</p><h3><strong>Request:</strong></h3><p>As an operator of a wholesale switch, I want to retrieve CDRs in simple text format from my switch so that I can ingest that data into other systems for external use.</p><p>The switch must write Account and Vendor CDRs in an agreed text-based format (JSON or CSV) to flat files.</p><ul><li>The files must be rotated every N minutes.</li><li>The files must be removed in a timely manner to ensure servers do not run out of space</li></ul><h3><strong>File Naming Convention, format:</strong></h3><div><pre contenteditable=\"false\" data-code-brush=\"Html\" rel=\"highlighter\">client_&lt;time_from_epoch&gt;_&lt;rotation_frequency_in_seconds&gt;\nIf the rotation time is set to 3600 seconds, and the file is rotated at Wed, 11 Dec 2013 22:02:15 GMT, then the file name will be 1386799335\nclient_1386799335_3600.bin</pre><p><br></p><p dir=\"ltr\">Additionally, thrift files can be uploaded to an SFTP server and data can be parsed into a desired format with any 3rd party tool.</p></div>",
+  "description_text": " Pulling CDRs directly from PostgreSQL is not always a viable solution for our users.  With the Thrift feature enabled, the system processes CDRs normally but you can configure an aggressive CDR purge cycle (two days or so).  The advantage of using Thrift is that you are empowered to ingest, process and analyze your CDRs autonomously.     Below is a request made by one of our users which prompted our extending of the Thrift functionality with the softswitch.  Request:  As an operator of a wholesale switch, I want to retrieve CDRs in simple text format from my switch so that I can ingest that data into other systems for external use.  The switch must write Account and Vendor CDRs in an agreed text-based format (JSON or CSV) to flat files.   The files must be rotated every N minutes.  The files must be removed in a timely manner to ensure servers do not run out of space   File Naming Convention, format:   client_<time_from_epoch>_<rotation_frequency_in_seconds>\nIf the rotation time is set to 3600 seconds, and the file is rotated at Wed, 11 Dec 2013 22:02:15 GMT, then the file name will be 1386799335\nclient_1386799335_3600.bin     Additionally, thrift files can be uploaded to an SFTP server and data can be parsed into a desired format with any 3rd party tool.  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 1,
+  "hits": 147,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMTAzNDI5LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA0NX0.RYt55v83SJ4sdzZ9nVKwnEZS_VYZjqpqNDlx1SmwejE"
+  }
+}

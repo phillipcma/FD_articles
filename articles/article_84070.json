@@ -1,0 +1,39 @@
+{
+  "id": 84070,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-05-10T07:39:48Z",
+  "category_id": 81138,
+  "folder_id": 207618,
+  "title": "SJPhone Configuration for SSP (obsolete)",
+  "updated_at": "2020-02-28T12:57:16Z",
+  "description": "<h4><span style=\"font-size: 10px; font-family: Arial;\"><sub><strong><i>Use of Proprietary Information and Copyright Notice.</i></strong><i>\n This document contains proprietary information that is to be used only \nby the Sippy Software, Inc. customers. Any unauthorized disclosure, \ncopying, distribution, or use of this information is prohibited. (c) \n2006 Sippy Software, Inc. All rights reserved.</i></sub></span></h4>\n<h4>\n</h4>\n<p><br></p>\n<p>1. Install the <a href=\"https://sippysoft.freshdesk.com/helpdesk/attachments/5555981\" target=\"_blank\">application</a> <br></p>\n<p>2. Start the application.<br></p>\n<p>3. Go through audio tuning wizard.<br></p>\n<p>4. Click on the Options button.</p>\n<p><br></p>\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5555710/original/ScreenShot001.png?1368170856\"><br></p>\n<p><br></p>\n<p>5. In the Options window select Profiles tab.<br></p>\n<p><br></p>\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5555815/original/ScreenShot002.png?1368171155\"></p>\n<p><br></p>\n<p>6. Push New button.<br></p>\n<p><br></p>\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5555828/original/ScreenShot003.png?1368171203\"></p>\n<p><br></p>\n<p>7. Enter some descriptive profile name and click OK.</p>\n<p><br></p>\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5555842/original/ScreenShot004.png?1368171251\"></p>\n<p><br></p>\n<p>8. In the Profile Options window select SIP Proxy tab. Enter DNS \nname of your SIP proxy into Proxy domain field and the same name into \nUser domain. Uncheck Unregister contact address only checkbox and push \nOK button to close Profile Options window.</p>\n<p><br></p>\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5555866/original/ScreenShot005.png?1368171323\"><br></p>\n<p><br></p>\n<p>9. In the Service window enter SIP account details: account's VoIP\n Login into Account field and VoIP Password into Password field. Push OK\n button to close Service window.</p>\n<p><br></p>\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5555873/original/ScreenShot006.png?1368171369\"><br></p>\n<p><br></p>\n<p>10. Push OK to close Options window.<br></p>\n<p><br></p>\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5555906/original/ScreenShot007.png?1368171418\"></p>\n<p><br></p>\n<p>11. The status text in the SJPhone should change to \"registered as ...\". The phone is ready to make calls.<br></p>\n<p><br></p>\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5555919/original/ScreenShot008.png?1368171462\"></p>\n<p><br></p>\n<p>NOTE: May be malfunctioning in Microsoft Vista and above!<br></p>",
+  "description_text": " Use of Proprietary Information and Copyright Notice.\n This document contains proprietary information that is to be used only \nby the Sippy Software, Inc. customers. Any unauthorized disclosure, \ncopying, distribution, or use of this information is prohibited. (c) \n2006 Sippy Software, Inc. All rights reserved. \n \n \n   \n 1. Install the application   \n 2. Start the application.  \n 3. Go through audio tuning wizard.  \n 4. Click on the Options button. \n   \n   \n   \n 5. In the Options window select Profiles tab.  \n   \n  \n   \n 6. Push New button.  \n   \n  \n   \n 7. Enter some descriptive profile name and click OK. \n   \n  \n   \n 8. In the Profile Options window select SIP Proxy tab. Enter DNS \nname of your SIP proxy into Proxy domain field and the same name into \nUser domain. Uncheck Unregister contact address only checkbox and push \nOK button to close Profile Options window. \n   \n   \n   \n 9. In the Service window enter SIP account details: account's VoIP\n Login into Account field and VoIP Password into Password field. Push OK\n button to close Service window. \n   \n   \n   \n 10. Push OK to close Options window.  \n   \n  \n   \n 11. The status text in the SJPhone should change to \"registered as ...\". The phone is ready to make calls.  \n   \n  \n   \n NOTE: May be malfunctioning in Microsoft Vista and above!  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [
+    {
+      "id": 5555981,
+      "name": "SJphoneDemo-306c.exe",
+      "content_type": "application/octet-stream",
+      "size": 5812224,
+      "created_at": "2013-05-10T07:39:48Z",
+      "updated_at": "2013-05-10T07:39:48Z",
+      "attachment_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5555981/original/SJphoneDemo-306c.exe?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS6FNSMY2XLZULJPI%2F20211012%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211012T214411Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=a61d856ea7793c3471b8fb62bb036d5ffea8f1de6945dfd6bb0a548b013c103b"
+    }
+  ],
+  "cloud_files": [],
+  "thumbs_up": 2,
+  "thumbs_down": 0,
+  "hits": 524,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI4NDA3MC1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwNTF9.7ck7qiL8JSUva_hAvO5H9HxZ73Okn9Zu_RinKLiRCto"
+  }
+}

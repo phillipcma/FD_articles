@@ -1,0 +1,29 @@
+{
+  "id": 107423,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T17:42:13Z",
+  "category_id": 107132,
+  "folder_id": 176829,
+  "title": "XML-RPC API - Getting a List of Customers",
+  "updated_at": "2021-06-10T11:11:08Z",
+  "description": "<h3 id=\"listCustomers\" style=\"font-family: Arial,Verdana,'Bitstream Vera Sans',Helvetica,sans-serif; font-weight: bold; font-size: 14px; line-height: normal;\">listCustomers()<a href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/listCustomers#listCustomers\" title=\"Link to this section\" style=\"color: rgb(215, 215, 215); border-style: none; font-size: 0.8em; vertical-align: text-top; visibility: hidden;\"></a>\n</h3><p style=\"font-family: Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif; line-height: normal;\">This application is used to get list of customers belonged to customer.</p><p>Implementation details</p><blockquote style=\"font-family: Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif; line-height: normal;\"><p>This function supports trusted mode in which case <strong>i_wholesaler</strong> (integer) parameter should be supplied.</p></blockquote><p style=\"font-family: Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif; line-height: normal;\">Parameters:</p><ul style=\"font-family: Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif; line-height: normal;\">\n<li>offset - skip fist <strong>offset</strong> records. Integer. Optional.</li>\n<li>limit - return only <strong>limit</strong> records. Integer. Optional.</li>\n</ul><p style=\"font-family: Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif; line-height: normal;\">Returns:</p><ul style=\"font-family: Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif; line-height: normal;\">\n<li>\n<strong>result</strong> - <strong>OK</strong> means that query was successful. String.</li>\n<li>\n<strong>customers</strong> - an array containing structures:<ul>\n<li>\n<strong>i_customer</strong> - Integer.</li>\n<li>\n<strong>name</strong> - String.</li>\n<li>\n<strong>web_login</strong> - String.</li>\n<li>\n<strong>description</strong> - String.</li>\n<li>\n<strong>balance</strong> - Double.</li>\n<li>\n<strong>credit_limit</strong> - Double.</li>\n<li>\n<strong>base_currency</strong> - String.</li>\n</ul>\n</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>",
+  "description_text": " listCustomers()\n  This application is used to get list of customers belonged to customer.  Implementation details   This function supports trusted mode in which case i_wholesaler (integer) parameter should be supplied.   Parameters:  \n offset - skip fist offset records. Integer. Optional. \n limit - return only limit records. Integer. Optional. \n  Returns:  \n \nresult - OK means that query was successful. String. \n \ncustomers - an array containing structures: \n \ni_customer - Integer. \n \nname - String. \n \nweb_login - String. \n \ndescription - String. \n \nbalance - Double. \n \ncredit_limit - Double. \n \nbase_currency - String. \n \n \n XMLRPC fault in case of any error. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 12,
+  "hits": 1629,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0MjMtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDk1fQ.wPYHPOJcy1NNDqaGdGDmTE9TgrnUH--xZltQTXbeF9E"
+  }
+}

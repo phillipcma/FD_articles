@@ -1,0 +1,29 @@
+{
+  "id": 130227,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T07:38:30Z",
+  "category_id": 81239,
+  "folder_id": 211616,
+  "title": "Prompts substitution of error responses.",
+  "updated_at": "2021-06-10T11:11:59Z",
+  "description": "<p>\nRelated to ticket request <strong>34176: voice prompts</strong>\n</p>\n<pre class=\"wiki\">If vendor returns \"486 busy\" we want the user to get a voice response saying \"The number you have dialed is busy, please try again later\"\nIf vendor returns \"404 not found\" we want the user to get a voice response saying \"The number you dialed is not assigned, please check the number and try again\"\nIf vendor returns \"484 address incomplete\" we want the user to get a voice response saying \"You have dialed wrong amount of digits please check the number you dialed and try again\"\n</pre>\n<p><br></p>\n<p>1. Change <strong>wav</strong> format to <strong>sln</strong> format\n</p>\n<p>\n  \n</p>\n<pre class=\"wiki\">/usr/local/bin/sox file.wav -t raw -s -2 -r8000 -c1 file.sln\n</pre>\n<p>\n \n</p>\n<p><br></p>\n<p>2. Put it to <strong>ivr_prompts</strong> using below script <strong>!!!!!!Note that \"-E 1\" means that script will be applied for env1</strong>\n</p>\n<pre class=\"wiki\"> /home/ssp/scripts/ivr_prompt_utils -E 1 -c file.sln short_description 'Could be long description'\n</pre>\n<p>\nNow you can find it in DB\n</p>\n<pre class=\"wiki\">SELECT * from ivr_prompts;\n</pre>\n<p><br></p>\n<p>3. Than you have to set necessary value to <strong>INSERT query</strong> like below:\n</p>\n<pre class=\"wiki\">INSERT INTO scode_translations_external (in_scode, out_scode, reason,i_account_class, i_ivr_prompt) values(503,503,'Service Error',1,8);\n</pre>\n<p>\nNo service restart required\n</p>",
+  "description_text": " \nRelated to ticket request 34176: voice prompts\n \n If vendor returns \"486 busy\" we want the user to get a voice response saying \"The number you have dialed is busy, please try again later\"\nIf vendor returns \"404 not found\" we want the user to get a voice response saying \"The number you dialed is not assigned, please check the number and try again\"\nIf vendor returns \"484 address incomplete\" we want the user to get a voice response saying \"You have dialed wrong amount of digits please check the number you dialed and try again\"\n \n   \n 1. Change wav format to sln format\n \n \n  \n \n /usr/local/bin/sox file.wav -t raw -s -2 -r8000 -c1 file.sln\n \n \n \n \n   \n 2. Put it to ivr_prompts using below script !!!!!!Note that \"-E 1\" means that script will be applied for env1\n \n  /home/ssp/scripts/ivr_prompt_utils -E 1 -c file.sln short_description 'Could be long description'\n \n \nNow you can find it in DB\n \n SELECT * from ivr_prompts;\n \n   \n 3. Than you have to set necessary value to INSERT query like below:\n \n INSERT INTO scode_translations_external (in_scode, out_scode, reason,i_account_class, i_ivr_prompt) values(503,503,'Service Error',1,8);\n \n \nNo service restart required\n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyMjctZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDc0fQ.qLadRBpbJMH4qn7cxv8ipERQl3NayAEGGCV92SjXLvA"
+  }
+}

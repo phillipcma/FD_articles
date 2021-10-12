@@ -1,0 +1,29 @@
+{
+  "id": 77951,
+  "type": 1,
+  "status": 1,
+  "agent_id": 3763909,
+  "created_at": "2013-04-22T12:53:37Z",
+  "category_id": 136109,
+  "folder_id": 3000002811,
+  "title": "Conferencing",
+  "updated_at": "2017-08-15T10:47:51Z",
+  "description": "<p>Supported since version 2.1.<br><br>This feature requires 'conferencing' module to be installed on the system. Conferencing is a regular IVR app that you can assign to any DID number or a group of DID/access numbers, so that participants can choose access numbers to dial. If conferencing is allowed to an account on the web interface, the user himself will be able to request up to five conference rooms. As soon as conference has been ordered the user and all the participants that has been invited will receive a online email invitation to the conference containing coneference number. When conference time arrives, participants may dial any of the access numbers and enter conference number when prompted. All the calls to a conference number will be billed to the accont which has ordered a conferencing under a special rate 'conference_in' according to its service plan.</p><p><br></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5038955/original/conferencing.jpg?1366635203\" class=\"fr-dii fr-draggable\"></p>",
+  "description_text": " Supported since version 2.1.  This feature requires 'conferencing' module to be installed on the system. Conferencing is a regular IVR app that you can assign to any DID number or a group of DID/access numbers, so that participants can choose access numbers to dial. If conferencing is allowed to an account on the web interface, the user himself will be able to request up to five conference rooms. As soon as conference has been ordered the user and all the participants that has been invited will receive a online email invitation to the conference containing coneference number. When conference time arrives, participants may dial any of the access numbers and enter conference number when prompted. All the calls to a conference number will be billed to the accont which has ordered a conferencing under a special rate 'conference_in' according to its service plan.      ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 0,
+  "hits": 159,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI3Nzk1MS1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwNjR9.4EKSj5WwQEPX5U8FxB65xcQMuU5mN5l517oxzkDTvH0"
+  }
+}

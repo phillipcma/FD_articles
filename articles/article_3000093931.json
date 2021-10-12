@@ -1,0 +1,28 @@
+{
+  "id": 3000093931,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2019-11-04T16:10:01Z",
+  "category_id": 81138,
+  "folder_id": 133168,
+  "title": "System \"cache\"",
+  "updated_at": "2021-06-10T11:10:26Z",
+  "description": "<h2 style=\"text-align: justify;\">General information</h2><p style=\"text-align: justify;\">Any changes related to <strong>R</strong><strong>ates</strong>, <strong>Routes</strong>, <strong>Destination Sets</strong>, <strong>Tariffs</strong>, <strong>DID numbers</strong>, <strong>DID Charging Groups</strong> and <strong>Routing Groups</strong> may not be applied immediately. You need to wait at least for 1 min so that the system can update its internal \"cache\". Sometimes, in case of a heavy bulk update of, for example, multiple destination sets at once, it may be required more than 1 min.</p><p style=\"text-align: justify;\"><br></p><h2 style=\"text-align: justify;\">Goal</h2><p style=\"text-align: justify;\">This internal \"cache\" was designed specifically in order to increase system performance. Roughly saying, the system loses some performance (speed) while updating the authentication/routing data (made by a human) and spends some time on writing the newly updated data into the \"cache\". However when a real call comes, it does not spend any time on querying the DB and filtering the results. Instead, the system already has this data in \"cache\" which greatly decreases the time during the authentication/authorization/routing of every new call.</p><p style=\"text-align: justify;\"><br></p><h2 style=\"text-align: justify;\">Workflow</h2><p style=\"text-align: justify;\">The update \"cache\" job is run every minute. Thus, in case of a minor change, you may expect the new changes to be applied within 1 min. When a multiple entities are updated (e.g. a bulk update of 10 tariffs with 65535 rates each using binary upload), these entities are put into a queue and processed one-by-one. As a result, it could take more than 1 min to update the \"cache\" and depends how powerful is your bare metal server (i.e. CPU, HDD etc).</p><p><br></p><h2>How do I know whether my recent changes are already in the \"cache\" or not ?</h2><p>There is a tool called <strong>Test Dial Plan</strong> which uses system's \"cache\". If your recent changes didn't reflect the result of Test Dial Plan, it means that the cache is still about to be updated.</p><p><br></p><p>After adding the prefix <strong>1786</strong> in account's tariff:</p><p><br></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3048490328/original/KkkTXmbclzGUioMyrV0DXOTOIZPOqmEeYQ.png?1572883705\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib fr-bordered fr-shadow\" data-attachment=\"[object Object]\" data-id=\"3048490328\"></p><p><br></p><p>After waiting for <strong>1 min</strong> and update of system \"cache\":</p><p><br></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3048490331/original/jMCKMhoky9srZEKUfBxv3vtM1PVUgeHvuQ.png?1572883719\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib fr-bordered fr-shadow\" data-attachment=\"[object Object]\" data-id=\"3048490331\"></p>",
+  "description_text": " General information  Any changes related to Rates, Routes, Destination Sets, Tariffs, DID numbers, DID Charging Groups and Routing Groups may not be applied immediately. You need to wait at least for 1 min so that the system can update its internal \"cache\". Sometimes, in case of a heavy bulk update of, for example, multiple destination sets at once, it may be required more than 1 min.     Goal  This internal \"cache\" was designed specifically in order to increase system performance. Roughly saying, the system loses some performance (speed) while updating the authentication/routing data (made by a human) and spends some time on writing the newly updated data into the \"cache\". However when a real call comes, it does not spend any time on querying the DB and filtering the results. Instead, the system already has this data in \"cache\" which greatly decreases the time during the authentication/authorization/routing of every new call.     Workflow  The update \"cache\" job is run every minute. Thus, in case of a minor change, you may expect the new changes to be applied within 1 min. When a multiple entities are updated (e.g. a bulk update of 10 tariffs with 65535 rates each using binary upload), these entities are put into a queue and processed one-by-one. As a result, it could take more than 1 min to update the \"cache\" and depends how powerful is your bare metal server (i.e. CPU, HDD etc).     How do I know whether my recent changes are already in the \"cache\" or not ?  There is a tool called Test Dial Plan which uses system's \"cache\". If your recent changes didn't reflect the result of Test Dial Plan, it means that the cache is still about to be updated.     After adding the prefix 1786 in account's tariff:          After waiting for 1 min and update of system \"cache\":      ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 0,
+  "hits": 152,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDkzOTMxLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAyOX0.F9Baz9XVm7D5r1vJP0fhhXVtQHSitFlffUkfPGZI6Tk"
+  }
+}

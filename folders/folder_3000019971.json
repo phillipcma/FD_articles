@@ -1,0 +1,27 @@
+[
+  {
+    "id": 3000108651,
+    "type": 1,
+    "status": 2,
+    "agent_id": 3763909,
+    "created_at": "2021-07-07T11:15:03Z",
+    "category_id": 155349,
+    "folder_id": 3000019971,
+    "title": "How to block CLI using in account's authentication rule",
+    "updated_at": "2021-07-07T11:18:42Z",
+    "description": "<h2 dir=\"ltr\"><strong>REQUEST</strong>:</h2><p dir=\"ltr\">As a switch operator, I would like to have the possibility to block some exact CLIs/prefixes that Sippy receives from the trusted Remote IP.\u00a0</p><p dir=\"ltr\"><br></p><h3 dir=\"ltr\"><strong>SOLUTION #1:</strong></h3><p dir=\"ltr\"><br></p><p dir=\"ltr\">In Sippy 2020 DNC was implemented for CLI (calling) numbers: DNC CLI allows adding a list of CLI numbers so that calls with one of those numbers are blocked at Sippy Softswitch.</p><p dir=\"ltr\">See more details by the following link:</p><p dir=\"ltr\"><a href=\"https://support.sippysoft.com/a/solutions/articles/3000041461\">https://support.sippysoft.com/a/solutions/articles/3000041461</a><span class=\"fr-view collab-annotatable\" data-test-id=\"article-description\" style=\"cursor: auto; position: relative; display: block;\"><span style=\"font-size: 16px;\"><span style=\"font-family: Arial,Helvetica,sans-serif;\"><span dir=\"ltr\" style=\"color: rgb(0, 0, 0); font-weight: 400;\"><a href=\"https://support.sippysoft.com/a/solutions/articles/3000041461\"></a></span></span></span></span></p><p dir=\"ltr\"><br></p><h3 dir=\"ltr\"><strong dir=\"ltr\">SOLUTION #2:</strong></h3><p><br></p><p>1) Open the authentication rules of the desired account;</p><p>2) Create CLI translation rule which will convert CLI number to unknow prefix and as a result calls with unknown prefixes will be failing (example for prefixes 1 &amp; 2):</p><p dir=\"ltr\">s/^001/BLOCK/;s/^002/BLOCK/</p><p><br></p><p dir=\"ltr\">Note, if a switch operator wants to block several prefixes in one rule he/she may use a semicolon between rules like in the example above. But switch operator should know that system applies rules sequentially.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">If a switch operator wants to upload rules via CSV/XLS file it may be done in the following way:</p><p><br></p><p dir=\"ltr\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3066431265/original/q4-DUZrrKSt-c5ZGYp6kY8CVvMVfMmbYSw.png?1625655816\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3066431265\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Edit the download template by adding the needed rules: (A letter in the 1st column adds rule after upload):</p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3066431781/original/tjHJ5QZ9WeTbarM6DYGbhOAG9o17HQ9JRw.png?1625656438\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3066431781\"></p><p dir=\"ltr\">Save file.</p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Select file by pressing \"Browse\" button and click \"Upload\" to upload file:</p><p><br></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3066431614/original/1YZ-iQJ05SagGe4yGg_M9WvN-O8RGq2YQQ.png?1625656215\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3066431614\"></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">When the upload is done, you will see the following window:</p><p dir=\"ltr\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3066431835/original/ES_y2zWljl7_d_YajaE6jEoGhItum8R-xQ.png?1625656491\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3066431835\"></p>",
+    "description_text": " REQUEST:  As a switch operator, I would like to have the possibility to block some exact CLIs/prefixes that Sippy receives from the trusted Remote IP.\u00a0     SOLUTION #1:     In Sippy 2020 DNC was implemented for CLI (calling) numbers: DNC CLI allows adding a list of CLI numbers so that calls with one of those numbers are blocked at Sippy Softswitch.  See more details by the following link:  https://support.sippysoft.com/a/solutions/articles/3000041461     SOLUTION #2:     1) Open the authentication rules of the desired account;  2) Create CLI translation rule which will convert CLI number to unknow prefix and as a result calls with unknown prefixes will be failing (example for prefixes 1 & 2):  s/^001/BLOCK/;s/^002/BLOCK/     Note, if a switch operator wants to block several prefixes in one rule he/she may use a semicolon between rules like in the example above. But switch operator should know that system applies rules sequentially.     If a switch operator wants to upload rules via CSV/XLS file it may be done in the following way:          Edit the download template by adding the needed rules: (A letter in the 1st column adds rule after upload):    Save file.     Select file by pressing \"Browse\" button and click \"Upload\" to upload file:          When the upload is done, you will see the following window:   ",
+    "seo_data": {
+      "meta_title": "",
+      "meta_description": ""
+    },
+    "tags": [],
+    "attachments": [],
+    "cloud_files": [],
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "suggested": 0,
+    "feedback_count": 0
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "id": 3000020581,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2014-10-24T13:07:52Z",
+  "category_id": 81239,
+  "folder_id": 194482,
+  "title": "Custom Duration Announcement via IVR (ghost minutes also known as \"Shadow Billing\")",
+  "updated_at": "2016-09-22T20:23:36Z",
+  "description": "<div dir=\"ltr\">\n<div dir=\"ltr\">\r\n<font size=\"4\"><b>Description: </b></font><br><p><br>Custom functionality for the IVR application which allows to announce more minutes than really possible.</p>\r\n<br>Such scenario available only for calls via Calling Card application and could be managed independently only by non hosted customers. <br>For hosted customers such functionality could be configured only by sippy support.<br><br><p>To get script workable you have to create script on server and then specify path to it in the Calling Card IVR properties:</p>\r\n<p><br></p>\r\n<p></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3005139239/original/Custom_script.jpg?1414157265\" class=\"inline-image\" data-id=\"3005139239\"></p>\r\n<br><p>Here is the short scenario for you to make all required actions:</p>\r\n<p></p>\r\n\r\n<br><p><span style=\"background-color: rgb(216, 216, 216);\">sudo -s<br>mkdir /home/ssp/private/scripts/; cd /home/ssp/private/scripts/<br>ee calling_card_duration.sh<br>chmod +x calling_card_duration.sh</span></p>\r\n<br><h2 id=\"ScriptConfig:\"><b><font size=\"3\">Script Config:</font></b></h2>\r\n\r\n<p><span style=\"background-color: rgb(216, 216, 216);\">#!/bin/sh<br>a=100<br>let b=\"$5 + $5*$a/100\" <br><br>echo $b</span></p>\r\n<p><br></p>\r\n<p>\r\n</p>\r\n<p>Where <strong><span style=\"background-color: rgb(216, 216, 216);\">a</span></strong> - percentage of increase.</p>\r\n<p></p>\r\n<p>\r\n</p>\r\n<p>So the system will announce the duration with 100% increase for all card numbers which use some exact IVR app in which you have specified \"Custom Script To Change Announced Duration\". For 50% you can use \"a=50\".</p>\r\n<p><br></p>\r\n<p>It is also a possibility to apply this method only for some tariffs, but in such a case custom development is required.</p>\r\n<p></p>\r\n</div>\r\n</div>",
+  "description_text": " \n \nDescription:    Custom functionality for the IVR application which allows to announce more minutes than really possible. \n Such scenario available only for calls via Calling Card application and could be managed independently only by non hosted customers.  For hosted customers such functionality could be configured only by sippy support.   To get script workable you have to create script on server and then specify path to it in the Calling Card IVR properties: \n   \n \n  \n  Here is the short scenario for you to make all required actions: \n \n\n  sudo -s mkdir /home/ssp/private/scripts/; cd /home/ssp/private/scripts/ ee calling_card_duration.sh chmod +x calling_card_duration.sh \n  Script Config: \n\n #!/bin/sh a=100 let b=\"$5 + $5*$a/100\"   echo $b \n   \n \n \n Where a - percentage of increase. \n \n \n \n So the system will announce the duration with 100% increase for all card numbers which use some exact IVR app in which you have specified \"Custom Script To Change Announced Duration\". For 50% you can use \"a=50\". \n   \n It is also a possibility to apply this method only for some tariffs, but in such a case custom development is required. \n \n \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDIwNTgxLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA3N30.X-KpsYKzLz7AkI4b9pftmBCjj3qtr4qPXu_GX4n3bUs"
+  }
+}

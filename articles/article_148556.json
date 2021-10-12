@@ -1,0 +1,29 @@
+{
+  "id": 148556,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-10-11T14:36:59Z",
+  "category_id": 136109,
+  "folder_id": 243020,
+  "title": "How Callshop works",
+  "updated_at": "2021-06-24T10:12:07Z",
+  "description": "<div><span style=\"font-size: 24px;\"><strong>Typical Callshop Scenarios<br><br></strong><p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/11416390/original/service_callshop.jpg?1381741528\" class=\"inline-image fr-fic fr-dii\" data-id=\"11416390\"></p><br></span></div><p><br></p><p style=\"font-family: Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif; font-size: 13.3333px; line-height: normal; text-align: start;\"><strong>Prepaid</strong></p><ul style=\"font-family: Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif; font-size: 13.3333px; line-height: normal; text-align: start;\"><li>Customer visits the callshop.</li><li>Customer pre-pays the operator for the call.</li><li>The operator activates a phone booth for the customer using billing software.</li><li>The customer will go to the phone booth and dial the destination number.</li><li dir=\"ltr\">Billing software will record the call details and the corresponding call charges for future reporting needs.</li></ul><p style=\"font-family: Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif; font-size: 13.3333px; line-height: normal; text-align: start;\"><strong>Postpaid</strong></p><ul style=\"font-family: Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif; font-size: 13.3333px; line-height: normal; text-align: start;\"><li>Customer visits the callshop.</li><li>Customer chooses a vacant phone booth and dials the destination number.</li><li>Billing software keeps track of each phone booth's call details and the corresponding call charges for invoicing and future reporting needs.</li><li>When the customer has completed his/her calls, the operator generates an invoice for the customer's calls.</li></ul><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3065874900/original/_eJ9Ma9xZuOmHPk2xlWcQXuwD7MrEkfwFg.png?1624529477\" style=\"width: 630px;\" class=\"fr-fic fr-dib\" data-attachment=\"[object Object]\" data-id=\"3065874900\"></p>",
+  "description_text": " Typical Callshop Scenarios          Prepaid   Customer visits the callshop.  Customer pre-pays the operator for the call.  The operator activates a phone booth for the customer using billing software.  The customer will go to the phone booth and dial the destination number.  Billing software will record the call details and the corresponding call charges for future reporting needs.   Postpaid   Customer visits the callshop.  Customer chooses a vacant phone booth and dials the destination number.  Billing software keeps track of each phone booth's call details and the corresponding call charges for invoicing and future reporting needs.  When the customer has completed his/her calls, the operator generates an invoice for the customer's calls.    ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 4,
+  "thumbs_down": 0,
+  "hits": 694,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxNDg1NTYtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDYwfQ.QBDMyfYnui9Z_DZKZWIKu0ooCpd8pwUZc6a7C30iBZU"
+  }
+}

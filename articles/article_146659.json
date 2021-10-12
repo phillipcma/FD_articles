@@ -1,0 +1,29 @@
+{
+  "id": 146659,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-10-07T21:11:53Z",
+  "category_id": 133603,
+  "folder_id": 239719,
+  "title": "Step 2: Customer Facing Flowchart",
+  "updated_at": "2020-01-08T18:17:26Z",
+  "description": "<p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3046058414/original/siknxjSiB89MAf-Ni2T1c3n9rtoAYIYMcw.jpg?1564044343\" class=\"inline-image fr-fic fr-dii\" style=\"cursor: default;\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3046058414/original/siknxjSiB89MAf-Ni2T1c3n9rtoAYIYMcw.jpg?1564044343\" data-fileid=\"3046058414\" data-uniquekey=\"1564044333514\"></p><p><br></p><p><span style=\"color: rgb(51, 51, 51); font-size: 18px;\">See Also:</span></p><p><a href=\"http://support.sippysoft.com/support/solutions/articles/77467-tariffs-and-rates\" target=\"_blank\">Tariffs and Rates</a></p><p><a href=\"http://support.sippysoft.com/support/solutions/articles/77484-service-plans\" target=\"_blank\">Service Plans</a></p><p>Accounts</p><p><a href=\"http://support.sippysoft.com/support/solutions/articles/77461-accounts-overview\" target=\"_blank\">Customers</a></p><p><span style=\"color: rgb(51, 51, 51); font-size: 18px;\"><br></span></p><p><br></p>",
+  "description_text": "      See Also:  Tariffs and Rates  Service Plans  Accounts  Customers       ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 1,
+  "hits": 1882,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxNDY2NTktZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcwOTk3fQ.4qTMHoQ30zniPuSV1erbNz7_FJZ9dCirSqvuuX7BlKA"
+  }
+}

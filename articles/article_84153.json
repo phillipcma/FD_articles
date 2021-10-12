@@ -1,0 +1,29 @@
+{
+  "id": 84153,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-05-10T14:01:10Z",
+  "category_id": 81138,
+  "folder_id": 133168,
+  "title": "Activation & Expiration Date/Upload Actions",
+  "updated_at": "2015-03-07T11:43:59Z",
+  "description": "<p><b>Activation and expiration date for routes and rates</b> - allows to specify \r\ncertain date/time limitation for each route/rate. This allows you to \r\nupload pricelists for your customers and vendors before the actual price\r\n change is to occur, which usually happens at midnight.\r\n\r\n</p>\r\n<div>\r\n<p>\r\nThere might be some misunderstandings how different actions are treated \r\ndepending on their current status and newly enetered data.\r\n</p>\r\n<p><br></p>\r\n<p>Action <b>A</b>: this action will add a new route/rate entry. If on the time of\r\n activation of new route there is another old active (activation date in\r\n past, expiration in future or never) route, it will be expired with the\r\n rate activation date. Using this action for regular price \r\nchanges/updates will make sure your CDRs are always consistent with \r\ntheir according rate/route data.\r\n</p>\r\n<p>\r\nAction <b>D</b>: the rate will be deleted, no matter what is activation/expiration date.\r\n</p>\r\n<p>\r\nAction <b>U</b>: allows to make any modifcation to rate/route data, the only \r\nexception is the activation/expiration date. If a date is in the past it\r\n cannot be changed for both dates. Using this action can lead to \r\nsituation when CDRs billing price will differ form corresponding rate \r\ndata.\r\n</p>\r\n<p>\r\nAction <b>S</b>: the same as action U, but the action is performed based on prefix, not the rate/route id.\r\n</p>\r\n<p>\r\nAction <b>AS</b>: If the prefix exists edit it like S, if not, add it like A.</p>\r\n</div>",
+  "description_text": " Activation and expiration date for routes and rates - allows to specify \ncertain date/time limitation for each route/rate. This allows you to \nupload pricelists for your customers and vendors before the actual price\n change is to occur, which usually happens at midnight.\n\n \n \n \nThere might be some misunderstandings how different actions are treated \ndepending on their current status and newly enetered data.\n \n   \n Action A: this action will add a new route/rate entry. If on the time of\n activation of new route there is another old active (activation date in\n past, expiration in future or never) route, it will be expired with the\n rate activation date. Using this action for regular price \nchanges/updates will make sure your CDRs are always consistent with \ntheir according rate/route data.\n \n \nAction D: the rate will be deleted, no matter what is activation/expiration date.\n \n \nAction U: allows to make any modifcation to rate/route data, the only \nexception is the activation/expiration date. If a date is in the past it\n cannot be changed for both dates. Using this action can lead to \nsituation when CDRs billing price will differ form corresponding rate \ndata.\n \n \nAction S: the same as action U, but the action is performed based on prefix, not the rate/route id.\n \n \nAction AS: If the prefix exists edit it like S, if not, add it like A. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 5,
+  "hits": 562,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI4NDE1My1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwMjZ9.lk0dIzOlJTvSrm1tG6EVV1KGXIzKcXj_IlzvrjFF48Q"
+  }
+}

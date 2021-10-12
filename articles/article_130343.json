@@ -1,0 +1,29 @@
+{
+  "id": 130343,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T10:06:20Z",
+  "category_id": 81239,
+  "folder_id": 211689,
+  "title": "Monitoring issues ",
+  "updated_at": "2021-06-10T11:12:01Z",
+  "description": "<p>\u00a0</p>\n<div class=\"wikipage searchable\">\n        \n          <p>\nA summary all common roots that could cause graphs issues:\n</p>\n<pre class=\"wiki\">1. snmpd isn't running/got stuck\nSuggestion: kill or/and restart it\n</pre>\n<pre class=\"wiki\">2. strackerd got stuck in some environment - it gathers statistic from all env's, and one stuck process will stop further gathering of information. \nSuggestion: killing/restarting\n</pre>\n<pre class=\"wiki\">3. rrd_update got stuck, it should run each one minute and finish working in few seconds\nSuggestion: kill stuck and wait until it run from cron\n</pre>\n<p>\nKindly use ps and locate/grep to investigate those issues. \nLooking into logs could help you to find more reasons that affect monitoring graphs.\n</p>\n\n        \n        \n      </div>",
+  "description_text": " \u00a0 \n \n        \n           \nA summary all common roots that could cause graphs issues:\n \n 1. snmpd isn't running/got stuck\nSuggestion: kill or/and restart it\n \n 2. strackerd got stuck in some environment - it gathers statistic from all env's, and one stuck process will stop further gathering of information. \nSuggestion: killing/restarting\n \n 3. rrd_update got stuck, it should run each one minute and finish working in few seconds\nSuggestion: kill stuck and wait until it run from cron\n \n \nKindly use ps and locate/grep to investigate those issues. \nLooking into logs could help you to find more reasons that affect monitoring graphs.\n \n\n        \n        \n       ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAzNDMtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDY2fQ.myBEbfGlqHEN02xL-P9s3KBhEvH_Q17IOnMG66xKaHc"
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 3000096244,
+    "type": 1,
+    "status": 2,
+    "agent_id": 3012089524,
+    "created_at": "2020-01-20T22:23:23Z",
+    "category_id": 3000004254,
+    "folder_id": 3000016350,
+    "title": "test for new article",
+    "updated_at": "2020-02-21T19:27:56Z",
+    "description": "<p>testy mctesty.</p><p><br></p><p>The new edit to the article. \u00a0blah blah blah\u00a0\u00a0</p><p><br></p><p>draft mcdraft</p><p><br></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3050456615/original/h2zo7MKUMeKGHXRwz7wuXbJNax2S_j8BbA.jpg?1579678977\" style=\"width: auto;\" class=\"fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3050456615\"></p><p><br></p><p><br></p><p>Edit with publish - test another one</p><table style=\"width: 100%;\"><tbody><tr><td style=\"width: 16.6667%;\">asdasd</td><td style=\"width: 16.6667%;\">asdasd</td><td style=\"width: 16.6667%;\">xzc</td><td style=\"width: 16.6667%;\">sad</td><td style=\"width: 16.6667%;\">324</td><td style=\"width: 16.6667%;\">234</td></tr><tr><td style=\"width: 16.6667%;\">ssss</td><td style=\"width: 16.6667%;\">sa</td><td style=\"width: 16.6667%;\">aaaa</td><td style=\"width: 16.6667%;\">aaddc</td><td style=\"width: 16.6667%;\">erf</td><td style=\"width: 16.6667%;\">ccx</td></tr><tr><td style=\"width: 16.6667%;\">sd</td><td style=\"width: 16.6667%;\">sadsda</td><td style=\"width: 16.6667%;\">sadasd</td><td style=\"width: 16.6667%;\">asdasd</td><td style=\"width: 16.6667%;\">asas</td><td style=\"width: 16.6667%;\">xzzxcxc</td></tr></tbody></table>",
+    "description_text": " testy mctesty.     The new edit to the article. \u00a0blah blah blah\u00a0\u00a0     draft mcdraft             Edit with publish - test another one  asdasd  asdasd  xzc  sad  324  234  ssss  sa  aaaa  aaddc  erf  ccx  sd  sadsda  sadasd  asdasd  asas  xzzxcxc ",
+    "seo_data": {
+      "meta_title": "",
+      "meta_description": ""
+    },
+    "tags": [],
+    "attachments": [],
+    "cloud_files": [],
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "suggested": 0,
+    "feedback_count": 0
+  },
+  {
+    "id": 3000096270,
+    "type": 1,
+    "status": 1,
+    "agent_id": 3901167,
+    "created_at": "2020-01-22T07:45:27Z",
+    "category_id": 3000004254,
+    "folder_id": 3000016350,
+    "title": "Awesome article",
+    "updated_at": "2021-02-04T17:19:27Z",
+    "description": "<p>sadasdasd</p><p>test</p><p><br></p><p>New edit for testing of the upload</p><p><br></p><div><pre contenteditable=\"false\" data-code-brush=\"Generic Language\" rel=\"highlighter\">function soch() {\n    sec_to_monday=`echo \"($(date -v +Monday -v 00H -v 00M -v 00S +'%s') - $(date +'%s'))\"`\n    days_to_monday=`echo \"${sec_to_monday} / (3600*24)\" | bc`\n    hours_to_monday=`echo \"(${sec_to_monday} - (${days_to_monday} * (3600*24))) / 3600\" | bc`\n    minutes_to_monday=`echo \"( ( ${sec_to_monday} - (${days_to_monday} * (3600*24)) - (${hours_to_monday} * 3600) ) / 60)\" | bc`\n    seconds_to_monday=`echo \"( ${sec_to_monday} - (${days_to_monday} * (3600*24)) - (${hours_to_monday} * 3600) - (${minutes_to_monday} *60) )\" | bc`\n    echo \"Monday will start in ${days_to_monday} days, ${hours_to_monday} hours, ${minutes_to_monday} minutes, ${seconds_to_monday} seconds\"\n}</pre><p><br></p></div><p>asdsadasd</p><p><br></p><p>test publish</p>",
+    "description_text": " sadasdasd  test     New edit for testing of the upload      function soch() {\n    sec_to_monday=`echo \"($(date -v +Monday -v 00H -v 00M -v 00S +'%s') - $(date +'%s'))\"`\n    days_to_monday=`echo \"${sec_to_monday} / (3600*24)\" | bc`\n    hours_to_monday=`echo \"(${sec_to_monday} - (${days_to_monday} * (3600*24))) / 3600\" | bc`\n    minutes_to_monday=`echo \"( ( ${sec_to_monday} - (${days_to_monday} * (3600*24)) - (${hours_to_monday} * 3600) ) / 60)\" | bc`\n    seconds_to_monday=`echo \"( ${sec_to_monday} - (${days_to_monday} * (3600*24)) - (${hours_to_monday} * 3600) - (${minutes_to_monday} *60) )\" | bc`\n    echo \"Monday will start in ${days_to_monday} days, ${hours_to_monday} hours, ${minutes_to_monday} minutes, ${seconds_to_monday} seconds\"\n}      asdsadasd     test publish ",
+    "seo_data": {
+      "meta_title": "",
+      "meta_description": ""
+    },
+    "tags": [],
+    "attachments": [],
+    "cloud_files": [],
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "suggested": 0,
+    "feedback_count": 0
+  }
+]

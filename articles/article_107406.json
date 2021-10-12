@@ -1,0 +1,29 @@
+{
+  "id": 107406,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T17:34:24Z",
+  "category_id": 107132,
+  "folder_id": 176717,
+  "title": "XML-RPC API - Matching CLD with Account Minute Plans",
+  "updated_at": "2021-06-10T11:11:08Z",
+  "description": "<h3 id=\"matchAccountMinutePlan\" style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; page-break-after: avoid; font-size: 14px; color: rgb(0, 0, 0); font-style: normal; line-height: normal;\">matchAccountMinutePlan()<a class=\"anchor\" href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/matchAccountMinutePlan#matchAccountMinutePlan\" title=\"Link to this section\" style=\"color: rgb(215, 215, 215); border-style: none; font-size: 0.8em; vertical-align: text-top; visibility: hidden;\"></a>\n</h3><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">This application is used to match a given destination against the Minute Plans of an account.</p><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Parameters:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\">\n<li>i_account - i_account of account. Integer. Required.</li>\n<li>cld - destination to check. String. Required.</li>\n</ul><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Returns:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\">\n<li>\n<strong>result</strong> - <strong>OK</strong> means that query was successfully. String.</li>\n<li>\n<strong>i_service_plan</strong> - an ID of minute plan. Integer.</li>\n<li>\n<strong>seconds_total</strong> - total seconds included in minute plan. Integer. Null value means <em>Unlimited</em>.</li>\n<li>\n<strong>seconds_left</strong> - seconds left in minute plan. Integer. Null value means <em>Unlimited</em>.</li>\n<li>XMLRPC fault with code 410 if no plan has been matched.</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>",
+  "description_text": " matchAccountMinutePlan()\n  This application is used to match a given destination against the Minute Plans of an account.  Parameters:  \n i_account - i_account of account. Integer. Required. \n cld - destination to check. String. Required. \n  Returns:  \n \nresult - OK means that query was successfully. String. \n \ni_service_plan - an ID of minute plan. Integer. \n \nseconds_total - total seconds included in minute plan. Integer. Null value means Unlimited. \n \nseconds_left - seconds left in minute plan. Integer. Null value means Unlimited. \n XMLRPC fault with code 410 if no plan has been matched. \n XMLRPC fault in case of any error. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 0,
+  "hits": 581,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0MDYtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDkxfQ.D83I3kO9xWLUQkBEiSD1G59_F6d3xHIkwEue_c3A0gA"
+  }
+}

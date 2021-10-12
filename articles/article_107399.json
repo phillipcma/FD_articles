@@ -1,0 +1,29 @@
+{
+  "id": 107399,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3012089524,
+  "created_at": "2013-07-09T17:29:41Z",
+  "category_id": 107132,
+  "folder_id": 176717,
+  "title": "XML-RPC API - Resetting one time password for Web Interface login (Account)",
+  "updated_at": "2021-06-09T07:19:33Z",
+  "description": "<h3 id=\"resetAccountOneTimePassword\" style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; page-break-after: avoid; font-size: 14px; color: rgb(0, 0, 0); font-style: normal; line-height: normal;\">resetAccountOneTimePassword()<a class=\"anchor\" href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/resetAccountOneTimePassword#resetAccountOneTimePassword\" title=\"Link to this section\" style=\"color: rgb(215, 215, 215); border-style: none; font-size: 0.8em; vertical-align: text-top; visibility: hidden;\"></a>\n</h3><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">This application is used to reset account's one time password used to login into web interface. Only accounts of authenticated customer can be reset.</p><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Parameters:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><li>\n<strong>username</strong> - web login of account. String. Required.</li></ul><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Returns:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\">\n<li>\n<strong>result</strong> - <strong>OK</strong> means that the password was successfully reset. String.</li>\n<li>\n<strong>password</strong> - value the password was reset to. String.</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>",
+  "description_text": " resetAccountOneTimePassword()\n  This application is used to reset account's one time password used to login into web interface. Only accounts of authenticated customer can be reset.  Parameters:   \nusername - web login of account. String. Required.   Returns:  \n \nresult - OK means that the password was successfully reset. String. \n \npassword - value the password was reset to. String. \n XMLRPC fault in case of any error. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 2,
+  "thumbs_down": 1,
+  "hits": 298,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDczOTktZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDg5fQ.CeUoG3CY1HJ12YP8Hjpn8NY6KknRz-Nns8Qb3isrZmU"
+  }
+}

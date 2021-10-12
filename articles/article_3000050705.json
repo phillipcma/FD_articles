@@ -1,0 +1,29 @@
+{
+  "id": 3000050705,
+  "type": 2,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2016-03-23T14:40:20Z",
+  "category_id": 155349,
+  "folder_id": 3000009541,
+  "title": "How do I find and start a chat on the Freshdesk Portal?",
+  "updated_at": "2020-01-07T17:39:27Z",
+  "description": "<p><font size=\"4\"><strong>General</strong></font><font size=\"3\"><br>By default support chat isn't available for use because Sippy only provides support via email through the ticketing system (support@sippysoft.com).  In some  cases, when communicating through  email causes delays that could adversely affect an emergency situation, the support team can temporarily activate the Freshdesk chat for you.  Once the emergency ends, the help-desk converts the chat conversation to a support ticket.  Note that Sippy support engineers define emergencies at their sole discretion.  <br><br></font></p><p><font size=\"4\"><strong>How to start a chat on Freshdesk<br><br></strong><font size=\"3\">1. Login to the support.sippysoft.com portal using the authorized email (used for submitting tickets to support):</font><strong><br><br></strong></font></p><p><font size=\"4\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3017612306/original/FD%20login.jpg?1458743784\" class=\"inline-image fr-dii\" data-id=\"3017612306\"></font></p><p><font size=\"4\"><br><font size=\"3\">2. Left mouse click, to deploy the chat:</font><br><br></font></p><p><font size=\"4\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3017612397/original/FD%20chat.jpg?1458743893\" class=\"inline-image fr-dii\" data-id=\"3017612397\"></font></p><p><font size=\"4\"><br><font size=\"3\">3. Fill-in the form and click on the check-mark button:</font><br><br></font></p><p><font size=\"4\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3017612456/original/FD%20chat%20form.jpg?1458743997\" class=\"inline-image fr-dii\" data-id=\"3017612456\"></font></p><p><font size=\"4\"><br></font></p><p><br></p>",
+  "description_text": " General By default support chat isn't available for use because Sippy only provides support via email through the ticketing system (support@sippysoft.com).  In some  cases, when communicating through  email causes delays that could adversely affect an emergency situation, the support team can temporarily activate the Freshdesk chat for you.  Once the emergency ends, the help-desk converts the chat conversation to a support ticket.  Note that Sippy support engineers define emergencies at their sole discretion.      How to start a chat on Freshdesk  1. Login to the support.sippysoft.com portal using the authorized email (used for submitting tickets to support):       2. Left mouse click, to deploy the chat:       3. Fill-in the form and click on the check-mark button:           ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 3,
+  "hits": 340,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDUwNzA1LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAwMH0.k0E6aW5BCobiXt3lPel6hx8xoRNBtp6676a5YgMeeDc"
+  }
+}

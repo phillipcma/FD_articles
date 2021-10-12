@@ -1,0 +1,29 @@
+{
+  "id": 130253,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T08:22:08Z",
+  "category_id": 81239,
+  "folder_id": 133727,
+  "title": "How to add password policies",
+  "updated_at": "2021-06-10T11:12:00Z",
+  "description": "<p><span style=\"background-color: rgb(255, 230, 148);\"><br></span></p>\n<pre class=\"wiki\"><span style=\"background-color: rgb(255, 230, 148);\">INSERT INTO password_policies (name, description, min_length, i_password_content, change_first_login, system) VALUES ('4 Digits', '90 days expiration, change on first login, 4 digits.', 4 , 3, true,true);</span></pre>",
+  "description_text": "   \n INSERT INTO password_policies (name, description, min_length, i_password_content, change_first_login, system) VALUES ('4 Digits', '90 days expiration, change on first login, 4 digits.', 4 , 3, true,true); ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 9,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyNTMtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDY4fQ.LmdpWCLesSCo1FGkMV1Y6PQNebUilhR_GEhcqRPcALU"
+  }
+}

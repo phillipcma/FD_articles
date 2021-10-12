@@ -1,0 +1,29 @@
+{
+  "id": 3000073101,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3901167,
+  "created_at": "2017-12-15T14:02:16Z",
+  "category_id": 107132,
+  "folder_id": 176077,
+  "title": "XML-RPC API - Data types specifications",
+  "updated_at": "2018-01-02T16:53:39Z",
+  "description": "<p style=\"\"><strong><span style=\"font-size: 24px;\">ISO<strong>8601-based datetime format used in Sippy (starting from 5.1 version)</strong></span></strong></p><p style=\"\">The following datetime format based on ISO8601 is supported:</p><p style=\"\">YYYYMMDDThh:mm:ss</p><p style=\"\"><br></p><p style=\"\">Note, the date should be set in UTC format only, with no timezone specified!</p><p style=\"\"><br></p><p style=\"\"><strong>Example:</strong></p><p style=\"\">20171215T13:30:00</p><p style=\"\"><br></p><p style=\"\"><span style=\"font-size: 24px;\"><strong>ISO3166 country codes format used in Sippy</strong></span></p><p style=\"\">Data should be sent according to official document:</p><p style=\"\"><a href=\"https://www.iso.org/ru/iso-3166-country-codes.html\" rel=\"noreferrer\">https://www.iso.org/ru/iso-3166-country-codes.html</a></p><p style=\"\"><br></p><p style=\"\">Example of country code of Turkey:</p><p style=\"\">2 letters - TR</p><p style=\"\">3 letters - TUR</p><p style=\"\"><br></p><p style=\"\"><span style=\"font-size: 24px;\"><strong>ISO4217 currency codes format used in Sippy</strong></span></p><p style=\"\"><span style=\"font-size: 24px;\"></span></p><p style=\"\">Data should be sent according to official document:</p><p style=\"\"><span style=\"font-size: 24px;\"></span><a href=\"https://www.iso.org/iso-4217-currency-codes.html\" rel=\"noreferrer\">https://www.iso.org/iso-4217-currency-codes.html</a></p><p style=\"\"><br></p><p style=\"\">Example of country code of Turkey:</p><p style=\"\">3 letters - TRY</p>",
+  "description_text": " ISO8601-based datetime format used in Sippy (starting from 5.1 version)  The following datetime format based on ISO8601 is supported:  YYYYMMDDThh:mm:ss     Note, the date should be set in UTC format only, with no timezone specified!     Example:  20171215T13:30:00     ISO3166 country codes format used in Sippy  Data should be sent according to official document:  https://www.iso.org/ru/iso-3166-country-codes.html     Example of country code of Turkey:  2 letters - TR  3 letters - TUR     ISO4217 currency codes format used in Sippy    Data should be sent according to official document:  https://www.iso.org/iso-4217-currency-codes.html     Example of country code of Turkey:  3 letters - TRY ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 2,
+  "thumbs_down": 1,
+  "hits": 689,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDczMTAxLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA4M30.QD4Ys32I0pn14QYOHM0BTtIqEf14913v-yXMpRSKyko"
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": 130339,
+    "type": 1,
+    "status": 2,
+    "agent_id": 3763909,
+    "created_at": "2013-09-02T10:00:34Z",
+    "category_id": 81239,
+    "folder_id": 211685,
+    "title": "Stuck IVR Voice",
+    "updated_at": "2021-06-10T11:12:00Z",
+    "description": "<div class=\"wikipage searchable\">\n        \n          <p>\nWhen calling to check balance or calling cards where response from \nAsterisk is needed you hear stuttering, like \"A.....A.....A...\" \ninstead of \"Your balance is...\"\nIt could be the problem of different clock rates. For that check zttest \n-v.\u00a0</p>\n<p><br>\nIf zttest -v returns \n</p>\n<pre class=\"wiki\">Unable to open zap interface: No such file or directory\n</pre>\n<p>\ncheck if zaptel is running.</p>\n<p><br>\nIt could be helpful if you stop it and run again then:<br></p>\n<pre class=\"wiki\">sudo /usr/local/etc/rc.d/zaptel stop\nsudo /usr/local/etc/rc.d/zaptel start\n\n</pre>\n<p>\nand try the test again.</p>\n<p><br></p>\n<p>\nBAD:\n</p>\n<pre class=\"wiki\">[ssp-root@sip ~]$ <span style=\"background-color: rgb(255, 230, 148);\">sudo zttest -v</span>\nOpened pseudo zap interface, measuring accuracy...\n^C\n--- Results after 0 passes ---\nBest: 0.000 -- Worst: 100.000 -- Average: 100.000000, Difference: 100.000000\n[ssp-root@sip ~]$ sudo zttest -v\nOpened pseudo zap interface, measuring accuracy...\n\n8192 zaptel samples in 81919.562 system clock sample intervals (999.995%)\n8192 zaptel samples in 81919.406 system clock sample intervals (999.993%)^C\n--- Results after 2 passes ---\nBest: 0.000 -- Worst: -799.995 -- Average: -799.993683, Difference: 999.993706\n\n</pre>\n<p>\nGOOD:\n</p>\n<pre class=\"wiki\">[ssp-root@demo-slave ~]$ <span style=\"background-color: rgb(255, 230, 148);\">sudo zttest -v</span>\nOpened pseudo zap interface, measuring accuracy...\n\n8192 zaptel samples in 8162.784 system clock sample intervals (99.643%)\n8192 zaptel samples in 8158.584 system clock sample intervals (99.592%)\n8192 zaptel samples in 8230.561 system clock sample intervals (100.471%)\n8192 zaptel samples in 8159.032 system clock sample intervals (99.598%)\n8192 zaptel samples in 8238.312 system clock sample intervals (100.565%)\n8192 zaptel samples in 8158.328 system clock sample intervals (99.589%)^C\n--- Results after 6 passes ---\nBest: 99.643 -- Worst: 99.435 -- Average: 99.564321, Difference: 99.909666\n\n\n</pre>\n<p>\nIf you received bad value check /boot/loader.conf and add new line if it is not exists there and reboot the server:\n</p>\n<pre class=\"wiki\">kern.hz=\"1000\"\n</pre>\n        \n        \n      </div>\n<p>\u00a0</p>",
+    "description_text": " \n        \n           \nWhen calling to check balance or calling cards where response from \nAsterisk is needed you hear stuttering, like \"A.....A.....A...\" \ninstead of \"Your balance is...\"\nIt could be the problem of different clock rates. For that check zttest \n-v.\u00a0 \n  \nIf zttest -v returns \n \n Unable to open zap interface: No such file or directory\n \n \ncheck if zaptel is running. \n  \nIt could be helpful if you stop it and run again then:  \n sudo /usr/local/etc/rc.d/zaptel stop\nsudo /usr/local/etc/rc.d/zaptel start\n\n \n \nand try the test again. \n   \n \nBAD:\n \n [ssp-root@sip ~]$ sudo zttest -v\nOpened pseudo zap interface, measuring accuracy...\n^C\n--- Results after 0 passes ---\nBest: 0.000 -- Worst: 100.000 -- Average: 100.000000, Difference: 100.000000\n[ssp-root@sip ~]$ sudo zttest -v\nOpened pseudo zap interface, measuring accuracy...\n\n8192 zaptel samples in 81919.562 system clock sample intervals (999.995%)\n8192 zaptel samples in 81919.406 system clock sample intervals (999.993%)^C\n--- Results after 2 passes ---\nBest: 0.000 -- Worst: -799.995 -- Average: -799.993683, Difference: 999.993706\n\n \n \nGOOD:\n \n [ssp-root@demo-slave ~]$ sudo zttest -v\nOpened pseudo zap interface, measuring accuracy...\n\n8192 zaptel samples in 8162.784 system clock sample intervals (99.643%)\n8192 zaptel samples in 8158.584 system clock sample intervals (99.592%)\n8192 zaptel samples in 8230.561 system clock sample intervals (100.471%)\n8192 zaptel samples in 8159.032 system clock sample intervals (99.598%)\n8192 zaptel samples in 8238.312 system clock sample intervals (100.565%)\n8192 zaptel samples in 8158.328 system clock sample intervals (99.589%)^C\n--- Results after 6 passes ---\nBest: 99.643 -- Worst: 99.435 -- Average: 99.564321, Difference: 99.909666\n\n\n \n \nIf you received bad value check /boot/loader.conf and add new line if it is not exists there and reboot the server:\n \n kern.hz=\"1000\"\n \n        \n        \n       \n \u00a0 ",
+    "seo_data": {
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": ""
+    },
+    "tags": [],
+    "attachments": [],
+    "cloud_files": [],
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "suggested": 0,
+    "feedback_count": 0
+  }
+]

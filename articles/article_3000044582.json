@@ -1,0 +1,29 @@
+{
+  "id": 3000044582,
+  "type": 1,
+  "status": 2,
+  "agent_id": 4049322,
+  "created_at": "2015-11-19T16:04:06Z",
+  "category_id": 107132,
+  "folder_id": 3000008192,
+  "title": "XML-RPC API - Getting a List of Environments",
+  "updated_at": "2017-03-29T03:49:06Z",
+  "description": "<p><span style=\"background-color: rgb(255, 255, 255);\"><span style=\"color: rgb(0, 0, 0);\"><strong><font size=\"3\">listEnvironments()</font></strong></span></span></p><p><span style=\"font-family: Verdana;\"><span style=\"background-color: rgb(255, 255, 255);\"><span style=\"color: rgb(0, 0, 0);\">Allows to retrieve a list of environments. The application is available only for root customer and only in the first environment.<br>Applicable starting from <strong>4.5 version</strong>.<br></span></span></span></p><p><br><span style=\"font-family: Verdana;\"></span></p><h4 id=\"Implementationdetails\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; color: rgb(0, 0, 0);'><span style=\"font-family: Verdana;\">Implementation details</span></h4><p><span style=\"font-family: Verdana;\">This application supports trusted mode in which case <strong>i_customer</strong> (integer) parameter should be supplied.</span></p><p style='font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'><br></p><p style='font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'>Optional Parameters:</p><ul style='font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'>\n<li>offset - skip fist <strong>offset</strong> records. Applicable only if limit is specified. Integer. Optional.</li>\n<li>limit - return only <strong>limit</strong> records. Integer. Optional.</li>\n</ul><p style='font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'><br></p><p style='font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'>Returns:</p><ul style='font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'>\n<li>result - OK means that query was successful. String.</li>\n<li>environments - an array containing structures (see <a href=\"3000044255\" target=\"\">createEnvironment()</a> and <a href=\"3000044572\" target=\"\">getEnvironmentInfo()</a> for more details):<ul>\n<li>i_environment - Integer.</li>\n<li>name - String.</li>\n<li>https_cname - String.</li>\n<li>description - String.</li>\n<li>max_cps - Integer.</li>\n<li>max_sessions - Integer.<br>\n</li>\n<li>expiration_date - String.</li>\n<li>enabled - Boolean.</li>\n<li>suspend_date - String.</li>\n<li>pending_action - String.<br>\n</li>\n</ul>\n</li>\n<li><p><br></p></li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>",
+  "description_text": " listEnvironments()  Allows to retrieve a list of environments. The application is available only for root customer and only in the first environment. Applicable starting from 4.5 version.      Implementation details  This application supports trusted mode in which case i_customer (integer) parameter should be supplied.     Optional Parameters:  \n offset - skip fist offset records. Applicable only if limit is specified. Integer. Optional. \n limit - return only limit records. Integer. Optional. \n     Returns:  \n result - OK means that query was successful. String. \n environments - an array containing structures (see createEnvironment() and getEnvironmentInfo() for more details): \n i_environment - Integer. \n name - String. \n https_cname - String. \n description - String. \n max_cps - Integer. \n max_sessions - Integer. \n \n expiration_date - String. \n enabled - Boolean. \n suspend_date - String. \n pending_action - String. \n \n \n \n     \n XMLRPC fault in case of any error. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 157,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDQ0NTgyLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA5OX0.i-fmfubYGpvTqgtSwFgzrEq5HistSa2S7BMjBqhx7A4"
+  }
+}

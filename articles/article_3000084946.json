@@ -1,0 +1,29 @@
+{
+  "id": 3000084946,
+  "type": 1,
+  "status": 1,
+  "agent_id": 3763909,
+  "created_at": "2018-12-17T10:15:00Z",
+  "category_id": 81138,
+  "folder_id": 134069,
+  "title": "Archive CDRs (implemented in 4.2 version)",
+  "updated_at": "2018-12-18T14:26:13Z",
+  "description": "<p>Starting from 4.2 version, developers finalized the archive cdrs feature, which you can find and configure in the \"system parameters\" menu of your SippySoft switch.</p><p><br></p><p><img class=\"fr-dib fr-draggable fr-fil\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3041153031/original/QgI2k7o07G4NMUKSR1ms4krKvZGvemA7_w.jpg?1545125681\" style=\"width: 722px; height: 363.423px;\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3041153031/original/QgI2k7o07G4NMUKSR1ms4krKvZGvemA7_w.jpg?1545125681\" data-fileid=\"3041153031\" data-uniquekey=\"1545125661977\"></p><p><br></p><p>The archive cdrs value recommended setting higher than Purge CDRs value.</p><p><br></p><p><strong>Example:</strong></p><p><br></p><p>If you have Archive cdrs = 3 months, and Purge cdrs = 6 months, then all cdrs older then 3 months but younger then 6 months would be removed from DB and placed into archives to the mentioned folder, all those that are older then 6 months would be permanently deleted.</p><p><br></p><p>Sippy keeps archived CDRs stored on a server.</p><p><br></p><p>Sometimes customers need to have all those cdrs restored from archives to the production database that is not possible by design. As a workaround, Sippy support can upload archived CDRs to a new/separate environment.\u00a0</p><p><br></p><p><strong>Here it is the flow chart for the CDRs restoration request:</strong></p><p><strong>0. Customer sends a request to the SippySoft sales department to make an order for the extra work.\u00a0</strong></p><p><strong>1. Support calculates the estimated time for this task and informs sales.</strong></p><p><strong>2. Sales confirm the payment.</strong></p><p><strong>3. Customer allocates a free IP address on his production system for a new environment. If it is not possible, a customer can coordinate an ability to restore data on some Sippy's hosted server.</strong></p><p><strong>2. Sales team checks with support an ability to restore cdrs and support informs the client about the technical possibility.</strong></p><p><br></p>",
+  "description_text": " Starting from 4.2 version, developers finalized the archive cdrs feature, which you can find and configure in the \"system parameters\" menu of your SippySoft switch.          The archive cdrs value recommended setting higher than Purge CDRs value.     Example:     If you have Archive cdrs = 3 months, and Purge cdrs = 6 months, then all cdrs older then 3 months but younger then 6 months would be removed from DB and placed into archives to the mentioned folder, all those that are older then 6 months would be permanently deleted.     Sippy keeps archived CDRs stored on a server.     Sometimes customers need to have all those cdrs restored from archives to the production database that is not possible by design. As a workaround, Sippy support can upload archived CDRs to a new/separate environment.\u00a0     Here it is the flow chart for the CDRs restoration request:  0. Customer sends a request to the SippySoft sales department to make an order for the extra work.\u00a0  1. Support calculates the estimated time for this task and informs sales.  2. Sales confirm the payment.  3. Customer allocates a free IP address on his production system for a new environment. If it is not possible, a customer can coordinate an ability to restore data on some Sippy's hosted server.  2. Sales team checks with support an ability to restore cdrs and support informs the client about the technical possibility.    ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDg0OTQ2LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA0MX0.LvrE_Q3cRO5ccreTHEcYvqORLRV7u-x3k1bkyEYUI7c"
+  }
+}

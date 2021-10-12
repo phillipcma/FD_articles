@@ -1,0 +1,29 @@
+{
+  "id": 107431,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T17:44:36Z",
+  "category_id": 107132,
+  "folder_id": 176829,
+  "title": "XML-RPC API - Resetting one time password for Web Interface login (Customer)",
+  "updated_at": "2017-03-29T03:47:21Z",
+  "description": "<div><div>\n<p dir=\"ltr\"><font size=\"3\"><strong>resetCustomerOneTimePassword()</strong></font></p>\n<p dir=\"ltr\">This application is used to reset customer's one time password used to login into web interface. Authenticated customer can reset own password, password of its subcustomers or its users.</p>\n<p dir=\"ltr\">Parameters:</p>\n<ul><li>\n<strong>web_login</strong> - web login of customer or user. String. Required.</li></ul>\n<p dir=\"ltr\">Returns:</p>\n<ul>\n<li>\n<strong>result</strong> - <strong>OK</strong> means that the password was successfully reset. String.</li>\n<li>\n<strong>password</strong> - value the password was reset to. String.</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>\n</div></div>",
+  "description_text": "  \n resetCustomerOneTimePassword() \n This application is used to reset customer's one time password used to login into web interface. Authenticated customer can reset own password, password of its subcustomers or its users. \n Parameters: \n  \nweb_login - web login of customer or user. String. Required.  \n Returns: \n \n \nresult - OK means that the password was successfully reset. String. \n \npassword - value the password was reset to. String. \n XMLRPC fault in case of any error. \n \n  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 3,
+  "thumbs_down": 1,
+  "hits": 424,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0MzEtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDk2fQ.aCbB9uz6FLFeYCksRE18ag2W655HBNAykOxPxf1nujk"
+  }
+}

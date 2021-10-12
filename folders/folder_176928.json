@@ -1,0 +1,54 @@
+[
+  {
+    "id": 107526,
+    "type": 1,
+    "status": 2,
+    "agent_id": 3763909,
+    "created_at": "2013-07-09T19:21:08Z",
+    "category_id": 107642,
+    "folder_id": 176928,
+    "title": "OpenVPN Client Configuration",
+    "updated_at": "2021-06-10T11:11:09Z",
+    "description": "<div>\n<div dir=\"ltr\" style=\"padding-left: 18px;\">\n<h2 style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; letter-spacing: -0.018em; font-size: 16px; margin-left: -18px;' id=\"OpenVPNClientConfiguration\">OpenVPN Client Configuration\n</h2>\n<p>The OpenVPN software is free and can be downloaded from here:\u00a0<a style=\"color: rgb(187, 0, 0); border-bottom: 1px dotted rgb(187, 187, 187);\" href=\"http://openvpn.net/index.php/open-source/downloads.html\"><span style='background-image: url(\"https\"); padding-left: 12px; background-position: 50% 50%; background-repeat: no-repeat no-repeat;'>\u00a0</span>http://openvpn.net/index.php/open-source/downloads.html</a>\u00a0The latest 2.1.x version is recommended.</p>\n<p>To use the OpenVPN client with the Sippy softswitch a config file \nshould be created and several key files should be taken from the Sippy \nserver. The configuration file is a simple text file, which should \ncontain the text which is given below. Please note that under Windows \nthis file should have the name like\u00a0<b>client.ovpn</b>\u00a0or any other name with the extension\u00a0<b>'.ovpn</b>'</p>\n<p><b>client.conf:</b></p>\n<pre style=\"background-color: rgb(247, 247, 247); border: 1px solid rgb(215, 215, 215); margin: 1em 1.75em; padding: 0.25em; overflow: auto;\">client\ndev tap\nproto udp\nnobind\n\nremote YOUR_VPN_IP_HERE PORT\nresolv-retry infinite\n\npersist-key\npersist-tun\n\nca ca.crt\ncert client.crt\nkey client.key\ncipher AES-128-CBC\ncomp-lzo\nverb 3\n</pre>\n<p>Substitute the YOUR_VPN_IP_HERE with your real VPN IP. Also \nsubstitute the PORT with a real port number which can be either 53, \n1434, 5900, 40073, 21127, 36824, 51427 or 65266.</p>\n<p>The files\u00a0<b>ca.crt</b>,\u00a0<b>client.crt</b>\u00a0and\u00a0<b>client.key</b>\u00a0should be taken from the Sippy server. They are located on the server in the\u00a0<tt>/home/ssp/etc/openvpn/keys/</tt>\u00a0directory.\n You should place these files in the same directory where the \nconfiguration file resides. For security reasons keep these files \nsecret. Please do not copy any other key files from the server to the \nclient machine.</p>\n<p>To start the OpenVPN client under Windows you should right-click the \nconfiguration file and select the 'Start OpenVPN on this config file' \nmenu item.</p>\n<p>And under a UNIX-like system run:</p>\n<pre style=\"background-color: rgb(247, 247, 247); border: 1px solid rgb(215, 215, 215); margin: 1em 1.75em; padding: 0.25em; overflow: auto;\">openvpn --config client.conf\n</pre>\n</div>\n<p>\u00a0</p>\n</div>",
+    "description_text": " \n \n OpenVPN Client Configuration\n \n The OpenVPN software is free and can be downloaded from here:\u00a0\u00a0http://openvpn.net/index.php/open-source/downloads.html\u00a0The latest 2.1.x version is recommended. \n To use the OpenVPN client with the Sippy softswitch a config file \nshould be created and several key files should be taken from the Sippy \nserver. The configuration file is a simple text file, which should \ncontain the text which is given below. Please note that under Windows \nthis file should have the name like\u00a0client.ovpn\u00a0or any other name with the extension\u00a0'.ovpn' \n client.conf: \n client\ndev tap\nproto udp\nnobind\n\nremote YOUR_VPN_IP_HERE PORT\nresolv-retry infinite\n\npersist-key\npersist-tun\n\nca ca.crt\ncert client.crt\nkey client.key\ncipher AES-128-CBC\ncomp-lzo\nverb 3\n \n Substitute the YOUR_VPN_IP_HERE with your real VPN IP. Also \nsubstitute the PORT with a real port number which can be either 53, \n1434, 5900, 40073, 21127, 36824, 51427 or 65266. \n The files\u00a0ca.crt,\u00a0client.crt\u00a0and\u00a0client.key\u00a0should be taken from the Sippy server. They are located on the server in the\u00a0/home/ssp/etc/openvpn/keys/\u00a0directory.\n You should place these files in the same directory where the \nconfiguration file resides. For security reasons keep these files \nsecret. Please do not copy any other key files from the server to the \nclient machine. \n To start the OpenVPN client under Windows you should right-click the \nconfiguration file and select the 'Start OpenVPN on this config file' \nmenu item. \n And under a UNIX-like system run: \n openvpn --config client.conf\n \n \n \u00a0 \n ",
+    "seo_data": {
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": ""
+    },
+    "tags": [],
+    "attachments": [],
+    "cloud_files": [],
+    "thumbs_up": 9,
+    "thumbs_down": 3,
+    "hits": 1445,
+    "suggested": 0,
+    "feedback_count": 0
+  },
+  {
+    "id": 147686,
+    "type": 1,
+    "status": 1,
+    "agent_id": 3763909,
+    "created_at": "2013-10-09T19:20:27Z",
+    "category_id": 107642,
+    "folder_id": 176928,
+    "title": "asdasd",
+    "updated_at": "2015-09-12T20:03:05Z",
+    "description": "<p><br></p>\r\n<p><br></p>\r\n<p>\r\n\r\n<iframe src=\"https://docs.google.com/presentation/d/1oDxevyfTtzc_kudAVKkrhu3Si5uNelYUrPUxBtUoPq8/embed?start=false&amp;loop=false&amp;delayms=3000\" frameborder=\"0\" width=\"480\" height=\"389\" allowfullscreen=\"true\" style=\"line-height: normal;\"></iframe>\r\n\r\n<iframe src=\"https://docs.google.com/presentation/d/1oDxevyfTtzc_kudAVKkrhu3Si5uNelYUrPUxBtUoPq8/embed?start=false&amp;loop=false&amp;delayms=3000\" frameborder=\"0\" width=\"960\" height=\"749\" allowfullscreen=\"true\"></iframe><br></p>\r\n",
+    "description_text": "   \n   \n \n\n\n\n  \n",
+    "seo_data": {
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": ""
+    },
+    "tags": [],
+    "attachments": [],
+    "cloud_files": [],
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 48,
+    "suggested": 0,
+    "feedback_count": 0
+  }
+]

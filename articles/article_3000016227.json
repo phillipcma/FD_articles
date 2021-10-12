@@ -1,0 +1,29 @@
+{
+  "id": 3000016227,
+  "type": 1,
+  "status": 1,
+  "agent_id": 3763909,
+  "created_at": "2014-08-14T15:13:46Z",
+  "category_id": 136109,
+  "folder_id": 3000002811,
+  "title": "Conference",
+  "updated_at": "2017-08-15T10:45:11Z",
+  "description": "<h2 id=\"Conferencestepbystep\"><font size=\"5\">Step by step scenario:</font></h2><p><br></p><p><font size=\"2\">1. Login to the <strong>ssp-root</strong> web interface;</font></p><p><br></p><p>2. In the menu <strong>\"IVR applications\"</strong> add a new IVR Application. Select the type <strong>\u201dConference\u201d</strong> of IVR application</p><p><br></p><p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003706546/original/IVR_add.jpg?1408029369\" class=\"inline-image fr-dii fr-draggable\" data-id=\"3003706546\"></p><p><br></p><p>3. Add advanced parameters for your IVR application. Some details about options you can find in our official documentation:</p><p><a href=\"https://trac.sippysoft.com/trac/wiki/public/IVR/CallingCard\"><span>\u00a0</span>https://trac.sippysoft.com/trac/wiki/public/IVR/CallingCard</a></p><p><a href=\"https://trac.sippysoft.com/trac/wiki/public/IVR/CallingCard\"></a></p><p><a href=\"https://trac.sippysoft.com/trac/wiki/public/IVR/CallingCard\"><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003706582/original/IVR_add2.jpg?1408029431\" class=\"inline-image fr-dii fr-draggable\" data-id=\"3003706582\"></a></p><p><a href=\"https://trac.sippysoft.com/trac/wiki/public/IVR/CallingCard\"><br></a></p><p><a style=\"padding: 0px; border: medium none;\" href=\"https://trac.sippysoft.com/trac/attachment/wiki/support/conference/IVR_add2.jpg\"></a></p><p>4. In the DID Pool menu please add a new DID number and assign to IVR Application made in step 2.</p><p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003706609/original/did_assign_to_ivr.jpg?1408029495\" class=\"inline-image fr-dii fr-draggable\" data-id=\"3003706609\"></p><p>5. In the Accounts menu click <strong>\u201cLogin as account\u201d</strong> to make a new conference.<img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003706651/original/login_acc.jpg?1408029574\" class=\"inline-image fr-dii fr-draggable\" data-id=\"3003706651\"></p><p><a style=\"\" href=\"https://trac.sippysoft.com/trac/attachment/wiki/support/conference/login_acc.jpg\"></a></p><p><br></p><p>6. Open the page <strong>\u201cSchedule a Conference\u201d</strong> and add new conference via accounts web interface. Enter the subject of conference, select a <strong>\u201cDate\u201d</strong>, <strong>\u201cStart time\u201d</strong> and <strong>\u201cEnd time\u201d</strong> for new conference. If you want to invite someone by e-mail, <strong>type E-mails</strong> in the field <strong>\u201cInvite E-Mails\u201d</strong>. After adding information about conference press the button <strong>\u201cSchedule\u201d</strong></p><p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003723009/original/schedule_a_conf.jpg?1408083258\" class=\"inline-image fr-dii fr-draggable\" data-id=\"3003723009\"></p><p><br></p><p><a style=\"padding: 0px; border: medium none;\" href=\"https://trac.sippysoft.com/trac/attachment/wiki/support/conference/schedule_a_conf.jpg\"></a></p><p>7. After the above actions you will get an access code to joining a conference.</p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003723046/original/result_code.jpg?1408083435\" class=\"inline-image fr-dii fr-draggable\" data-id=\"3003723046\"></p><p><br></p><p>8. Send the DID number and access code to all future participants of the conference.</p><p>\u00a0</p>",
+  "description_text": " Step by step scenario:     1. Login to the ssp-root web interface;     2. In the menu \"IVR applications\" add a new IVR Application. Select the type \u201dConference\u201d of IVR application          3. Add advanced parameters for your IVR application. Some details about options you can find in our official documentation:  \u00a0https://trac.sippysoft.com/trac/wiki/public/IVR/CallingCard           4. In the DID Pool menu please add a new DID number and assign to IVR Application made in step 2.    5. In the Accounts menu click \u201cLogin as account\u201d to make a new conference.       6. Open the page \u201cSchedule a Conference\u201d and add new conference via accounts web interface. Enter the subject of conference, select a \u201cDate\u201d, \u201cStart time\u201d and \u201cEnd time\u201d for new conference. If you want to invite someone by e-mail, type E-mails in the field \u201cInvite E-Mails\u201d. After adding information about conference press the button \u201cSchedule\u201d         7. After the above actions you will get an access code to joining a conference.       8. Send the DID number and access code to all future participants of the conference.  \u00a0 ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 0,
+  "hits": 213,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDE2MjI3LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA2M30.4SMuHA-bNGF0Pqkyqh-cbNZGsqgtNZw6urokrfblARk"
+  }
+}

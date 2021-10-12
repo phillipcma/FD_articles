@@ -1,0 +1,29 @@
+{
+  "id": 130225,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T07:25:23Z",
+  "category_id": 81239,
+  "folder_id": 211608,
+  "title": "hosted env. deletion procedure",
+  "updated_at": "2021-06-10T11:11:59Z",
+  "description": "<p>\u00a0</p>\n<div class=\"wikipage searchable\">\n        \n          <h2 id=\"Generalinformation\">General information</h2>\n<p>\nIf <strong>sales department</strong> asks support team to delete some hosted environment then please follow to the instruction below.\n</p>\n<h2 id=\"Whichinformationsupportshouldhavebeforedeleting\">Which information support should have before deleting</h2>\n<ul><li>\n<strong>IP of the environment</strong> which should be deleted;\n</li></ul>\n<p>\n \n</p>\n<ul><li>Should we <strong>notify customer</strong> (who rent an environment) about deleting or not;\n</li></ul>\n<ul><li>Ask billing department to <strong>move customers record to the obsolete clients in the CRM</strong> right away;\n</li></ul>\n<h2 id=\"Stepsforenvironmentdeleting\">Steps for environment deleting</h2>\n<p>\n1) <strong>Login to the softlayer</strong> and <strong>delete notes about company</strong> name according to the necessary address.\n</p>\n<p>\nSee example where it should be deleted:\n</p>\n<p>\n<a style=\"padding:0; border:none\" href=\"https://trac.sippysoft.com/trac/attachment/wiki/support/DeleteHostedEnv/portable%20ip%20add.jpg\"><img src=\"https://trac.sippysoft.com/trac/raw-attachment/wiki/support/DeleteHostedEnv/portable%20ip%20add.jpg\"></a>\n</p>\n<p>\n2) Login to the root env of hosted server and find the required IP which should be deleted.\n</p>\n<p>\n3) Stop environment.\n</p>\n<p>\n4) Click delete.\n</p>\n<p>\n5) Notify billing @ sippysoft.com that it was done and add sales to CC.\n</p>\n\n        \n        \n      </div>",
+  "description_text": " \u00a0 \n \n        \n           General information \n \nIf sales department asks support team to delete some hosted environment then please follow to the instruction below.\n \n Which information support should have before deleting \n  \nIP of the environment which should be deleted;\n  \n \n \n \n  Should we notify customer (who rent an environment) about deleting or not;\n  \n  Ask billing department to move customers record to the obsolete clients in the CRM right away;\n  \n Steps for environment deleting \n \n1) Login to the softlayer and delete notes about company name according to the necessary address.\n \n \nSee example where it should be deleted:\n \n \n\n \n \n2) Login to the root env of hosted server and find the required IP which should be deleted.\n \n \n3) Stop environment.\n \n \n4) Click delete.\n \n \n5) Notify billing @ sippysoft.com that it was done and add sales to CC.\n \n\n        \n        \n       ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyMjUtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDc4fQ.bOZBNoSKZ3OSDex8LdJ7mCrzdj9aJp8dUfNveexWB7Y"
+  }
+}

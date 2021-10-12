@@ -1,0 +1,32 @@
+{
+  "id": 3000080560,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2018-07-31T19:21:08Z",
+  "category_id": 155349,
+  "folder_id": 3000009541,
+  "title": "What are ASR and ACD?",
+  "updated_at": "2021-06-10T11:10:25Z",
+  "description": "<p><strong>ASR - Average Seizure Ratio</strong></p><p><br></p><p>ASR is the ratio of Successfully Connected Calls to Call Attempts.\u00a0</p><p><br></p><p>Usually shown as a percentage (%), the formula is: \u00a0 <em><u>Successful (answered) Calls</u> / <u>Calls attempts</u> * <u>100</u> \u00a0</em></p><p><br></p><p>The acceptable level (%) ASR depends on the type of voice traffic you put through, and your goals in terms of revenue and traffic statistics. \u00a0It is generally understood that carriers with very low ASRs (~20%) have high volumes of calls that fail, and therefore calls that consume infrastructure resources, but with no (or very little) revenue. \u00a0 As such, higher ASRs generally equate to higher revenue/margins. \u00a0If you are experiencing low ASR statistics, you will generally see a low ACD (Average Call Duration) - often caused by high volumes of calls from Outbound Call Centers (See below). \u00a0Your Sippy Softswitch does not typically affect ASR</p><p><br></p><p>More information can be found at:<br><a href=\"https://support.sippysoft.com/support/solutions/articles/3000080552-understanding-answer-seizure-ratio-asr-\" rel=\"noreferrer noopener\" target=\"_blank\">Understanding Answer Seizure Ratio (ASR)</a></p><p><br></p><p><strong>ACD - Average Call Duration</strong></p><p><br></p><p>The Average Call Duration (ACD) is the average length of all successful (answered) calls that pass through your Softswitch. \u00a0ACD may change during peak periods (such as holidays when people leave many short voicemails) or in contrast may remain constant (for example) if your customers pass a high degree of call center traffic, ACD might remain constantly low.</p><p><br></p><p>Usually measured in seconds, the formula for ACD is:<em><u>Total duration, seconds (answered calls)</u> / <u>Total number of answered calls</u></em></p><p><br></p><p>If you are providing retail solutions, you may expect to see an ASR of 480 seconds (8 minutes), typically wholesale SIP carriers will expect to see around 300 seconds (5 minutes) whereas call centers may only expect to see 60-120 seconds (1-2 minutes). \u00a0Lower ACD traffic is generally lower profit. \u00a0Extremely low ACD is indicativesymbolic of call centers. \u00a0It may be hard to find vendors (*routes) that will accept ultra-low ACD.\u00a0</p><p><br></p><p><br></p><p><br></p>",
+  "description_text": " ASR - Average Seizure Ratio     ASR is the ratio of Successfully Connected Calls to Call Attempts.\u00a0     Usually shown as a percentage (%), the formula is: \u00a0 Successful (answered) Calls / Calls attempts * 100 \u00a0     The acceptable level (%) ASR depends on the type of voice traffic you put through, and your goals in terms of revenue and traffic statistics. \u00a0It is generally understood that carriers with very low ASRs (~20%) have high volumes of calls that fail, and therefore calls that consume infrastructure resources, but with no (or very little) revenue. \u00a0 As such, higher ASRs generally equate to higher revenue/margins. \u00a0If you are experiencing low ASR statistics, you will generally see a low ACD (Average Call Duration) - often caused by high volumes of calls from Outbound Call Centers (See below). \u00a0Your Sippy Softswitch does not typically affect ASR     More information can be found at: Understanding Answer Seizure Ratio (ASR)     ACD - Average Call Duration     The Average Call Duration (ACD) is the average length of all successful (answered) calls that pass through your Softswitch. \u00a0ACD may change during peak periods (such as holidays when people leave many short voicemails) or in contrast may remain constant (for example) if your customers pass a high degree of call center traffic, ACD might remain constantly low.     Usually measured in seconds, the formula for ACD is:Total duration, seconds (answered calls) / Total number of answered calls     If you are providing retail solutions, you may expect to see an ASR of 480 seconds (8 minutes), typically wholesale SIP carriers will expect to see around 300 seconds (5 minutes) whereas call centers may only expect to see 60-120 seconds (1-2 minutes). \u00a0Lower ACD traffic is generally lower profit. \u00a0Extremely low ACD is indicativesymbolic of call centers. \u00a0It may be hard to find vendors (*routes) that will accept ultra-low ACD.\u00a0          ",
+  "seo_data": {
+    "meta_title": "Answer Seizure Ratio (ASR) and Average Call Duration (ACDS)",
+    "meta_description": "A brief summary of what Answer Seizure Ratio (ASR) and Average Call Duration (ACD) are, how they are calculated, and links to more details on ASR and ACD and how they relate to your call statistics, as links to Sippy Softswitch monitoring and feature pages.",
+    "meta_keywords": "ASR, ACD, CPS, Call Centers, Carriers, Wholesale SIP, Wholesale VOIP, answer seizure ratio"
+  },
+  "tags": [
+    "ASR",
+    "ACD"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 2,
+  "thumbs_down": 2,
+  "hits": 1402,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDgwNTYwLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAwMn0.hm5-MNo-KBkrkyzOUeChxFVMTAV5FoHWm1zetgVmFko"
+  }
+}

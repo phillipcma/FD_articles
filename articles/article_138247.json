@@ -1,0 +1,29 @@
+{
+  "id": 138247,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-19T13:47:03Z",
+  "category_id": 136109,
+  "folder_id": 225773,
+  "title": "How Calling Card Works",
+  "updated_at": "2019-12-03T11:50:05Z",
+  "description": "<p data-identifyelement=\"448\"><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/10341336/original/ccard.png?1379598887\" class=\"inline-image fr-fic fr-dii\" data-id=\"10341336\"></p><p data-identifyelement=\"450\"><br></p><p data-identifyelement=\"452\"></p><ul data-identifyelement=\"453\"><li>To get started on configuring your Calling Card, view our\u00a0<a href=\"http://support.sippysoft.com/solution/categories/136109/folders/225773/articles/138241-calling-card-set-up\" target>Calling Card Set-Up Checklist</a> and\u00a0<a href=\"https://support.sippysoft.com/en/support/solutions/articles/183496-step-1-add-calling-card-ivr-application\">Step 1 - Add Calling Card IVR Application</a> documents.</li></ul><p data-identifyelement=\"457\"></p><p data-identifyelement=\"458\">\u00a0</p>",
+  "description_text": "        To get started on configuring your Calling Card, view our\u00a0Calling Card Set-Up Checklist and\u00a0Step 1 - Add Calling Card IVR Application documents.    \u00a0 ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 10,
+  "thumbs_down": 5,
+  "hits": 1078,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzgyNDctZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDU3fQ.xiXs7nNb3Zz-KMwFmhxtjuiEBDxkSU1uzH9Hxy4m6S8"
+  }
+}

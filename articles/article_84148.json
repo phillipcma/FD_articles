@@ -1,0 +1,29 @@
+{
+  "id": 84148,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-05-10T13:55:40Z",
+  "category_id": 81138,
+  "folder_id": 207618,
+  "title": "X-Lite Configuration for NAT traversal",
+  "updated_at": "2014-10-09T17:43:16Z",
+  "description": "<p>1. Start X-Lite application.</p>\r\n<p><br></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5569328/original/xlite-1.png?1368193863\"></p>\r\n<p><br></p>\r\n<p>2. Make a right click somewhere at the application display area. Select <b>\"SIP Account Settings...\"</b> item from the drop-down menu. <br></p>\r\n<p><br></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5569344/original/xlite-2.png?1368193902\"></p>\r\n<p><br></p>\r\n<p>3. Select your active SIP profile, press <b>\"Properties\"</b> button. <br></p>\r\n<p><br></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5569401/original/xlite-3.png?1368193973\"></p>\r\n<p><br></p>\r\n<p>4. Go to the <b>\"Topology\"</b> tab. Make sure <b>\"Use local IP address\"</b> and <b>\"Use \r\nspecified server\"</b> options are selected and uncheck<b> \"Unable ICE\"</b> \r\ncheckbox. <br></p>\r\n<p><br></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5569476/original/xlite-4.png?1368194052\"></p>\r\n<p><br></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5569499/original/xlite-5-marked.png?1368194077\"></p>\r\n<p><br></p>\r\n<p>5. Go to the<b> \"Advanced\"</b> tab. Change<b> \"Reregister every\" </b>value to <b>300</b>, \r\nmake sure <b>\"Send SIP keep-alives\"</b> and <b>\"Use rport\"</b> checkboxes are <i>checked</i>. <br></p>\r\n<p><br></p>\r\n<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5569590/original/xlite-6.png?1368194207\"></p>\r\n<p><br></p>\r\n<p><img style=\"\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5569593/original/xlite-7-marked.png?1368194222\"></p>\r\n<p></p>",
+  "description_text": " 1. Start X-Lite application. \n   \n  \n   \n 2. Make a right click somewhere at the application display area. Select \"SIP Account Settings...\" item from the drop-down menu.   \n   \n  \n   \n 3. Select your active SIP profile, press \"Properties\" button.   \n   \n  \n   \n 4. Go to the \"Topology\" tab. Make sure \"Use local IP address\" and \"Use \nspecified server\" options are selected and uncheck \"Unable ICE\" \ncheckbox.   \n   \n  \n   \n  \n   \n 5. Go to the \"Advanced\" tab. Change \"Reregister every\" value to 300, \nmake sure \"Send SIP keep-alives\" and \"Use rport\" checkboxes are checked.   \n   \n  \n   \n  \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 12,
+  "thumbs_down": 4,
+  "hits": 3141,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI4NDE0OC1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwNTF9.asDu7cHxrkoYnVZAhja9KO-kgl7_6Th0SDlLnTWaooY"
+  }
+}

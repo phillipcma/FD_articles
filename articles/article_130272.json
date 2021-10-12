@@ -1,0 +1,29 @@
+{
+  "id": 130272,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T08:42:30Z",
+  "category_id": 81239,
+  "folder_id": 211656,
+  "title": "Simple API password creation",
+  "updated_at": "2021-06-10T11:12:00Z",
+  "description": "<p>\u00a0In example password is being created for 6th env. and customer setu_api:</p>\n<p><br></p>\n<pre class=\"wiki\">&gt; <span style=\"background-color: rgb(255, 230, 148);\">sudo htpasswd -c /home/ssp/sippy_web/simpleapi/.htpassword6 setu_api</span>\nNew password:\nRe-type new password:\nAdding password for user setu_api</pre>",
+  "description_text": " \u00a0In example password is being created for 6th env. and customer setu_api: \n   \n > sudo htpasswd -c /home/ssp/sippy_web/simpleapi/.htpassword6 setu_api\nNew password:\nRe-type new password:\nAdding password for user setu_api ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyNzItZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDcxfQ.alXOPuF3g1_MY6MxPkigtdzjgs0GKvv-BHc63zvtWXY"
+  }
+}

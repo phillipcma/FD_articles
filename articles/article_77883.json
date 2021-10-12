@@ -1,0 +1,29 @@
+{
+  "id": 77883,
+  "type": 1,
+  "status": 1,
+  "agent_id": 3763909,
+  "created_at": "2013-04-22T09:28:23Z",
+  "category_id": 81138,
+  "folder_id": 134069,
+  "title": "Get exchange rate using external script",
+  "updated_at": "2020-03-31T06:10:54Z",
+  "description": "<div><div><p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size: 30px;\"><strong><u>The up-to-date version of this documentation was moved to\u00a0</u></strong></span></p><p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size: 30px;\"><strong><u><a href=\"https://support.sippysoft.com/solution/articles/3000017669-exchange-rates\" rel=\"noreferrer\">https://support.sippysoft.com/solution/articles/3000017669-exchange-rates</a></u></strong></span></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p><p dir=\"ltr\">Exchange rates can be set using external custom xrate script.</p><p><br></p><p dir=\"ltr\">The script should be created (or uploaded) on the server as <strong>/home/ssp<em>/private/scripts/xrate_update_custom.sh</em></strong></p><p><br></p><p dir=\"ltr\">When the script is available on the server, customers can set source of exchange rate update as <strong>Custom Script</strong>.<br><br>The script gets 2 arguments:</p><ul><li>currency (string)</li><li>base_currency (string)</li></ul><p dir=\"ltr\"><br>and returns:</p><ul><li>rate N base_currency units per 1 currency unit (float)</li></ul><p dir=\"ltr\"><br>Here is an example of custom script. It get the rate from Yahoo! Finance and scales it by 1.1:\u00a0</p><p>\u00a0</p><pre class=\"code-large\" contenteditable=\"false\" rel=\"highlighter\">#!/bin/sh\n#\n# Scale Yahoo! Finance rate.\n#\n# Input arguments:\n# \u00a0currency\n# \u00a0base currency\n# Returns:\n# \u00a0exchange rate\n\nSCALE=1.1\n\nif [ -e /home/ssp/scripts/xrate_update_yahoo.py ]\nthen\n\u00a0 SCRIPT=\"/home/ssp/scripts/xrate_update_yahoo.py\"\nelse\n\u00a0 SCRIPT=\"/home/ssp/scripts/xrate_update_yahoo.pyc\"\nfi\n\nRATE=`/usr/local/bin/python \"${SCRIPT}\" \"${@}\"`\n\necho \"scale=12; ${RATE} / ${SCALE}\" | /usr/bin/bc -q</pre><p>\u00a0</p><p>\u00a0</p></div></div>",
+  "description_text": "   The up-to-date version of this documentation was moved to\u00a0  https://support.sippysoft.com/solution/articles/3000017669-exchange-rates        Exchange rates can be set using external custom xrate script.     The script should be created (or uploaded) on the server as /home/ssp/private/scripts/xrate_update_custom.sh     When the script is available on the server, customers can set source of exchange rate update as Custom Script.  The script gets 2 arguments:   currency (string)  base_currency (string)    and returns:   rate N base_currency units per 1 currency unit (float)    Here is an example of custom script. It get the rate from Yahoo! Finance and scales it by 1.1:\u00a0  \u00a0  #!/bin/sh\n#\n# Scale Yahoo! Finance rate.\n#\n# Input arguments:\n# \u00a0currency\n# \u00a0base currency\n# Returns:\n# \u00a0exchange rate\n\nSCALE=1.1\n\nif [ -e /home/ssp/scripts/xrate_update_yahoo.py ]\nthen\n\u00a0 SCRIPT=\"/home/ssp/scripts/xrate_update_yahoo.py\"\nelse\n\u00a0 SCRIPT=\"/home/ssp/scripts/xrate_update_yahoo.pyc\"\nfi\n\nRATE=`/usr/local/bin/python \"${SCRIPT}\" \"${@}\"`\n\necho \"scale=12; ${RATE} / ${SCALE}\" | /usr/bin/bc -q  \u00a0  \u00a0   ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 2,
+  "thumbs_down": 2,
+  "hits": 344,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI3Nzg4My1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwMzF9.P-eZtqvT1IcHFFKcTTuT_tEOkMgMmsio7SwLQrxws6Q"
+  }
+}

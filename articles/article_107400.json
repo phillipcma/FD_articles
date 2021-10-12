@@ -1,0 +1,29 @@
+{
+  "id": 107400,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3012089524,
+  "created_at": "2013-07-09T17:31:01Z",
+  "category_id": 107132,
+  "folder_id": 176717,
+  "title": "XML-RPC API - Applying Service Plan Charges",
+  "updated_at": "2021-06-09T08:26:35Z",
+  "description": "<h2 id=\"billingRun\" style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; page-break-after: avoid; font-size: 16px; color: rgb(0, 0, 0); font-style: normal; line-height: normal;\">billingRun()<a class=\"anchor\" href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/billingRun#billingRun\" title=\"Link to this section\" style=\"color: rgb(215, 215, 215); border-style: none; font-size: 0.8em; vertical-align: text-top; visibility: hidden;\"></a>\n</h2><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">This application is used to forcibly apply service plan charges to the given account.<br></p><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Parameters:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><li>i_account - an identifier of the account. Integer. Required.</li></ul><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Returns:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\">\n<li>\n<strong>result</strong> - <strong>OK</strong>. String.</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>",
+  "description_text": " billingRun()\n  This application is used to forcibly apply service plan charges to the given account.   Parameters:   i_account - an identifier of the account. Integer. Required.   Returns:  \n \nresult - OK. String. \n XMLRPC fault in case of any error. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 514,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0MDAtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDkwfQ.AGinhQD0zwjWNIemfgqxh597xWjeshOH4q3VuFGCuzU"
+  }
+}

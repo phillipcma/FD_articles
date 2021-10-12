@@ -1,0 +1,29 @@
+{
+  "id": 107515,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T18:54:50Z",
+  "category_id": 107132,
+  "folder_id": 176917,
+  "title": "XML-RPC API - Fault Response",
+  "updated_at": "2021-06-10T11:10:23Z",
+  "description": "<div id=\"altlinks\" style=\"clear: both; text-align: center; color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\"><br></div><div class=\"wiki\" id=\"content\" style=\"padding-bottom: 2em; position: relative; color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\"><div class=\"wikipage searchable\" style=\"padding-left: 18px;\">\n<h1 id=\"Faultresponse\" style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; letter-spacing: -0.018em; page-break-after: avoid; font-size: 19px; margin: 0.15em 1em 0.5em -18px;\">Fault response<a class=\"anchor\" href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/ExmpleResponseFault#Faultresponse\" title=\"Link to this section\" style=\"color: rgb(215, 215, 215); border-style: none; font-size: 0.8em; vertical-align: text-top; visibility: hidden;\"></a>\n</h1>\n<div class=\"code\" style=\"background-color: rgb(247, 247, 247); border: 1px solid rgb(215, 215, 215); margin: 1em 1.75em; padding: 0.25em; overflow: auto;\">\n<pre style=\"background-color: rgb(255, 255, 255);\"><span class=\"cp\" style=\"color: rgb(153, 153, 153); font-weight: bold;\">&lt;?xml version='1.0'?&gt;</span>\u00a0\n\u00a0<span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;methodResponse&gt;</span>\u00a0\n\u00a0 <span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;fault&gt;</span>\u00a0\n\u00a0 \u00a0<span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;value&gt;</span>\n\u00a0 \u00a0 <span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;struct&gt;</span>\n\u00a0 \u00a0 \u00a0<span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;member&gt;</span> <span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;name&gt;</span>faultCode<span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;/name&gt;</span> <span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;value&gt;&lt;int&gt;</span>401<span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;/int&gt;&lt;/value&gt;</span> <span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;/member&gt;</span>\n\u00a0 \u00a0 \u00a0<span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;member&gt;</span> <span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;name&gt;</span>faultString<span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;/name&gt;</span> <span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;value&gt;&lt;string&gt;</span>Wrong i_tariff<span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;/string&gt;&lt;/value&gt;</span> <span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;/member&gt;</span>\n\u00a0 \u00a0 <span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;/struct&gt;</span>\n\u00a0 \u00a0<span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;/value&gt;</span>\n\u00a0 <span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;/fault&gt;</span>\n\u00a0<span class=\"nt\" style=\"color: rgb(0, 0, 128);\">&lt;/methodResponse&gt;</span>\n</pre>\n<div><span class=\"nt\" style=\"color: rgb(0, 0, 128);\"><br></span></div>\n</div>\n</div></div>",
+  "description_text": "     \n Fault response\n \n \n <?xml version='1.0'?>\u00a0\n\u00a0<methodResponse>\u00a0\n\u00a0 <fault>\u00a0\n\u00a0 \u00a0<value>\n\u00a0 \u00a0 <struct>\n\u00a0 \u00a0 \u00a0<member> <name>faultCode</name> <value><int>401</int></value> </member>\n\u00a0 \u00a0 \u00a0<member> <name>faultString</name> <value><string>Wrong i_tariff</string></value> </member>\n\u00a0 \u00a0 </struct>\n\u00a0 \u00a0</value>\n\u00a0 </fault>\n\u00a0</methodResponse>\n \n   \n \n  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 2,
+  "hits": 630,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc1MTUtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMTE0fQ.iRhtxmO47HK3sdYN_MTtgTCHQcYH9LY-FZiVEiGL1Js"
+  }
+}

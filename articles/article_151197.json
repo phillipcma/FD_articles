@@ -1,0 +1,29 @@
+{
+  "id": 151197,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-10-17T05:53:42Z",
+  "category_id": 81239,
+  "folder_id": 194482,
+  "title": "Sales technologies",
+  "updated_at": "2021-06-10T11:12:01Z",
+  "description": "<p>DNCL - Do Not Call List, feature purposed to ban inbound calls, from specific \"black\" list .<br></p>\n<p><br></p>\n<div>We have an external lookup script set up for sales technologies on\u00a072.80.56.53, (and probably soon also on\u00a072.80.56.50).</div>\n<div><br></div>\n<div>I believe Andriy gave instructions on how to enable &amp; disable DNCL using the following commands;</div>\n<div><br></div>\n<div>DISABLE:</div>\n<div>\n<div>sudo cp ~ssp/scripts/external_translator.noop ~ssp/scripts/external_translator</div>\n<div>ps axww|grep external_translator|grep -v grep|awk '{print $1}'|sudo xargs kill -9</div>\n</div>\n<div><br></div>\n<div>ENABLE:\u00a0</div>\n<div>\n<div>sudo cp ~ssp/scripts/external_translator.bak ~ssp/scripts/external_translator</div>\n<div>ps axww|grep external_translator|grep -v grep|awk '{print $1}'|sudo xargs kill -9</div>\n</div>\n<div><br></div>\n<div><br></div>\n<div><br></div>\n<div>There's one more\n important thing. In file ~ssp/scripts/external_translator.bak \u00a0there is\n a line: if cld[0] == '1' and (i_account not in (380, 376, 371, 375, \n358, 356, 342, 83, 268, 357)):</div>\n<div><br></div>\n<div><br></div>\n<div>The numbers listed there are account \nIDs. We exclude certain account IDs from DNCL, as they are exempt. I \njust added the 357 one now. It's likely that Sales Tech will wnat to \nadd/remove certain IDs until we give them the ability to do so via the \nwebinterface themselves.\u00a0</div>\n<div><br></div>\n<div>So, I believe the correct way to do this is by \nediting the file ~ssp/scripts/external_translator.bak \u00a0and then \nenabling/disabling the DNCL script.</div>\n<div><br></div>\n<div><br></div>",
+  "description_text": " DNCL - Do Not Call List, feature purposed to ban inbound calls, from specific \"black\" list .  \n   \n We have an external lookup script set up for sales technologies on\u00a072.80.56.53, (and probably soon also on\u00a072.80.56.50). \n   \n I believe Andriy gave instructions on how to enable & disable DNCL using the following commands; \n   \n DISABLE: \n \n sudo cp ~ssp/scripts/external_translator.noop ~ssp/scripts/external_translator \n ps axww|grep external_translator|grep -v grep|awk '{print $1}'|sudo xargs kill -9 \n \n   \n ENABLE:\u00a0 \n \n sudo cp ~ssp/scripts/external_translator.bak ~ssp/scripts/external_translator \n ps axww|grep external_translator|grep -v grep|awk '{print $1}'|sudo xargs kill -9 \n \n   \n   \n   \n There's one more\n important thing. In file ~ssp/scripts/external_translator.bak \u00a0there is\n a line: if cld[0] == '1' and (i_account not in (380, 376, 371, 375, \n358, 356, 342, 83, 268, 357)): \n   \n   \n The numbers listed there are account \nIDs. We exclude certain account IDs from DNCL, as they are exempt. I \njust added the 357 one now. It's likely that Sales Tech will wnat to \nadd/remove certain IDs until we give them the ability to do so via the \nwebinterface themselves.\u00a0 \n   \n So, I believe the correct way to do this is by \nediting the file ~ssp/scripts/external_translator.bak \u00a0and then \nenabling/disabling the DNCL script. \n   \n   ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxNTExOTctZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDc3fQ.TqMecdNbikzxRUq_vO7Xx7tBNFoHWuvZi2jX8MxJlGs"
+  }
+}

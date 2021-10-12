@@ -1,0 +1,31 @@
+{
+  "id": 3000040133,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2015-08-24T20:01:40Z",
+  "category_id": 107132,
+  "folder_id": 176892,
+  "title": "XML-RPC API - Replication Status methods",
+  "updated_at": "2021-06-10T11:10:24Z",
+  "description": "<p style=\"\">The following functions are only available to a root customer user.</p><p>The application support trusted mode and i_customer parameter should be supplied in this case.</p><p><br></p><h2 style=\"\"><span style=\"font-size: large;\">getReplicationStatus()</span></h2><div><span style=\"font-size: large;\"><br></span></div><h4><span rel=\"tempredactor\">Available since: V4.4</span></h4><p><br></p><p>Get the current status of replication on a given system.</p><p>Parameters:</p><ul><li><em>i_environment\u00a0</em>The environment for which the caller wants to query replication status for</li></ul><div>Returns:</div><div><ul><li><em>replication_enabled\u00a0</em>- Boolean indicating if replication is enabled</li><li><em>master\u00a0</em>- the leader host in the replication configuration</li><li><em>slave\u00a0</em> - the follower host in the replication configuration</li><li><em>replication_ok</em> - boolean indicating the presence of replication lag.</li></ul><div><br></div></div><h2 style=\"\">getReplicationLag()</h2><div>Get the current replication lag time based on slony and DB data from system.replication_test</div><div><br></div><h4>Available since: V4.4</h4><div><br></div><p>Parameters:</p><div><ul><li><em>i_environment\u00a0</em>The environment for which the caller wants to query replication status for</li></ul><div>Returns:</div></div><ul><li><em>st_lag_time\u00a0</em>- Lag time based on slony's st_lag_time parameter</li><li><em>replication_test_lag</em> - Lag time based on data based test.</li></ul>",
+  "description_text": " The following functions are only available to a root customer user.  The application support trusted mode and i_customer parameter should be supplied in this case.     getReplicationStatus()     Available since: V4.4     Get the current status of replication on a given system.  Parameters:   i_environment\u00a0The environment for which the caller wants to query replication status for   Returns:    replication_enabled\u00a0- Boolean indicating if replication is enabled  master\u00a0- the leader host in the replication configuration  slave\u00a0 - the follower host in the replication configuration  replication_ok - boolean indicating the presence of replication lag.       getReplicationLag()  Get the current replication lag time based on slony and DB data from system.replication_test     Available since: V4.4     Parameters:    i_environment\u00a0The environment for which the caller wants to query replication status for   Returns:    st_lag_time\u00a0- Lag time based on slony's st_lag_time parameter  replication_test_lag - Lag time based on data based test.  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "xmlapi"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 254,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDQwMTMzLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTExMH0.UFu4Mw5R8aQlycv52Tx9WMtfMo8JlHB5hkyUJ-VSOCc"
+  }
+}

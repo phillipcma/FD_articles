@@ -1,0 +1,29 @@
+{
+  "id": 3000044399,
+  "type": 1,
+  "status": 2,
+  "agent_id": 4049322,
+  "created_at": "2015-11-16T16:49:18Z",
+  "category_id": 107132,
+  "folder_id": 3000008192,
+  "title": "XML-RPC API - Delete Environment",
+  "updated_at": "2017-03-29T03:48:40Z",
+  "description": "<h3 id=\"getCustomerCDRs\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; font-size: 14px; color: rgb(0, 0, 0);'>deleteEnvironment()</h3><div>\n<h4 style='font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif,\"Helvetica Neue\",Helvetica,Arial,sans-serif,\"Helvetica Neue\",Helvetica,Arial,sans-serif; line-height: 21.45px;'><span rel=\"tempredactor\">Available since: V4.5.</span></h4>\n<p style=\"\">Removed<span rel=\"tempredactor\">\u00a0since 5.0 - use <a href=\"http://support.sippysoft.com/solution/articles/3000044609\" target=\"_blank\">Queue an Action for Environment</a> instead.</span></p>\n<p style=\"\"><br></p>\n</div><p><span style=\"font-family: Verdana;\">This application is used to delete an environment. The application is available only for root customer and only in the first environment.</span></p><p><span style=\"font-family: Verdana;\">Only stopped or suspended environment can be deleted.<br></span></p><p><br><span style=\"font-family: Verdana;\"></span></p><h4 id=\"Implementationdetails\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; color: rgb(0, 0, 0);'><span style=\"font-family: Verdana;\">Implementation details</span></h4><p><span style=\"font-family: Verdana;\">This application supports trusted mode in which case <strong>i_customer</strong> (integer) parameter should be supplied.<br><br>Mandatory parameters:<br></span></p><ul><li><span style=\"font-family: Verdana;\">i_environment - i_environment of updated environment. Integer.</span></li></ul><p><span style=\"font-family: Verdana;\"><strong><br>Returns:</strong><br></span></p><ul><li><span style=\"font-family: Verdana;\">result - OK means that environment has been deleted. String.<br></span></li></ul><p><br></p><ul><li><span style=\"font-family: Verdana;\">XMLRPC fault in case of any error.</span></li></ul><p><br></p>",
+  "description_text": " deleteEnvironment()  \n Available since: V4.5. \n Removed\u00a0since 5.0 - use Queue an Action for Environment instead. \n   \n  This application is used to delete an environment. The application is available only for root customer and only in the first environment.  Only stopped or suspended environment can be deleted.      Implementation details  This application supports trusted mode in which case i_customer (integer) parameter should be supplied.  Mandatory parameters:    i_environment - i_environment of updated environment. Integer.    Returns:    result - OK means that environment has been deleted. String.        XMLRPC fault in case of any error.     ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 1,
+  "hits": 96,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDQ0Mzk5LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA5OX0.RCns8g9-rifqYD668Lg5L-QpY5EkESwnLg2kX5HuiBw"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": 3000063744,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3901167,
+  "created_at": "2017-03-09T14:17:01Z",
+  "category_id": 107132,
+  "folder_id": 176917,
+  "title": "XML-RPC API - Array example in XML-RPC",
+  "updated_at": "2017-03-29T04:03:49Z",
+  "description": "<p style=\"\">Referred documentation where arrays are mandatory:</p><p style=\"\"><a href=\"http://support.sippysoft.com/solution/articles/107508-packet-sniffer-scheduler\" rel=\"noreferrer\">http://support.sippysoft.com/solution/articles/107508-packet-sniffer-scheduler</a></p><p style=\"\"><br></p><pre data-code-brush=\"xml\" rel=\"highlighter\">&lt;member&gt;&lt;name&gt;target_hosts&lt;/name&gt;\r\n&lt;value&gt;&lt;array&gt;&lt;data&gt;\r\n&lt;value&gt;&lt;string&gt;1.2.3.4&lt;/string&gt;&lt;/value&gt;\r\n&lt;value&gt;&lt;string&gt;2.2.2.2&lt;/string&gt;&lt;/value&gt;\r\n&lt;/data&gt;&lt;/array&gt;&lt;/value&gt;&lt;/member&gt;</pre><p style=\"\"><br></p><p style=\"\"><strong>Full request:</strong></p><pre class=\"code-large\" data-code-brush=\"xml\" rel=\"highlighter\">&lt;?xml version=\"1.0\"?&gt;\r\n&lt;methodCall&gt;&lt;methodName&gt;dumpIPTraffic&lt;/methodName&gt;\r\n&lt;params&gt; &lt;param&gt; &lt;value&gt;&lt;struct&gt;\r\n&lt;member&gt;&lt;name&gt;i_customer&lt;/name&gt;&lt;value&gt;&lt;int&gt;1&lt;/int&gt;&lt;/value&gt;&lt;/member&gt;\r\n&lt;member&gt;&lt;name&gt;email&lt;/name&gt;&lt;value&gt;&lt;string&gt;noreply@sippysoft.com&lt;/string&gt;&lt;/value&gt;&lt;/member&gt;\r\n&lt;member&gt;&lt;name&gt;period&lt;/name&gt;&lt;value&gt;&lt;int&gt;1&lt;/int&gt;&lt;/value&gt;&lt;/member&gt;\r\n&lt;member&gt;&lt;name&gt;interface&lt;/name&gt;&lt;value&gt;&lt;string&gt;igb1&lt;/string&gt;&lt;/value&gt;&lt;/member&gt;\r\n&lt;member&gt;&lt;name&gt;target_hosts&lt;/name&gt;\r\n&lt;value&gt;&lt;array&gt;&lt;data&gt;\r\n&lt;value&gt;&lt;string&gt;1.2.3.4&lt;/string&gt;&lt;/value&gt;\r\n&lt;value&gt;&lt;string&gt;2.2.2.2&lt;/string&gt;&lt;/value&gt;\r\n&lt;/data&gt;&lt;/array&gt;&lt;/value&gt;\r\n&lt;/member&gt;\r\n&lt;/struct&gt;&lt;/value&gt; &lt;/param&gt; &lt;/params&gt; \r\n&lt;/methodCall&gt;</pre><p style=\"\"><br></p>",
+  "description_text": " Referred documentation where arrays are mandatory:  http://support.sippysoft.com/solution/articles/107508-packet-sniffer-scheduler     <member><name>target_hosts</name>\n<value><array><data>\n<value><string>1.2.3.4</string></value>\n<value><string>2.2.2.2</string></value>\n</data></array></value></member>     Full request:  <?xml version=\"1.0\"?>\n<methodCall><methodName>dumpIPTraffic</methodName>\n<params> <param> <value><struct>\n<member><name>i_customer</name><value><int>1</int></value></member>\n<member><name>email</name><value><string>noreply@sippysoft.com</string></value></member>\n<member><name>period</name><value><int>1</int></value></member>\n<member><name>interface</name><value><string>igb1</string></value></member>\n<member><name>target_hosts</name>\n<value><array><data>\n<value><string>1.2.3.4</string></value>\n<value><string>2.2.2.2</string></value>\n</data></array></value>\n</member>\n</struct></value> </param> </params> \n</methodCall>    ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 4,
+  "hits": 2381,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDYzNzQ0LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTExNn0.KqHbxAmgOGO1jSvuhZwzDOIQlun1DBFthw7wZdxjuko"
+  }
+}

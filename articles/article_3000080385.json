@@ -1,0 +1,29 @@
+{
+  "id": 3000080385,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2018-07-25T09:12:47Z",
+  "category_id": 81138,
+  "folder_id": 133030,
+  "title": "Login details & password recovery",
+  "updated_at": "2020-01-10T00:34:26Z",
+  "description": "<h4><strong>Follow the steps below when your receive the welcome email with login details:</strong></h4><p>1) Copy the link provided in the email and paste it on your browser</p><p>2) On the login page you will see the <strong>\"Forgot your password?\"</strong> option</p><p><br></p><p><img class=\"fr-dib fr-fil\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3038047571/original/xRSWury0fI_WwucwGYtKUYBa5rT3ikozXg.jpg?1532508899\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3038047571/original/xRSWury0fI_WwucwGYtKUYBa5rT3ikozXg.jpg?1532508899\" data-fileid=\"3038047571\" data-uniquekey=\"1532507427929\" style=\"width: 199px; height: 230.001px;\"></p><p><br></p><p>3) Click on it and you will see the following page:</p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3050087854/original/2QJj9ZgH6iBiRvThf4uE8SBtF48UYtMWxQ.jpg?1578523332\" style=\"width: 198px;\" class=\"fr-fil fr-dib\" data-attachment=\"[object Object]\" data-id=\"3050087854\"></p><p><br></p><p>5) Paste the username you received in the email on the <strong>\"Username\"</strong> field as shown above</p><p>6) Be sure that <strong>\"Login Level\" = \"Customer\"</strong> and click the <strong>\"Submit\"</strong> button</p><p>7) You will see the following message:</p><p><img class=\"fr-dib fr-fil\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3038047777/original/CKTIP46pdzjpvajg5Usn6FbyqAHTq8W5pw.jpg?1532509570\" style=\"width: 208px; height: 226.003px;\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3038047777/original/CKTIP46pdzjpvajg5Usn6FbyqAHTq8W5pw.jpg?1532509570\" data-fileid=\"3038047777\" data-uniquekey=\"1532507427929\"></p><p>8) Check the mailbox associated with the email address you provided Sippy Support for password reset and you will find an email with a temporary password</p><p>9) Click the \"Back to login page\" as shown on the screenshot above, set the \"Username\" and the temporary password your received</p><p><img class=\"fr-dib fr-fil\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3038047957/original/9sq8HvaNPOYn-qQp1LP6XWxB6XcGRg50Zw.jpg?1532509879\" style=\"width: 210px; height: 210px;\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3038047957/original/9sq8HvaNPOYn-qQp1LP6XWxB6XcGRg50Zw.jpg?1532509879\" data-fileid=\"3038047957\" data-uniquekey=\"1532507427929\"></p><p>10) Click the \"Login\" button</p><p>11) The system will ask you to update the temporary password to a new one of your own</p><p>12) Set a new password in the appropriate field and you will get access to the Sippy Softswitch web interface\u00a0</p><p><br></p><p>If you need additional information contact Sippy Support via email: support@sippysoft.com</p>",
+  "description_text": " Follow the steps below when your receive the welcome email with login details:  1) Copy the link provided in the email and paste it on your browser  2) On the login page you will see the \"Forgot your password?\" option          3) Click on it and you will see the following page:       5) Paste the username you received in the email on the \"Username\" field as shown above  6) Be sure that \"Login Level\" = \"Customer\" and click the \"Submit\" button  7) You will see the following message:    8) Check the mailbox associated with the email address you provided Sippy Support for password reset and you will find an email with a temporary password  9) Click the \"Back to login page\" as shown on the screenshot above, set the \"Username\" and the temporary password your received    10) Click the \"Login\" button  11) The system will ask you to update the temporary password to a new one of your own  12) Set a new password in the appropriate field and you will get access to the Sippy Softswitch web interface\u00a0     If you need additional information contact Sippy Support via email: support@sippysoft.com ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 5,
+  "thumbs_down": 1,
+  "hits": 475,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDgwMzg1LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAwOH0.h0Ei929PUYrRWCqlDdmYoY_hq72nfFK58tm4_ywl3nk"
+  }
+}

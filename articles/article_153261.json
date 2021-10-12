@@ -1,0 +1,29 @@
+{
+  "id": 153261,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-10-22T07:03:49Z",
+  "category_id": 81239,
+  "folder_id": 194482,
+  "title": "BHAOO",
+  "updated_at": "2021-06-10T11:12:01Z",
+  "description": "<p>\u00a0</p>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">following\n applications/packages that are being used for critical jobs. Sippy team\n need to list down these applications and avoid to stop or uninstall \nthese applications in any situation.</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\"><br></div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">1.\u00a0/usr/local/etc/rc.d/zcaprc</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">2.\u00a0/usr/local/bin/zcap</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">3.\u00a0libosip2-4.0.0</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">4. libpcap</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">5. sqlite3</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">\n<br>\n</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">Python packages:</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">1.psycopg2</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">2.libftp</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\"><br></div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">\nApplication directories:</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\"><br></div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">1. /var/data<br><div>2. /root/zproc<br>3. /var/log/pcap<br>\n</div>\n</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\"><br></div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">\ncrontab entry:</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\"><br></div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">*/5 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0* \u00a0 \u00a0 \u00a0* \u00a0 \u00a0 \u00a0 * \u00a0 \u00a0 \u00a0 * \u00a0 \u00a0 \u00a0 /usr/bin/lockf -t 0 -ks /var/run/zpr.lock /root/zproc/zpr sm7</div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\"><br></div>\n<div style=\"font-family: arial,sans-serif; font-size: 12.7273px;\">Please ensure that these application/libraries are not removed from any of the Bhaoo Sippy server.</div>",
+  "description_text": " \u00a0 \n following\n applications/packages that are being used for critical jobs. Sippy team\n need to list down these applications and avoid to stop or uninstall \nthese applications in any situation. \n   \n 1.\u00a0/usr/local/etc/rc.d/zcaprc \n 2.\u00a0/usr/local/bin/zcap \n 3.\u00a0libosip2-4.0.0 \n 4. libpcap \n 5. sqlite3 \n \n \n \n Python packages: \n 1.psycopg2 \n 2.libftp \n   \n \nApplication directories: \n   \n 1. /var/data  2. /root/zproc 3. /var/log/pcap \n \n \n   \n \ncrontab entry: \n   \n */5 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0* \u00a0 \u00a0 \u00a0* \u00a0 \u00a0 \u00a0 * \u00a0 \u00a0 \u00a0 * \u00a0 \u00a0 \u00a0 /usr/bin/lockf -t 0 -ks /var/run/zpr.lock /root/zproc/zpr sm7 \n   \n Please ensure that these application/libraries are not removed from any of the Bhaoo Sippy server. ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxNTMyNjEtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDc3fQ.n_I0BI7NCHQ_2tkx_XpV1ZzBaMF_DunMe4OAs1TfO3E"
+  }
+}

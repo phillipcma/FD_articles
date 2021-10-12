@@ -1,0 +1,29 @@
+{
+  "id": 130242,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T08:07:58Z",
+  "category_id": 81239,
+  "folder_id": 133727,
+  "title": "How to increase the voicemail record length",
+  "updated_at": "2021-06-10T11:11:59Z",
+  "description": "<p>This query increase the value to 100 sec for whole system. <br></p>\n<p><br></p>\n<pre class=\"wiki\">sippy=&gt; insert into ivr_config (section, option, value, i_ivr_instance) values ('voicemail', 'maxmessagetimemsec', '100000', 1);</pre>",
+  "description_text": " This query increase the value to 100 sec for whole system.   \n   \n sippy=> insert into ivr_config (section, option, value, i_ivr_instance) values ('voicemail', 'maxmessagetimemsec', '100000', 1); ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 17,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyNDItZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDY3fQ.mD7FRTvsW0MebTAz57QP3PZhswXqDgfHr1QskALLohg"
+  }
+}

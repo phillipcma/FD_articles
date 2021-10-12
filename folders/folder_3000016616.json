@@ -1,0 +1,28 @@
+[
+  {
+    "id": 3000088086,
+    "type": 1,
+    "status": 2,
+    "agent_id": 4049322,
+    "created_at": "2019-04-08T12:55:41Z",
+    "category_id": 107132,
+    "folder_id": 3000016616,
+    "title": "TIB Subscriber Info",
+    "updated_at": "2019-06-21T14:50:59Z",
+    "description": "<p>This applications are used to manipulate TIB Subscriber Info. It is available in our latest version 5.2.</p><p>\u00a0</p><h3>Implementation details:</h3><ul><li>Trusted mode is supported and <em>i_customer</em> (integer) parameter should be supplied in this case.</li><li>Only root customer is allowed to use the API.</li></ul><p><br></p><hr><h2>tibGetSubscriberInfo()</h2><p>Get TIB Subscriber Info value.</p><p><br></p><h3>Parameters:</h3><ul><li><em>i_account</em> - account id. Integer. Mandatory.</li></ul><h3>Returns:</h3><ul><li><em>result</em> - '<strong>OK</strong>'. means that operation was successful. String.\u00a0</li><li><em>subscriber</em> - structure containing:<ul><li>subscriber_id - current value. String.</li><li>service_id - current value. String.</li></ul></li></ul><p><br></p><ul><li>XMLRPC fault in case of any error.\u00a0</li></ul><p><br></p><hr><h2>tibSetSubscriberInfo()</h2><p>Set TIB Subscriber Info value.</p><p><br></p><h3>Parameters:</h3><ul><li><em>i_account</em> - account id. Integer. Mandatory.</li><li><em>subscriber_id</em> - new value. String. Mandatory.</li><li>service_id - new value. String. Mandatory.</li></ul><h3>Returns:</h3><ul><li><em>result</em> - '<strong>OK</strong>'. means that operation was successful. String.</li></ul><p><br></p><ul><li>XMLRPC fault in case of any error.\u00a0</li></ul>",
+    "description_text": " This applications are used to manipulate TIB Subscriber Info. It is available in our latest version 5.2.  \u00a0  Implementation details:   Trusted mode is supported and i_customer (integer) parameter should be supplied in this case.  Only root customer is allowed to use the API.       tibGetSubscriberInfo()  Get TIB Subscriber Info value.     Parameters:   i_account - account id. Integer. Mandatory.   Returns:   result - 'OK'. means that operation was successful. String.\u00a0  subscriber - structure containing:  subscriber_id - current value. String.  service_id - current value. String.         XMLRPC fault in case of any error.\u00a0       tibSetSubscriberInfo()  Set TIB Subscriber Info value.     Parameters:   i_account - account id. Integer. Mandatory.  subscriber_id - new value. String. Mandatory.  service_id - new value. String. Mandatory.   Returns:   result - 'OK'. means that operation was successful. String.       XMLRPC fault in case of any error.\u00a0  ",
+    "seo_data": {
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": ""
+    },
+    "tags": [],
+    "attachments": [],
+    "cloud_files": [],
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 45,
+    "suggested": 0,
+    "feedback_count": 0
+  }
+]

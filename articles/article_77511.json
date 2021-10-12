@@ -1,0 +1,29 @@
+{
+  "id": 77511,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-04-19T12:44:01Z",
+  "category_id": 81138,
+  "folder_id": 133138,
+  "title": "IVR Applications",
+  "updated_at": "2020-02-10T21:12:03Z",
+  "description": "<h3><span style=\"font-size: 18px;\">IVR Applications</span></h3><p><br>IVR Applications is the menu that allows configuring IVR applications. Examples of IVR applications are Calling Card, ANI Callback, Top-up etc. Once created, the application can be assigned to one or more DID numbers which are referenced each time a call via a specific DID number is received.<br><br>For applications that provide language selection there is list of languages to select from. Once the application has been saved there is also a section to fine-tune the application parameters. A detailed description of advanced parameters is provided in the <a href=\"http://support.sippysoft.com/solution/categories/82218\" target>IVR Section</a>.</p><p><br></p><h3><span style=\"font-size: 18px;\">Availability</span></h3><h3></h3><p><br>Sippy Softswitch 4.0\u00a0</p>",
+  "description_text": " IVR Applications   IVR Applications is the menu that allows configuring IVR applications. Examples of IVR applications are Calling Card, ANI Callback, Top-up etc. Once created, the application can be assigned to one or more DID numbers which are referenced each time a call via a specific DID number is received.  For applications that provide language selection there is list of languages to select from. Once the application has been saved there is also a section to fine-tune the application parameters. A detailed description of advanced parameters is provided in the IVR Section.     Availability    Sippy Softswitch 4.0\u00a0 ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 4,
+  "thumbs_down": 3,
+  "hits": 963,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI3NzUxMS1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwMTR9.Hcbll22Xy2CIxDLPcb38ivdZtv4ifu7kgdVu24q2hmE"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": 3000010798,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3901167,
+  "created_at": "2014-05-21T11:48:18Z",
+  "category_id": 81138,
+  "folder_id": 134069,
+  "title": "Linksys Auto Provisioning",
+  "updated_at": "2014-05-21T11:53:43Z",
+  "description": "<p>Related to the auto-provisioning documentation:</p>\r\n<p><a href=\"http://support.sippysoft.com/solution/articles/77948-auto\" target=\"\">http://support.sippysoft.com/solution/articles/77948-auto</a></p>\r\n<p><br></p>\r\n<p>\r\nList of supported devices:</p>\r\n<ul>\n<li>SPA9000\r\n</li>\r\n<li>PAP2T\r\n</li>\r\n<li>SPA2102\r\n</li>\r\n<li>SPA3102\r\n</li>\r\n<li>SPA8000\r\n</li>\r\n<li>WRP400\r\n</li>\r\n<li>SPA901\r\n</li>\r\n<li>SPA921\r\n</li>\r\n<li>SPA922\r\n</li>\r\n<li>SPA941\r\n</li>\r\n<li>SPA942\r\n</li>\r\n<li>SPA962\r\n</li>\r\n<li>SPA525G\r\n</li>\r\n<li>WIP310\r\n</li>\r\n</ul>\n<p>\r\nProfile template:</p>\r\n<blockquote>\r\n<i>linksys.cfg</i>\r\n</blockquote>\r\n<p>\r\nAccount parameters:</p>\r\n<blockquote>CPE# should be set to MAC-address of device.\r\n</blockquote>\r\n<p>\r\nIn order to enable auto-provisioning the devices should be configured as follows:</p>\r\n<ul>\n<li>Provision Enable: Yes\r\n</li>\r\n<li>Resync On Reset: Yes\r\n</li>\r\n<li>Profile Rule: http://%%SIP_PROXY%%/provisioning/linksys-$(MAU).cfg</li>\r\n<li>where %%SIP_PROXY%% - the IP of environment\r\n\r\n</li>\r\n</ul>\n<p>\r\nAn example of profile template:</p>\r\n\r\n<pre class=\"code-large\" code-brush=\"html\" rel=\"highlighter\">&lt;flat-profile&gt;\r\n&lt;Provision_Enable&gt;Yes&lt;/Provision_Enable&gt;\r\n&lt;Resync_On_Reset&gt;Yes&lt;/Resync_On_Reset&gt;\r\n&lt;Resync_Periodic&gt;3600&lt;/Resync_Periodic&gt;\r\n&lt;Resync_From_SIP&gt;No&lt;/Resync_From_SIP&gt;\r\n&lt;Profile_Rule&gt;http://%%SIP_PROXY%%/provisioning/linksys-$(MAU).cfg&lt;/Profile_Rule&gt;\r\n&lt;Line_Enable_1_&gt;Yes&lt;/Line_Enable_1_&gt;\r\n&lt;SIP_Port_1_&gt;%%SIP_PORT%%&lt;/SIP_Port_1_&gt;\r\n&lt;Proxy_1_&gt;%%SIP_PROXY%%&lt;/Proxy_1_&gt;\r\n&lt;Register_1_&gt;Yes&lt;/Register_1_&gt;\r\n&lt;Register_Expires_1_&gt;3600&lt;/Register_Expires_1_&gt;\r\n&lt;User_ID_1_&gt;%%SIP_USERNAME%%&lt;/User_ID_1_&gt;\r\n&lt;Password_1_&gt;%%SIP_PASSWORD%%&lt;/Password_1_&gt;\r\n&lt;Auth_ID_1_&gt;%%SIP_AUTHNAME%%&lt;/Auth_ID_1_&gt;\r\n&lt;Use_Auth_ID_1_&gt;Yes&lt;/Use_Auth_ID_1_&gt;\r\n&lt;Preferred_Codec_1_&gt;G729a&lt;/Preferred_Codec_1_&gt;\r\n&lt;Use_Pref_Codec_Only_1_&gt;No&lt;/Use_Pref_Codec_Only_1_&gt;\r\n&lt;/flat-profile&gt;</pre>\r\n<p>\u00a0</p>\r\n<p>For more info regarding Linksys provisioning see <a href=\"http://www.cisco.com/en/US/docs/voice_ip_comm/csbpvga/ata/provisioning/guide/Cisco_Small_Business_IP_Telephony_Provisioning_Guide.pdf\"><span>\u00a0</span>Cisco Small Business IP Telephony Devices Provisioning Guide</a>.</p>",
+  "description_text": " Related to the auto-provisioning documentation: \n http://support.sippysoft.com/solution/articles/77948-auto \n   \n \nList of supported devices: \n \n SPA9000\n \n PAP2T\n \n SPA2102\n \n SPA3102\n \n SPA8000\n \n WRP400\n \n SPA901\n \n SPA921\n \n SPA922\n \n SPA941\n \n SPA942\n \n SPA962\n \n SPA525G\n \n WIP310\n \n \n \nProfile template: \n \nlinksys.cfg\n \n \nAccount parameters: \n CPE# should be set to MAC-address of device.\n \n \nIn order to enable auto-provisioning the devices should be configured as follows: \n \n Provision Enable: Yes\n \n Resync On Reset: Yes\n \n Profile Rule: http://%%SIP_PROXY%%/provisioning/linksys-$(MAU).cfg \n where %%SIP_PROXY%% - the IP of environment\n\n \n \n \nAn example of profile template: \n\n <flat-profile>\n<Provision_Enable>Yes</Provision_Enable>\n<Resync_On_Reset>Yes</Resync_On_Reset>\n<Resync_Periodic>3600</Resync_Periodic>\n<Resync_From_SIP>No</Resync_From_SIP>\n<Profile_Rule>http://%%SIP_PROXY%%/provisioning/linksys-$(MAU).cfg</Profile_Rule>\n<Line_Enable_1_>Yes</Line_Enable_1_>\n<SIP_Port_1_>%%SIP_PORT%%</SIP_Port_1_>\n<Proxy_1_>%%SIP_PROXY%%</Proxy_1_>\n<Register_1_>Yes</Register_1_>\n<Register_Expires_1_>3600</Register_Expires_1_>\n<User_ID_1_>%%SIP_USERNAME%%</User_ID_1_>\n<Password_1_>%%SIP_PASSWORD%%</Password_1_>\n<Auth_ID_1_>%%SIP_AUTHNAME%%</Auth_ID_1_>\n<Use_Auth_ID_1_>Yes</Use_Auth_ID_1_>\n<Preferred_Codec_1_>G729a</Preferred_Codec_1_>\n<Use_Pref_Codec_Only_1_>No</Use_Pref_Codec_Only_1_>\n</flat-profile> \n \u00a0 \n For more info regarding Linksys provisioning see \u00a0Cisco Small Business IP Telephony Devices Provisioning Guide. ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "Provisioning"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 805,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDEwNzk4LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAzN30.hkpL_V1owui9MHo4BcVL8BpTEjWyvO4Cqt-ORuYVeZc"
+  }
+}

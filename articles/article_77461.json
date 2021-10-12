@@ -1,0 +1,29 @@
+{
+  "id": 77461,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-04-19T11:22:29Z",
+  "category_id": 81138,
+  "folder_id": 133138,
+  "title": "Accounts Overview",
+  "updated_at": "2021-09-20T22:48:00Z",
+  "description": "<p><span style=\"font-size: 18px; background-color: rgb(191, 191, 191);\">Accounts Overview</span><br><br>Accounts represent logical or physical end points in the VoIP network. &nbsp;An example of a physical endpoint is a SIP phone or individual port in a multi-port device. &nbsp;An example of a logical end point is a single DID number from a pool of DID numbers which can be accessed through a Public Switch Telephone Network (PSTN) - SIP gateway.</p><p><br></p><p dir=\"ltr\">Each call going through the system is associated with one and only one 'Account'. &nbsp;The softswitch establishes an association between an incoming call and a particular Account during the Authentication phase. &nbsp;Once established, this association remains unchanged during the lifetime of the call.<br><br>The Authentication could either be performed based on VoIP Login and VoIP Password parameters, using the SIP secure digest authentication method, or on Authentication Rules associated with each Account. &nbsp;Note that SIP registration with the softswitch is only allowed using SIP secure digest authentication.</p><p><span style=\"font-size: 18px;\"><br></span></p><p><span style=\"font-size: 18px;\">See Also:</span></p><p></p><p><a href=\"http://support.sippysoft.com/support/solutions/articles/77553-understanding-authentication\" target=\"_blank\">Understanding Authentication</a></p><p><a href=\"http://support.sippysoft.com/solution/categories/81138/folders/139400/articles/84146-accounts-generator\" target=\"_blank\">Accounts Generator</a></p>",
+  "description_text": " Accounts Overview  Accounts represent logical or physical end points in the VoIP network. \u00a0An example of a physical endpoint is a SIP phone or individual port in a multi-port device. \u00a0An example of a logical end point is a single DID number from a pool of DID numbers which can be accessed through a Public Switch Telephone Network (PSTN) - SIP gateway.     Each call going through the system is associated with one and only one 'Account'. \u00a0The softswitch establishes an association between an incoming call and a particular Account during the Authentication phase. \u00a0Once established, this association remains unchanged during the lifetime of the call.  The Authentication could either be performed based on VoIP Login and VoIP Password parameters, using the SIP secure digest authentication method, or on Authentication Rules associated with each Account. \u00a0Note that SIP registration with the softswitch is only allowed using SIP secure digest authentication.     See Also:   Understanding Authentication  Accounts Generator ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 10,
+  "thumbs_down": 11,
+  "hits": 2807,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI3NzQ2MS1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwMDl9.Jn9SlLAeklVF2AZNRuWhnPW2eFbRgRxaEHyvpjNWJ_U"
+  }
+}

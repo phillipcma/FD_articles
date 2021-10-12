@@ -1,0 +1,29 @@
+{
+  "id": 3000039111,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2015-08-03T05:22:57Z",
+  "category_id": 3000001728,
+  "folder_id": 3000006753,
+  "title": "ITWmailout",
+  "updated_at": "2017-04-06T01:59:42Z",
+  "description": "<p><img class=\"fr-dib fr-draggable\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3027689178/original/B7PAdk9UysCTsDruAC-YGkOFa3BGNYvBUg.png?1491443971\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3027689178/original/B7PAdk9UysCTsDruAC-YGkOFa3BGNYvBUg.png?1491443971\" data-fileid=\"3027689178\" data-uniquekey=\"1491443961562\"></p><p><br></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3011597019/original/ITWbanner.png?1438929273\" class=\"inline-image fr-dii fr-draggable\" data-id=\"3011597019\" style=\"cursor: default; width: 513.96px; height: 216px;\" data-height=\"216\"></p><p><br></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3011598300/original/Highway.jpg?1438933337\" class=\"inline-image fr-dii fr-draggable\" data-id=\"3011598300\" data-height=\"221\" style=\"cursor: default; height: 221px;\" alt=\"Highway\"></p><p><br></p><p><br></p>",
+  "description_text": "                  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDM5MTExLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTEzNn0.qtOR65XAiGwu4OSzHg19f4ZI8WfwS-Sl7yMXjQZjA6E"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": 3000035840,
+  "type": 1,
+  "status": 1,
+  "agent_id": 3012089524,
+  "created_at": "2015-06-10T07:13:31Z",
+  "category_id": 3000001728,
+  "folder_id": 3000006722,
+  "title": "Display Precision Images",
+  "updated_at": "2020-04-10T07:33:20Z",
+  "description": "<p></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3010126082/original/Rates.png?1433920266\" class=\"inline-image\" data-id=\"3010126082\" style=\"cursor: default;\"></p><p><br></p><p><br></p><p></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3010126094/original/Display%20Precision.png?1433920281\" class=\"inline-image\" data-id=\"3010126094\" style=\"cursor: default;\"></p><p><br></p><p><br></p><p></p><p></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3010126142/original/Changed%20Rates.png?1433920361\" class=\"inline-image\" data-id=\"3010126142\" style=\"cursor: default;\"></p><p><br></p><p><br></p>",
+  "description_text": "                            ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDM1ODQwLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTEzNH0.uEBRDcsqE81s6fLs8HMrOPK0ZnNw2i4kxNS53KnTGKg"
+  }
+}

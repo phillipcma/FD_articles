@@ -1,0 +1,31 @@
+{
+  "id": 3000016224,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2014-08-14T14:53:40Z",
+  "category_id": 136109,
+  "folder_id": 3000002809,
+  "title": "How to make connection for a vendor with dynamic IP",
+  "updated_at": "2021-04-09T18:25:58Z",
+  "description": "<p dir=\"ltr\"><span style=\"font-size: 16px;\">This article provides information and instructions for routing calls to Vendors where the Vendor's gateway has a Dynamic IP address or is behind NAT.</span></p><p><span style=\"font-size: 16px;\"><br></span></p><p><span style=\"font-size: 16px;\"><u><font size=\"3\"><strong>Solutions:</strong></font></u></span></p><ul><li dir=\"ltr\"><span style=\"font-size: 16px;\">Create a domain name for the Vendor's gateway.</span></li><li dir=\"ltr\"><span style=\"font-size: 16px;\">Create a connection with the environment's IP address (see the scenario below):</span></li></ul><p><span style=\"font-size: 16px;\"><br></span></p><p dir=\"ltr\"><span style=\"font-size: 16px;\">You have to create two Accounts (for example <strong>666001</strong> and <strong>666003</strong>) and a special connection (with IP address of environment, name - \"local connection\").</span></p><p dir=\"ltr\"><span style=\"font-size: 16px;\"><br></span></p><p dir=\"ltr\"><span style=\"font-size: 16px;\">First, Account <strong>666001</strong> will receive calls and route them to our \"local connection\".</span></p><p><span style=\"font-size: 16px;\"><br></span></p><p><span dir=\"ltr\" style=\"font-size: 16px;\">In the connection properties you have to specify CLD Translation rule:</span></p><p><span style=\"font-size: 16px;\"><span style=\"background-color: rgb(216, 216, 216);\">s/^/666003;cld=/</span></span></p><p><span style=\"font-size: 16px;\"><span style=\"background-color: rgb(216, 216, 216);\"><br></span></span></p><p dir=\"ltr\"><span style=\"font-size: 16px;\">Result will be something like this:</span></p><p><span style=\"font-size: 16px;\"><span dir=\"ltr\" style=\"background-color: rgb(216, 216, 216);\">[ssp-root@demo-slave ~]$ python /home/ssp/sippy/re_test.py 's/^/666003;cld=/' 380663833754<br>666003;cld=380663833754\u00a0</span></span><span dir=\"ltr\" style=\"font-size: 16px;\">and the IP of your environment.\u00a0</span></p><p><br></p><p><span dir=\"ltr\" style=\"font-size: 16px;\">Add a second Account 666003 to your environment so you can use it for gateway registration (gateway will be the same as UA, Customer should register the 666003 Account on the gateway of his Vendor).</span></p><p><br></p><p><span dir=\"ltr\" style=\"font-size: 16px;\">The result will be that the connection will send calls to the Account 666003.</span></p><p><span style=\"font-size: 16px;\"><br></span></p><p><span style=\"font-size: 16px;\">See screenshot of your connection:</span></p><p> <u><strong><br></strong></u></p><p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3003706497/original/local_conection.jpg?1408029281\" class=\"inline-image fr-dii\" data-id=\"3003706497\"></p><p><br></p><hr><p><span style=\"font-size: 18px;\">With this configuration Sippy will send the following <strong>To:</strong> header</span></p><div><pre contenteditable=\"false\" data-code-brush=\"Html\" rel=\"highlighter\"><span style=\"font-size: 18px;\">To: &lt;sip:666003;cld=380663833754@1.1.1.1&gt;</span></pre><p><span dir=\"ltr\" style=\"font-size: 18px;\">Removal of \"<strong>666003;cld</strong>\" is possible with the assistance of the Support team.</span></p></div>",
+  "description_text": " This article provides information and instructions for routing calls to Vendors where the Vendor's gateway has a Dynamic IP address or is behind NAT.     Solutions:   Create a domain name for the Vendor's gateway.  Create a connection with the environment's IP address (see the scenario below):      You have to create two Accounts (for example 666001 and 666003) and a special connection (with IP address of environment, name - \"local connection\").     First, Account 666001 will receive calls and route them to our \"local connection\".     In the connection properties you have to specify CLD Translation rule:  s/^/666003;cld=/     Result will be something like this:  [ssp-root@demo-slave ~]$ python /home/ssp/sippy/re_test.py 's/^/666003;cld=/' 380663833754 666003;cld=380663833754\u00a0and the IP of your environment.\u00a0     Add a second Account 666003 to your environment so you can use it for gateway registration (gateway will be the same as UA, Customer should register the 666003 Account on the gateway of his Vendor).     The result will be that the connection will send calls to the Account 666003.     See screenshot of your connection:            With this configuration Sippy will send the following To: header   To: <sip:666003;cld=380663833754@1.1.1.1>  Removal of \"666003;cld\" is possible with the assistance of the Support team.  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "dynamic IP"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 2,
+  "thumbs_down": 5,
+  "hits": 1373,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDE2MjI0LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA2M30.GOdVEgL-RFh7mCh3fU9icbcLCc4KWiMcTcg8yWllgls"
+  }
+}

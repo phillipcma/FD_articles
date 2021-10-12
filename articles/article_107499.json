@@ -1,0 +1,29 @@
+{
+  "id": 107499,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T18:48:15Z",
+  "category_id": 107132,
+  "folder_id": 176892,
+  "title": "XML-RPC API - Apply Translation Rule",
+  "updated_at": "2021-06-10T11:11:09Z",
+  "description": "<h2 id=\"applyTranslationRule\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; font-size: 16px; color: rgb(0, 0, 0); line-height: normal;'>applyTranslationRule()</h2><p><br></p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>This application is to check the result of <a href=\"http://support.sippysoft.com/support/solutions/articles/77869-understanding-number-translation\" target=\"\">number translation</a>.</p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'><br></p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>Method could be used to check the following rules:</p><ul>\n<li><h4>CLD Tr. Rule on Account</h4></li>\n<li><h4>CLI Tr. Rule on Account</h4></li>\n<li><h4>CLD Tr. Rule on Authentication Rules of Account</h4></li>\n<li><h4>CLI Tr. Rule on Authentication Rules of Account</h4></li>\n<li><h4>CLD Translation Rule on Connection</h4></li>\n<li><h4>CLI Translation Rule on Connection</h4></li>\n<li><h4>CLI Translation Rule on Authentication Rules of DID</h4></li>\n<li><h4>CLD Tr. Rule on Account Class</h4></li>\n<li><h4>CLI Tr. Rule on Account Class</h4></li>\n</ul><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'><br>Parameters:<br></p><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>\n<li>rule - translation rule to be applied. String. Required.</li>\n<li>number - the number to be translated. String. Optional. Default is empty string.</li>\n</ul><p><span rel=\"tempredactor\" style=\"\">Returns:</span></p><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>\n<li>\n<strong>result</strong> - <strong>OK</strong> means that translation rule has correct syntax. String.</li>\n<li>\n<strong>number</strong> - the result of translation. String.</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>",
+  "description_text": " applyTranslationRule()     This application is to check the result of number translation.     Method could be used to check the following rules:  \n  CLD Tr. Rule on Account  \n  CLI Tr. Rule on Account  \n  CLD Tr. Rule on Authentication Rules of Account  \n  CLI Tr. Rule on Authentication Rules of Account  \n  CLD Translation Rule on Connection  \n  CLI Translation Rule on Connection  \n  CLI Translation Rule on Authentication Rules of DID  \n  CLD Tr. Rule on Account Class  \n  CLI Tr. Rule on Account Class  \n   Parameters:   \n rule - translation rule to be applied. String. Required. \n number - the number to be translated. String. Optional. Default is empty string. \n  Returns:  \n \nresult - OK means that translation rule has correct syntax. String. \n \nnumber - the result of translation. String. \n XMLRPC fault in case of any error. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 3,
+  "thumbs_down": 8,
+  "hits": 1728,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0OTktZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMTA3fQ.rZPnHok3t86xeV6o-36hnloUBt0n-8pF2P_3c5924kc"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": 3000096270,
+  "type": 1,
+  "status": 1,
+  "agent_id": 3901167,
+  "created_at": "2020-01-22T07:45:27Z",
+  "category_id": 3000004254,
+  "folder_id": 3000016350,
+  "title": "Awesome article",
+  "updated_at": "2021-02-04T17:19:27Z",
+  "description": "<p>sadasdasd</p><p>test</p><p><br></p><p>New edit for testing of the upload</p><p><br></p><div><pre contenteditable=\"false\" data-code-brush=\"Generic Language\" rel=\"highlighter\">function soch() {\n    sec_to_monday=`echo \"($(date -v +Monday -v 00H -v 00M -v 00S +'%s') - $(date +'%s'))\"`\n    days_to_monday=`echo \"${sec_to_monday} / (3600*24)\" | bc`\n    hours_to_monday=`echo \"(${sec_to_monday} - (${days_to_monday} * (3600*24))) / 3600\" | bc`\n    minutes_to_monday=`echo \"( ( ${sec_to_monday} - (${days_to_monday} * (3600*24)) - (${hours_to_monday} * 3600) ) / 60)\" | bc`\n    seconds_to_monday=`echo \"( ${sec_to_monday} - (${days_to_monday} * (3600*24)) - (${hours_to_monday} * 3600) - (${minutes_to_monday} *60) )\" | bc`\n    echo \"Monday will start in ${days_to_monday} days, ${hours_to_monday} hours, ${minutes_to_monday} minutes, ${seconds_to_monday} seconds\"\n}</pre><p><br></p></div><p>asdsadasd</p><p><br></p><p>test publish</p>",
+  "description_text": " sadasdasd  test     New edit for testing of the upload      function soch() {\n    sec_to_monday=`echo \"($(date -v +Monday -v 00H -v 00M -v 00S +'%s') - $(date +'%s'))\"`\n    days_to_monday=`echo \"${sec_to_monday} / (3600*24)\" | bc`\n    hours_to_monday=`echo \"(${sec_to_monday} - (${days_to_monday} * (3600*24))) / 3600\" | bc`\n    minutes_to_monday=`echo \"( ( ${sec_to_monday} - (${days_to_monday} * (3600*24)) - (${hours_to_monday} * 3600) ) / 60)\" | bc`\n    seconds_to_monday=`echo \"( ${sec_to_monday} - (${days_to_monday} * (3600*24)) - (${hours_to_monday} * 3600) - (${minutes_to_monday} *60) )\" | bc`\n    echo \"Monday will start in ${days_to_monday} days, ${hours_to_monday} hours, ${minutes_to_monday} minutes, ${seconds_to_monday} seconds\"\n}      asdsadasd     test publish ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDk2MjcwLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MDk5MX0.Zz7YdgLjNGFFznlzu6ga6_q5F3mo81cspR0FluZ9Dbc"
+  }
+}

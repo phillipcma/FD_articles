@@ -1,0 +1,29 @@
+{
+  "id": 3000069538,
+  "type": 1,
+  "status": 1,
+  "agent_id": 3763909,
+  "created_at": "2017-08-16T08:42:50Z",
+  "category_id": 81239,
+  "folder_id": 3000009545,
+  "title": " Escalation of Freshdesk tickets to Billing department",
+  "updated_at": "2017-08-16T08:42:50Z",
+  "description": "<p style=\"\">How to</p>",
+  "description_text": " How to ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDY5NTM4LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA3OX0.c02l2KAjO2gJeSsKsJVi5UN6ZlnL-w3GOgu_o7CkB7s"
+  }
+}

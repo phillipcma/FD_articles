@@ -1,0 +1,29 @@
+{
+  "id": 3000091273,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2019-07-15T07:19:54Z",
+  "category_id": 133603,
+  "folder_id": 219723,
+  "title": "Sippy Softswitch v.5.2 Menu Changes",
+  "updated_at": "2020-03-02T22:05:41Z",
+  "description": "<p>Starting from v.5.2 SippySoft reorganized the Web Navigation Menu. \u00a0To simplify the process of navigation, Sippy implemented a <strong>\"Search\"</strong> field that will make your work more efficient and clear. \u00a0You can find more details about navigation changes in the following video tutorial:</p><p><br></p><p><span class=\"fr-video fr-fvc fr-dvb fr-draggable fr-fvl fr-active\"><iframe src=\"https://www.youtube.com/embed/oUp-VvZR2rk?wmode=opaque\" allowfullscreen=\"\" class=\"fr-draggable\" sandbox=\"allow-scripts allow-forms allow-same-origin allow-presentation\" width=\"640\" height=\"360\" frameborder=\"0\"></iframe></span></p><p><br></p><p><span data-test-id=\"article-description\"></span></p><p><span style=\"font-size: 16px;\"><strong>More video tutorials you may find on our official <span style=\"color: rgb(184, 49, 47);\">YouTube</span> channel by the following link:</strong></span></p><p><a href=\"https://www.youtube.com/user/sippysoft\">https://www.youtube.com/user/sippysoft</a></p><p></p>",
+  "description_text": " Starting from v.5.2 SippySoft reorganized the Web Navigation Menu. \u00a0To simplify the process of navigation, Sippy implemented a \"Search\" field that will make your work more efficient and clear. \u00a0You can find more details about navigation changes in the following video tutorial:            More video tutorials you may find on our official YouTube channel by the following link:  https://www.youtube.com/user/sippysoft  ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 1,
+  "hits": 254,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDkxMjczLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MDk5Nn0._rwpORdNvYnAmPFjxNTHIBWfLLiz5e2-sXCS3SAbL50"
+  }
+}

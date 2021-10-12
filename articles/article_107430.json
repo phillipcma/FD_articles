@@ -1,0 +1,29 @@
+{
+  "id": 107430,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T17:43:51Z",
+  "category_id": 107132,
+  "folder_id": 176829,
+  "title": "XML-RPC API - Authenticating Customers",
+  "updated_at": "2021-06-10T11:11:08Z",
+  "description": "<h3 id=\"authCustomer\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; font-size: 14px; color: rgb(0, 0, 0); line-height: normal;'>authCustomer()<a class=\"anchor\" href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/authCustomer#authCustomer\" title=\"Link to this section\" style=\"color: rgb(215, 215, 215); border-style: none; font-size: 0.8em; vertical-align: text-top; visibility: hidden;\"></a>\n</h3><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>This application is used to authenticate a customer.</p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>Parameters:</p><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>\n<li>username - username to login to selfcare interface. String. Required.</li>\n<li>password - password to login to selfcare interface. String. Required.</li>\n</ul><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>Returns:</p><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'>\n<li>\n<strong>result</strong> - <strong>OK</strong> means that customer has been successfully authenticated. String.</li>\n<li>\n<strong>i_customer</strong> - i_customer of authenticated customer. Integer.</li>\n<li>\n<strong>i_web_user</strong> - i_web_user of authenticated customer. Integer.</li>\n<li>\n<strong>i_access_level</strong> - i_access_level of authenticated customer. String.</li>\n<li>XMLRPC fault in case of any error.</li>\n<li>Error code <strong>410</strong> is returned when customer was successfully authenticated by One Time Password (see <strong><a class=\"wiki\" href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/resetCustomerOneTimePassword\" style=\"color: rgb(187, 0, 0); border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(187, 187, 187);\">resetCustomerOneTimePassword()</a></strong>).</li>\n</ul>",
+  "description_text": " authCustomer()\n  This application is used to authenticate a customer.  Parameters:  \n username - username to login to selfcare interface. String. Required. \n password - password to login to selfcare interface. String. Required. \n  Returns:  \n \nresult - OK means that customer has been successfully authenticated. String. \n \ni_customer - i_customer of authenticated customer. Integer. \n \ni_web_user - i_web_user of authenticated customer. Integer. \n \ni_access_level - i_access_level of authenticated customer. String. \n XMLRPC fault in case of any error. \n Error code 410 is returned when customer was successfully authenticated by One Time Password (see resetCustomerOneTimePassword()). \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 1,
+  "hits": 794,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0MzAtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDk2fQ.P_zWkYpbHr-olRHq-V9QmUMsLyktPG_UHCHNIy2JQVY"
+  }
+}

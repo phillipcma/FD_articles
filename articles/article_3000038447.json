@@ -1,0 +1,29 @@
+{
+  "id": 3000038447,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2015-07-22T12:55:26Z",
+  "category_id": 81239,
+  "folder_id": 133727,
+  "title": "Internal scripts and system structure",
+  "updated_at": "2016-06-06T13:12:35Z",
+  "description": "<div>\n<div>\r\n<div>\r\n<div dir=\"ltr\">\r\n<p></p>\r\n<p></p>\u00a0<p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3011192547/original/blob1437571891631.png?1437571897\" class=\"inline-image\" data-id=\"3011192547\"></p>\r\n<p></p>\r\n<p></p>\r\n<p></p>\r\n<p></p>\r\n<br>\r\n<p dir=\"ltr\">See the spreadsheet with all needed services and places where they should be restarted:</p>\r\n<p dir=\"ltr\"><a href=\"https://docs.google.com/spreadsheets/d/1xFAIBb5smF98f13Qi5kMEzgqF-xCijA9soXVj5XJqys/edit#gid=122281313&amp;vpid=A1\" target=\"_blank\">List of services</a></p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+  "description_text": " \n \n \n \n \n \u00a0  \n \n \n \n \n \n See the spreadsheet with all needed services and places where they should be restarted: \n List of services \n \n \n \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 11,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDM4NDQ3LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA2OH0.gUcoH0XMlqt2VndV5JDfOjsiHJ4QCfL4lKwOjKhEBI0"
+  }
+}

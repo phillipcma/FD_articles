@@ -1,0 +1,29 @@
+{
+  "id": 3000086671,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3012089524,
+  "created_at": "2019-02-25T17:53:10Z",
+  "category_id": 3000004254,
+  "folder_id": 3000016351,
+  "title": "manually created article for testing",
+  "updated_at": "2020-04-02T14:28:08Z",
+  "description": "<p>here is me quick editing</p><p>It works!!!</p><p><br></p><p>another modification for testing purposes</p><p><br></p><p>test to see if it reports two modified articles.</p><p><br></p><p>This shoudl fail the next commit prompting a response to ryver.</p><p><br></p><p>this was a manually created article to see if i can see the contents.</p><p><br></p><p>test modification to check modification time stamps.</p><p><br></p><p><br></p><p>A sample 4x3 table</p><table style=\"width: 100%;\"><tbody><tr><td style=\"width: 25%;\">heading_1</td><td style=\"width: 25%;\">heading_______2</td><td style=\"width: 25%;\">heading3</td><td style=\"width: 25%;\">heading4</td></tr><tr><td style=\"width: 25%;\">asdf sdfds4r44322</td><td style=\"width: 25%;\">fdsas</td><td style=\"width: 25%;\">asdfa</td><td style=\"width: 25%;\">asdfasdf</td></tr><tr><td style=\"width: 25%;\">*&amp;()(&amp;(*^</td><td style=\"width: 25%;\">4rweq561`2w1</td><td style=\"width: 25%;\">asdfa</td><td style=\"width: 25%;\">asdfasdf<br><br>and a line break</td></tr></tbody></table><p><br></p><p><br></p><p><br></p><p><br></p><p>and here is an attachment for good measure.</p><p><br></p><p>Sad panda looks like this:</p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3042556370/original/p9fMa6xbtilVPMOFxM83OZxhbqyFCfJHoA.gif?1551117181\" class=\"fr-fic fr-dib\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3042556370/original/p9fMa6xbtilVPMOFxM83OZxhbqyFCfJHoA.gif?1551117181\" data-fileid=\"3042556370\" data-uniquekey=\"1551116982967\">\u00a0\u00a0!!!</p>",
+  "description_text": " here is me quick editing  It works!!!     another modification for testing purposes     test to see if it reports two modified articles.     This shoudl fail the next commit prompting a response to ryver.     this was a manually created article to see if i can see the contents.     test modification to check modification time stamps.        A sample 4x3 table  heading_1  heading_______2  heading3  heading4  asdf sdfds4r44322  fdsas  asdfa  asdfasdf  *&()(&(*^  4rweq561`2w1  asdfa  asdfasdf  and a line break              and here is an attachment for good measure.     Sad panda looks like this:  \u00a0\u00a0!!! ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 2,
+  "thumbs_down": 0,
+  "hits": 36,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDg2NjcxLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MDk5MX0.AUXchhp-FusDWfbZJIAL56iofCApQuly9k0gbLnScf0"
+  }
+}

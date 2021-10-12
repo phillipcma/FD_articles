@@ -1,0 +1,29 @@
+{
+  "id": 130251,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T08:21:21Z",
+  "category_id": 81239,
+  "folder_id": 133727,
+  "title": "Test Bandwidth",
+  "updated_at": "2021-06-10T11:12:00Z",
+  "description": "<p>\u00a0<i># <span style=\"background-color: rgb(255, 230, 148);\">cd /usr/ports/benchmarks/iperf &amp;&amp; make install &amp;&amp; make clean</span></i><br></p>\n<p>\nClient side:<i> # iperf -c server_host</i><br>\nServer side: <i># iperf -s</i>\n</p>",
+  "description_text": " \u00a0# cd /usr/ports/benchmarks/iperf && make install && make clean  \n \nClient side: # iperf -c server_host \nServer side: # iperf -s\n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 28,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyNTEtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDY3fQ.vmoCialpnwtzSv6DRh2xz1jyrCdhSApobNLWDiAmZ5g"
+  }
+}

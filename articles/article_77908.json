@@ -1,0 +1,29 @@
+{
+  "id": 77908,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-04-22T10:50:08Z",
+  "category_id": 81138,
+  "folder_id": 134069,
+  "title": "CSS Branding for Customers",
+  "updated_at": "2019-08-27T18:34:26Z",
+  "description": "<p>It is possible to change CSS style for sub-accounts, owned by different customers.So accounts will see the difference in colors and style between different resellers. CSS stylesheet code can be configured in \"CSS\" field for customer. The stylesheet should override definitions in Sippy default CSS style (/styles.css)<br><br>The same can be done for login screen (when the user has not yet signed in, so we don't know the reseller yet), in this case you should have DNS configured for different Customers. For example you have 2 Customers, that should have different style, your actions are:</p><ul><li>configure DNS record, for example reseller1.somedomain.com to point to your Sippy IP address.</li><li>configure DNS record, for example reseller2.somedomain.com to point to your Sippy IP address.\u00a0</li><li>open Customers page, navigate to needed Customer, in its Advanced Parameters open Customer Mods.</li><li>configure CSS styles and DNS aliases for customers accordingly.</li></ul><p><img data-uniquekey=\"1534771696350\" data-fileid=\"3038571094\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3038571094/original/4vub6M4z36g1_cvYuVlRSSwVGqaz2dyMbA.jpg?1534775314\" style=\"width: 755px; height: 199.129px;\" class=\"fr-dib fr-fil\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3038571094/original/4vub6M4z36g1_cvYuVlRSSwVGqaz2dyMbA.jpg?1534775314\"></p><p><img data-uniquekey=\"1534771696350\" data-fileid=\"3038571155\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3038571155/original/q77LSBeW3nDU2z2C-k5TMafcw7DaHCOSiw.jpg?1534775460\" style=\"width: 755px; height: 439.633px;\" class=\"fr-dib fr-fil\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3038571155/original/q77LSBeW3nDU2z2C-k5TMafcw7DaHCOSiw.jpg?1534775460\"></p><p><br></p><p><span style=\"font-size: 16px;\">Example of CSS:</span></p><pre class=\"code-large\" data-code-brush=\"css\" rel=\"highlighter\">body {\n\u00a0 background-color: green;\n}\n\nh2 {\n\u00a0 colour: blue;\n\u00a0 background-color: yellow;\n\u00a0 border: 1px solid black;\n}\n\noption {\n\u00a0 colour: blue;\n\u00a0 background-color: yellow;\n\u00a0 border: 1px solid black;\n}\n\ntd {\n\u00a0 text-decoration: underline;\n\u00a0 colour: red;\n\u00a0 background-color: yellow;\n\u00a0 border: 1px solid black;\n}</pre><p><br></p><p><br></p><p>Some additional branding options can be found here:</p><div rel=\"clipboard_data\"><a href=\"https://support.sippysoft.com/a/solutions/articles/77907\">https://support.sippysoft.com/a/solutions/articles/77907</a>\u00a0</div><p><br></p><p><span style=\"font-size: 18px;\">Availability</span><br>Sippy Softswitch 2.2</p>",
+  "description_text": " It is possible to change CSS style for sub-accounts, owned by different customers.So accounts will see the difference in colors and style between different resellers. CSS stylesheet code can be configured in \"CSS\" field for customer. The stylesheet should override definitions in Sippy default CSS style (/styles.css)  The same can be done for login screen (when the user has not yet signed in, so we don't know the reseller yet), in this case you should have DNS configured for different Customers. For example you have 2 Customers, that should have different style, your actions are:   configure DNS record, for example reseller1.somedomain.com to point to your Sippy IP address.  configure DNS record, for example reseller2.somedomain.com to point to your Sippy IP address.\u00a0  open Customers page, navigate to needed Customer, in its Advanced Parameters open Customer Mods.  configure CSS styles and DNS aliases for customers accordingly.          Example of CSS:  body {\n\u00a0 background-color: green;\n}\n\nh2 {\n\u00a0 colour: blue;\n\u00a0 background-color: yellow;\n\u00a0 border: 1px solid black;\n}\n\noption {\n\u00a0 colour: blue;\n\u00a0 background-color: yellow;\n\u00a0 border: 1px solid black;\n}\n\ntd {\n\u00a0 text-decoration: underline;\n\u00a0 colour: red;\n\u00a0 background-color: yellow;\n\u00a0 border: 1px solid black;\n}        Some additional branding options can be found here:  https://support.sippysoft.com/a/solutions/articles/77907\u00a0     Availability Sippy Softswitch 2.2 ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 3,
+  "thumbs_down": 1,
+  "hits": 758,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI3NzkwOC1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwMzN9.Ht8wc18E8gAfJiBeK3VrliVS8UanZbGecsagWIUGxuk"
+  }
+}

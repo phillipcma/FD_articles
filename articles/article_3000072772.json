@@ -1,0 +1,36 @@
+{
+  "id": 3000072772,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3901167,
+  "created_at": "2017-12-05T08:11:12Z",
+  "category_id": 81138,
+  "folder_id": 134069,
+  "title": "Support for 3xx SIP redirect response codes",
+  "updated_at": "2020-01-03T13:48:07Z",
+  "description": "<p><span style=\"font-size: 16px;\"><strong>The Sippy Softswitch can be configured to react to the 301 Moved Permanently, 302 Moved Temporarily and 300 Multiple Choices responses received from the Vendor when routing a call.</strong></span></p><p><br></p><ul><li>The 301 Moved Permanently and 302 Moved Temporarily responses instruct the Softswitch to send another INVITE to the SIP URI which is specified in the field Contact of the SIP response. If the Contact field contains several URIs then the first one is used. If the destination UA responds with any error code then the Softswitch continues hunting by selecting the next Routing Group entry.</li></ul><p><br></p><ul><li>The 300 Multiple Choices allows to hunt several URIs from the Contact field of the SIP response. The URIs are sorted by the q= URI parameter value from highest to lowest and tried one by one. If all the redirect attempts were unsuccessful then the Softswitch continues with the next Routing Group entry.</li></ul><p><br></p><p>The feature is controlled in the Vendor Connection properties by the field <strong>Accept 3xx Redirects</strong> and it is accompanied by the <strong>Redirect Depth Limit</strong> setting which controls the maximum number of subsequent redirects when redirected call receives another 3xx response. In case of 300 Multiple Choices redirect the <strong>Redirect Depth Limit</strong> limits the maximum number of the hunt attempts.</p><p><br></p><p>Processing of 3xx responses is described in <a href=\"https://tools.ietf.org/html/rfc3261#page-43\" rel=\"noreferrer noopener\">RFC 3261</a></p><p><br></p><p>The CDRs for the call redirect attempts (both successful and unsuccessful) are written with the original Vendor Connection identifier and use exactly the same Destination Set Route which was chosen originally. The outbound CLD is taken directly from the 3xx Contact field and no translation is applied.</p><p>All timeouts are applied to each Redirect attempt based on timeouts configured in Connection and route from Destination Set as if each of the URIs is the separate Routing Entry.</p><p><br></p><p><span style=\"font-size: 18px;\"><strong>Example of Contact header with multiple URIs in 300 Multiple choices response:</strong></span></p><p><br></p><p style=\"margin-left: 60px;\">Contact: sip:000111111111111@5.5.5.5;q=0.99, sip:111111111111@4.4.4.4;q=1.00, sip:299111111111111@6.6.6.6;q=0.98</p><p><br></p><p>If the <strong>Accept 3xx Redirects</strong> option is enabled and <strong>Redirect Depth Limit</strong> setting is higher then 3, then\u00a0</p><p>the call would be sent first to 4.4.4.4 with CLD=111111111111, if it's not connected in time,</p><p>5.5.5.5 would be tried with CLD=000111111111111, if the call is not terminated (dropped with error, or timeout, etc),\u00a0</p><p>the last 6.6.6.6 would have the call sent with CLD=299111111111111</p><p><span style=\"color: rgb(226, 80, 65);\"><br></span></p><p><em><strong><span style=\"color: rgb(226, 80, 65);\">** Support for \"300 Multiple Choices\",\"301 Moved Permanently\",<em><strong><span style=\"color: rgb(226, 80, 65);\">\"302 Moved Temporarily\"\u00a0</span></strong></em>were implemented from 5.1 version.</span></strong></em></p>",
+  "description_text": " The Sippy Softswitch can be configured to react to the 301 Moved Permanently, 302 Moved Temporarily and 300 Multiple Choices responses received from the Vendor when routing a call.      The 301 Moved Permanently and 302 Moved Temporarily responses instruct the Softswitch to send another INVITE to the SIP URI which is specified in the field Contact of the SIP response. If the Contact field contains several URIs then the first one is used. If the destination UA responds with any error code then the Softswitch continues hunting by selecting the next Routing Group entry.       The 300 Multiple Choices allows to hunt several URIs from the Contact field of the SIP response. The URIs are sorted by the q= URI parameter value from highest to lowest and tried one by one. If all the redirect attempts were unsuccessful then the Softswitch continues with the next Routing Group entry.      The feature is controlled in the Vendor Connection properties by the field Accept 3xx Redirects and it is accompanied by the Redirect Depth Limit setting which controls the maximum number of subsequent redirects when redirected call receives another 3xx response. In case of 300 Multiple Choices redirect the Redirect Depth Limit limits the maximum number of the hunt attempts.     Processing of 3xx responses is described in RFC 3261     The CDRs for the call redirect attempts (both successful and unsuccessful) are written with the original Vendor Connection identifier and use exactly the same Destination Set Route which was chosen originally. The outbound CLD is taken directly from the 3xx Contact field and no translation is applied.  All timeouts are applied to each Redirect attempt based on timeouts configured in Connection and route from Destination Set as if each of the URIs is the separate Routing Entry.     Example of Contact header with multiple URIs in 300 Multiple choices response:     Contact: sip:000111111111111@5.5.5.5;q=0.99, sip:111111111111@4.4.4.4;q=1.00, sip:299111111111111@6.6.6.6;q=0.98     If the Accept 3xx Redirects option is enabled and Redirect Depth Limit setting is higher then 3, then\u00a0  the call would be sent first to 4.4.4.4 with CLD=111111111111, if it's not connected in time,  5.5.5.5 would be tried with CLD=000111111111111, if the call is not terminated (dropped with error, or timeout, etc),\u00a0  the last 6.6.6.6 would have the call sent with CLD=299111111111111     ** Support for \"300 Multiple Choices\",\"301 Moved Permanently\",\"302 Moved Temporarily\"\u00a0were implemented from 5.1 version. ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [
+    "3XX",
+    "3XX Redirect",
+    "300 redirect",
+    "SIP Redirect",
+    "SIP Response Code Mapping",
+    "300 mapping"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 3,
+  "thumbs_down": 0,
+  "hits": 1430,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDcyNzcyLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA0MH0.6EZ234AaoP-CK9S_qyw80EMptz_LH1VtvWRweRHlvyM"
+  }
+}

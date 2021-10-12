@@ -1,0 +1,29 @@
+{
+  "id": 107408,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T17:35:04Z",
+  "category_id": 107132,
+  "folder_id": 176717,
+  "title": "XML-RPC API - Getting Rates of an Account",
+  "updated_at": "2021-06-10T11:11:08Z",
+  "description": "<h3 style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; page-break-after: avoid; font-size: 14px; color: rgb(0, 0, 0); font-style: normal; line-height: normal;\">getAccountRates()<a href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/getAccountRates#getAccountRates\" title=\"Link to this section\" style=\"color: rgb(215, 215, 215); border-style: none; font-size: 0.8em; vertical-align: text-top; visibility: hidden;\"></a>\n</h3><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">This application is used to get rates of an account.</p><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Parameters:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\">\n<li>i_account - i_account of account. Integer. Required.</li>\n<li>offset - skip fist <strong>offset</strong> CDRs. Integer. Optional.</li>\n<li>limit - return only <strong>limit</strong> CDRs. Integer. Optional.</li>\n<li>prefix - fetch rates like <strong>prefix</strong>. String. Optional.</li>\n</ul><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Returns:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\">\n<li>\n<strong>result</strong> - <strong>OK</strong> means that query was successfully. String.</li>\n<li>\n<strong>currency</strong> - rates currency. String</li>\n<li>\n<strong>rates</strong> - an array containing structures:<ul>\n<li>\n<strong>prefix</strong> - Prefix. String.</li>\n<li>\n<strong>country</strong> - Country. String</li>\n<li>\n<strong>description</strong> - Description. String.</li>\n<li>\n<strong>rate</strong> - Rate. Double.</li>\n<li>\n<strong>local_rate</strong> - Local rate (if tariff has enabled local calling). Double.</li>\n</ul>\n</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>",
+  "description_text": " getAccountRates()\n  This application is used to get rates of an account.  Parameters:  \n i_account - i_account of account. Integer. Required. \n offset - skip fist offset CDRs. Integer. Optional. \n limit - return only limit CDRs. Integer. Optional. \n prefix - fetch rates like prefix. String. Optional. \n  Returns:  \n \nresult - OK means that query was successfully. String. \n \ncurrency - rates currency. String \n \nrates - an array containing structures: \n \nprefix - Prefix. String. \n \ncountry - Country. String \n \ndescription - Description. String. \n \nrate - Rate. Double. \n \nlocal_rate - Local rate (if tariff has enabled local calling). Double. \n \n \n XMLRPC fault in case of any error. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 2,
+  "hits": 1062,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0MDgtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDkxfQ.u6rS2EZNIehyMNeVXQ-6z6LSR_QpLNmUyClbwNzizRY"
+  }
+}

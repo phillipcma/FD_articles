@@ -1,0 +1,29 @@
+{
+  "id": 107487,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3012089524,
+  "created_at": "2013-07-09T18:44:31Z",
+  "category_id": 107132,
+  "folder_id": 176892,
+  "title": "XML-RPC API - Retrieve Service Plan Information",
+  "updated_at": "2021-06-10T06:54:41Z",
+  "description": "<h3 dir=\"ltr\" id=\"getServicePlanInfo\" style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; page-break-after: avoid; font-size: 14px; color: rgb(0, 0, 0); line-height: normal;\"><span style=\"font-size: 18px;\">getServicePlanInfo()</span></h3><p><br></p><h2 data-identifyelement=\"213\" style='box-sizing: border-box; font-family: Arial, Verdana, \"Bitstream Vera Sans\", Helvetica, sans-serif; font-weight: bold; line-height: normal; color: rgb(0, 0, 0); margin-bottom: 0px; margin-left: 0px; font-size: 16px;'><span style=\"font-size: 13px;\">The application supports <strong data-identifyelement=\"214\" style=\"box-sizing: border-box; font-weight: 700;\">trusted mode</strong> and <strong data-identifyelement=\"215\" style=\"box-sizing: border-box; font-weight: 700;\">i_customer</strong> parameter should be supplied in this case.</span></h2><p><br></p><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\">Allows to retrieve all attributes of a given service plan. To be found the service plan is to belong to the customer that authenticated the request, unless trusted mode is used.</p><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\"><br></p><p dir=\"ltr\" style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\"><span style=\"font-size: 16px;\">Parameters:</span></p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\"><ul><li><strong>i_billing_plan</strong> (integer). Required</li></ul></ul><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\"><span style=\"font-size: 16px;\">Returns:</span></p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\"><ul><li>result - <strong>OK</strong> means that service plan has been found. String.</li><li>service plan in a form of structure:<ul><li>i_billing_plan - i_billing_plan of service plan. Integer.</li><li>i_tariff - i_tariff of service plan. Integer.</li><li>i_customer - i_customer of customer owns service plan. Integer.</li><li>name - name of service plan. String.</li><li>description - description of service plan. String.</li><li>suspend_all_calls - if calls should be suspended when all limits are exhausted. Boolean.</li><li>billing_cycle - billing cycle type. Integer. Possible values are:<ul><li>1 - weekly</li><li>2 - bi-weekly</li><li>3 - monthly</li></ul></li><li>iso_4217 - currency of service plan. String.</li><li>prepaid - if the service plan is prepaid one. Boolean.</li></ul></li></ul></ul><h4 id=\"Trustedmode\" style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; page-break-after: avoid; color: rgb(0, 0, 0); font-size: 13px; font-style: normal; line-height: normal;\"><br></h4>",
+  "description_text": " getServicePlanInfo()     The application supports trusted mode and i_customer parameter should be supplied in this case.     Allows to retrieve all attributes of a given service plan. To be found the service plan is to belong to the customer that authenticated the request, unless trusted mode is used.     Parameters:    i_billing_plan (integer). Required    Returns:    result - OK means that service plan has been found. String.  service plan in a form of structure:  i_billing_plan - i_billing_plan of service plan. Integer.  i_tariff - i_tariff of service plan. Integer.  i_customer - i_customer of customer owns service plan. Integer.  name - name of service plan. String.  description - description of service plan. String.  suspend_all_calls - if calls should be suspended when all limits are exhausted. Boolean.  billing_cycle - billing cycle type. Integer. Possible values are:  1 - weekly  2 - bi-weekly  3 - monthly    iso_4217 - currency of service plan. String.  prepaid - if the service plan is prepaid one. Boolean.        ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 3,
+  "hits": 1040,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0ODctZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMTA2fQ.IV6o0RHxSss9JPbatG_hM9vT0RMWj8IgSTXemY4WSqw"
+  }
+}

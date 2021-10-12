@@ -1,0 +1,29 @@
+{
+  "id": 3000043578,
+  "type": 1,
+  "status": 2,
+  "agent_id": 4049322,
+  "created_at": "2015-10-28T11:27:14Z",
+  "category_id": 107132,
+  "folder_id": 3000008192,
+  "title": "XML-RPC API - List IP-addresses configured on SSP softswitch",
+  "updated_at": "2017-03-29T03:47:58Z",
+  "description": "<h3 id=\"getCustomerCDRs\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; font-size: 14px; color: rgb(0, 0, 0);'><font size=\"3\">listSwitchIPs()</font></h3><div><font size=\"3\"><br></font></div><div><h4 style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 21.45px;\"><span rel=\"tempredactor\">Available since: V4.5</span></h4></div><p><br></p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'>This application is used to list IP addresses configured on a softswitch. The application returns the status of each IP-address. Only IP-address with <strong>AVAILABLE</strong> status can be assigned to an environment. This application is available only for root customer and only in the first environment.<br></p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'><br></p><h4 id=\"Implementationdetails\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; color: rgb(0, 0, 0);'>Implementation details</h4><p><span style=\"font-family: Verdana;\">This application supports trusted mode in which case <strong>i_customer</strong> (integer) parameter should be supplied.</span></p><p><br></p><p><span style=\"font-family: Verdana;\">Parameters:<br></span></p><blockquote>\n<span style=\"font-family: Verdana;\">None.</span><br>\n</blockquote><p><br></p><p style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'>Returns:</p><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif;'>\n<li>result - OK means that query was successfully. String.</li>\n<li>ips - an array containing structures:<ul>\n<li>ip - IP-address. String.</li>\n<li>status - status of the IP-address. String. Possible values:<ul>\n<li>INUSE - IP-address is assigned to an environment</li>\n<li>AVAILABLE - IP-address can be assigned to an environment<br>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul><p><br></p>",
+  "description_text": " listSwitchIPs()      Available since: V4.5      This application is used to list IP addresses configured on a softswitch. The application returns the status of each IP-address. Only IP-address with AVAILABLE status can be assigned to an environment. This application is available only for root customer and only in the first environment.      Implementation details  This application supports trusted mode in which case i_customer (integer) parameter should be supplied.     Parameters:   \nNone. \n     Returns:  \n result - OK means that query was successfully. String. \n ips - an array containing structures: \n ip - IP-address. String. \n status - status of the IP-address. String. Possible values: \n INUSE - IP-address is assigned to an environment \n AVAILABLE - IP-address can be assigned to an environment \n \n \n \n \n \n    ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 452,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDQzNTc4LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA5N30.a0fPmwyUb9s1FAf0CWVINJuIWzQzaHGGfdU2HCKGbhY"
+  }
+}

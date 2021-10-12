@@ -1,0 +1,29 @@
+{
+  "id": 79563,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-04-26T16:05:54Z",
+  "category_id": 81239,
+  "folder_id": 211689,
+  "title": "unreasonable BYE from b2b after 200 OK",
+  "updated_at": "2021-06-10T11:11:58Z",
+  "description": "<p>\u00a0</p>\n<div>Please consider as \"well-known-issue\" :</div>\n<div>when calls have zero duration, and log shows that b2b sends BYE imidiately after called party 200 OK response - it means</div>\n<div>that strackerd is stucked. Do restart for related env.</div>\nP.S. I faced the problem two times, both on hosted servers",
+  "description_text": " \u00a0 \n Please consider as \"well-known-issue\" : \n when calls have zero duration, and log shows that b2b sends BYE imidiately after called party 200 OK response - it means \n that strackerd is stucked. Do restart for related env. \nP.S. I faced the problem two times, both on hosted servers",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI3OTU2My1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwNjV9.cYY5KMxDWH3jqsmfZpA_7G5i6A4CGFoMg-acA78aLWQ"
+  }
+}

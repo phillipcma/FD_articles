@@ -1,0 +1,29 @@
+{
+  "id": 77907,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-04-22T10:47:32Z",
+  "category_id": 81138,
+  "folder_id": 134069,
+  "title": "Branding",
+  "updated_at": "2019-08-27T18:35:48Z",
+  "description": "<h3><span style=\"font-size: 18px;\">Overview</span></h3><p><br>The softswitch contains several branding features. It is possible to customize login logo (1) and welcome text (2):</p><p><br></p><p><img alt=\"\" style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5034477/original/login_screen.png?1366627481\" class=\"fr-dii\"></p><p>As well as browser title text after login:</p><p><br></p><p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5034540/original/title.png?1366627599\" class=\"fr-dii\"></p><p><br></p><p>To change login text or title text go to the System Parameters menu, put in new values and click Save. To replace image first delete the old one by turning on \"Delete\" checkbox in the Login Image item and clicking \"Save\" and them upload a new one by clicking on Browse, selcting a new image and clicking Save.</p><p><br></p><p><img style=\"cursor: default;\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5034556/original/branding.png?1366627634\" class=\"fr-dii\"></p><p><br></p><p>Sippy Support team can also hide a \"System Information\" page if needed. Just contact our support team and you will get assistance on this.</p><p><br></p><p>For some additional information on branding we suggest you also read this article:</p><p><a href=\"https://support.sippysoft.com/a/solutions/articles/77908\" rel=\"noreferrer\">https://support.sippysoft.com/a/solutions/articles/77908</a></p><p><br></p>",
+  "description_text": " Overview   The softswitch contains several branding features. It is possible to customize login logo (1) and welcome text (2):       As well as browser title text after login:          To change login text or title text go to the System Parameters menu, put in new values and click Save. To replace image first delete the old one by turning on \"Delete\" checkbox in the Login Image item and clicking \"Save\" and them upload a new one by clicking on Browse, selcting a new image and clicking Save.          Sippy Support team can also hide a \"System Information\" page if needed. Just contact our support team and you will get assistance on this.     For some additional information on branding we suggest you also read this article:  https://support.sippysoft.com/a/solutions/articles/77908    ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 3,
+  "thumbs_down": 2,
+  "hits": 522,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiI3NzkwNy1lbiIsIlVzZXJJZCI6IjMwMTIwODk1MjQiLCJleHAiOjE2MzUzNzEwMzJ9.tchL9dO-VUBAmF56SetDnSeQGzrNH91yrnh4nmCQu_M"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": 107419,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3901167,
+  "created_at": "2013-07-09T17:41:23Z",
+  "category_id": 107132,
+  "folder_id": 176829,
+  "title": "XML-RPC API - Updating Customers",
+  "updated_at": "2020-08-12T12:05:18Z",
+  "description": "<div dir=\"ltr\"><h3 id=\"updateCustomer\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; font-size: 14px;  color: rgb(0, 0, 0); line-height: normal;'>updateCustomer()</h3><p><br></p><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\">This application is used to update a customer. Only sub-customer that belongs to authenticated customer can be updated.</p><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\"><br></p><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\"><strong>Implementation details</strong>:</p><ul style='color: rgb(0, 0, 0); font-family: Verdana,Arial,\"Bitstream Vera Sans\",Helvetica,sans-serif; line-height: normal;'><li>Any parameter from <strong><a href=\"https://support.sippysoft.com/en/support/solutions/articles/107417-xml-rpc-api-creating-new-customer\">createCustomer()</a>\u00a0</strong>function can be used. All parameters are optional, but at least one should be specified.</li><li>This function supports trusted mode in which case <strong>i_wholesaler</strong> (integer) parameter should be supplied.</li></ul><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\">Parameters:</p><ul><li><span style=\"color: rgb(0, 0, 0);\"><span style=\"font-family: Verdana;\">i_customer - i_customer of updated customer. Integer. Required.</span></span></li></ul><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; line-height: normal;\">Returns:</p><ul><li><span style=\"font-family: Verdana;\"><span style=\"color: rgb(0, 0, 0);\"><strong>result</strong> - <strong>OK</strong> means that customer has been updated successfully. String.</span></span></li></ul><ul><li><span style=\"font-family: Verdana;\"><span style=\"color: rgb(0, 0, 0);\">XMLRPC fault in case of any error.</span></span></li></ul></div>",
+  "description_text": "  updateCustomer()     This application is used to update a customer. Only sub-customer that belongs to authenticated customer can be updated.     Implementation details:   Any parameter from createCustomer()\u00a0function can be used. All parameters are optional, but at least one should be specified.  This function supports trusted mode in which case i_wholesaler (integer) parameter should be supplied.   Parameters:   i_customer - i_customer of updated customer. Integer. Required.   Returns:   result - OK means that customer has been updated successfully. String.    XMLRPC fault in case of any error.   ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 0,
+  "hits": 741,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0MTktZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDk0fQ.oxhTzPci51sDN5jaI8BTYjeuOZCInv1jlN9Uhi7iT1w"
+  }
+}

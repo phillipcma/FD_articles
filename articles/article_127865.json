@@ -1,0 +1,29 @@
+{
+  "id": 127865,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-08-27T08:53:40Z",
+  "category_id": 81138,
+  "folder_id": 207618,
+  "title": "List of tested softphones",
+  "updated_at": "2020-05-19T17:01:08Z",
+  "description": "<p>Below is a list of of available Softphones that have been tested and extensively used with the Sippy Softswitch:</p><p><br></p><p><strong>X-Lite</strong> (<a href=\"http://support.sippysoft.com/support/solutions/articles/127921-how-to-register-account-on-the-x-lite-softphone-\" target=\"_blank\">How to setup</a>)<br><em>Windows 2000/XP, Mac OS X</em></p><p>(<a href=\"http://www.counterpath.com/x-lite.html\" target>download</a>)</p><p><br></p><p><span style=\"color: rgb(79, 97, 40);color: rgb(255, 0, 0);\"><strong><span style=\"color: rgb(0, 0, 0);\">Website \u2013 <a href=\"https://www.3cx.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.3cx.com</a>\u00a0</span></strong></span>(<a href=\"https://www.3cx.com/user-manual/installation-windows/\" rel=\"noopener noreferrer\" target=\"_blank\">How to setup</a>)</p><p><a href=\"https://www.3cx.com/voip/softphone/\" rel=\"noopener noreferrer\" target=\"_blank\"><em>Windows</em></a><em>, Linux, MAC OS X, IOS, Android<br></em></p><p>(<a href=\"https://www.3cx.com/phone-system/download-links/\" rel=\"noopener noreferrer\" target=\"_blank\">download</a>)</p><p><br></p><p><strong>Microsip</strong> (<a href=\"http://support.sippysoft.com/solution/articles/3000015893-\" target>How to setup</a>)<br><em>Windows XP/Vista/Windows 7</em></p><p>(<a href=\"http://www.microsip.org/downloads\" target>download</a>)</p><p><br></p><p><strong>eyeBeam</strong><br><em>Windows 2000/XP/Vista, Mac OS X</em></p><p>(<a href=\"http://www.counterpath.com/eyebeam.html\" target=\"_blank\">download</a>)</p><p><br><strong>Ekiga</strong><br><em>Windows, Linux</em></p><p>(<a href=\"http://www.ekiga.org/download-ekiga-binaries-or-source-code\" target>download</a>)</p><p><br></p><p><strong>Express Talk</strong><br><em>Windows 98/ME/2000/XP/2003/Vista, Mac OS X</em></p><p>(<a href=\"http://www.nch.com.au/talk/index.html\" target=\"_blank\">download</a>)</p><p><br></p><p><strong>PhonerLite</strong><br><em>Windows</em></p><p>(<a href=\"http://phonerlite.de/download_en.htm\" target=\"_blank\">download</a>)</p><p><br></p><p><strong>KPhone</strong><br><em>Linux</em></p><p>(<a href=\"http://sourceforge.net/projects/kphone/\" target=\"_blank\">download</a>)</p><p><br><strong>Linphone</strong><br><em>Linux, Windows, FreeBSD, OpenBSD</em>\u00a0</p><p>(<a href=\"http://www.linphone.org/\" target=\"_blank\">download</a>)</p><p><br></p><p><strong>Twinkle</strong><br><em>Linux</em></p><p>(<a href=\"http://www.twinklephone.com/\" target=\"_blank\">download</a>)</p><p><br></p><p><strong>ZoIPer</strong><br><em>Windows, Mac OS X, Linux</em></p><p>(<a href=\"http://www.zoiper.com/softphone/\" target=\"_blank\">download</a>)</p><p><br></p>",
+  "description_text": " Below is a list of of available Softphones that have been tested and extensively used with the Sippy Softswitch:     X-Lite (How to setup) Windows 2000/XP, Mac OS X  (download)     Website \u2013 https://www.3cx.com\u00a0(How to setup)  Windows, Linux, MAC OS X, IOS, Android   (download)     Microsip (How to setup) Windows XP/Vista/Windows 7  (download)     eyeBeam Windows 2000/XP/Vista, Mac OS X  (download)   Ekiga Windows, Linux  (download)     Express Talk Windows 98/ME/2000/XP/2003/Vista, Mac OS X  (download)     PhonerLite Windows  (download)     KPhone Linux  (download)   Linphone Linux, Windows, FreeBSD, OpenBSD\u00a0  (download)     Twinkle Linux  (download)     ZoIPer Windows, Mac OS X, Linux  (download)    ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 8,
+  "thumbs_down": 5,
+  "hits": 2484,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMjc4NjUtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDUwfQ.YsD8wlSKEnlMBSHUVIQNTx9GgB25DENUQFVhx10Lsqg"
+  }
+}

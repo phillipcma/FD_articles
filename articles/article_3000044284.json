@@ -1,0 +1,29 @@
+{
+  "id": 3000044284,
+  "type": 1,
+  "status": 2,
+  "agent_id": 4049322,
+  "created_at": "2015-11-13T16:56:20Z",
+  "category_id": 107132,
+  "folder_id": 3000008192,
+  "title": "XML-RPC API - Update Environment",
+  "updated_at": "2017-03-29T03:48:27Z",
+  "description": "<h3 id=\"getCustomerCDRs\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; font-size: 14px; color: rgb(0, 0, 0);'>updateEnvironment()</h3><div><h4 style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 21.45px;\"><span rel=\"tempredactor\">Available since: V4.5</span></h4></div><p><span style=\"font-family: Verdana;\">This application is used to update an environment. The application is available only for root customer and only in the first environment.</span></p><p><br><span style=\"font-family: Verdana;\"></span></p><h4 id=\"Implementationdetails\" style='font-family: Arial,Verdana,\"Bitstream Vera Sans\",Helvetica,sans-serif; font-weight: bold; color: rgb(0, 0, 0);'><span style=\"font-family: Verdana;\">Implementation details</span></h4><p><span style=\"font-family: Verdana;\">This application supports trusted mode in which case <strong>i_customer</strong> (integer) parameter should be supplied.<br><br>Mandatory parameters:<br></span></p><ul><li><span style=\"font-family: Verdana;\">i_environment - i_environment of updated environment. Integer.</span></li></ul><p><br></p><p><span style=\"font-family: Verdana;\">Optional parameters:</span><span style=\"font-family: Verdana;\"><br></span></p><ul><li><span style=\"font-family: Verdana;\">any parameter from <a href=\"3000044255\" target=\"_blank\">createEnvironment()</a><a href=\"3000044255\" target=\"_blank\"></a></span></li></ul><h2>\n<br><span style=\"font-family: Verdana;\"></span>\n</h2><h2><span style=\"font-family: Verdana;\"><font size=\"2\"><strong>Returns:</strong></font><br></span></h2><ul><li><span style=\"font-family: Verdana;\">result - OK means that environment has been updated. String.<br></span></li></ul><p><br></p><ul><li><span style=\"font-family: Verdana;\">XMLRPC fault in case of any error.</span></li></ul><p><br></p>",
+  "description_text": " updateEnvironment()   Available since: V4.5   This application is used to update an environment. The application is available only for root customer and only in the first environment.     Implementation details  This application supports trusted mode in which case i_customer (integer) parameter should be supplied.  Mandatory parameters:    i_environment - i_environment of updated environment. Integer.      Optional parameters:    any parameter from createEnvironment()   \n \n  Returns:    result - OK means that environment has been updated. String.        XMLRPC fault in case of any error.     ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 135,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDQ0Mjg0LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTA5OH0.9X4mW5MmFr0fdgAoNzXv1qgvDUqaQM1DdYXJPeJdSGI"
+  }
+}

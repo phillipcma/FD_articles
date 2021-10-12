@@ -1,0 +1,29 @@
+{
+  "id": 107421,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-07-09T17:41:42Z",
+  "category_id": 107132,
+  "folder_id": 176829,
+  "title": "XML-RPC API - Deleting Customers",
+  "updated_at": "2021-06-10T11:11:08Z",
+  "description": "<h3 id=\"deleteCustomer\" style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; page-break-after: avoid; font-size: 14px; color: rgb(0, 0, 0); font-style: normal; line-height: normal;\">deleteCustomer()<a class=\"anchor\" href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/deleteCustomer#deleteCustomer\" title=\"Link to this section\" style=\"color: rgb(215, 215, 215); border-style: none; font-size: 0.8em; vertical-align: text-top; visibility: hidden;\"></a>\n</h3><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">This application is used to delete a customer. Only customer that belongs to authenticated customer can be delete.</p><h4 id=\"Implementationdetails\" style=\"font-family: Arial, Verdana, 'Bitstream Vera Sans', Helvetica, sans-serif; font-weight: bold; page-break-after: avoid; color: rgb(0, 0, 0); font-size: 13px; font-style: normal; line-height: normal;\">Implementation details<a class=\"anchor\" href=\"https://trac.sippysoft.com/trac/wiki/public/XMLAPI/deleteCustomer#Implementationdetails\" title=\"Link to this section\" style=\"color: rgb(215, 215, 215); border-style: none; font-size: 0.8em; vertical-align: text-top; visibility: hidden;\"></a>\n</h4><blockquote style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\"><p>This function supports trusted mode in which case <strong>i_wholesaler</strong> (integer) parameter should be supplied.</p></blockquote><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Parameters:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\"><li>i_customer - i_customer of deleted customer. Integer. Required.</li></ul><p style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-style: normal; line-height: normal;\">Returns:</p><ul style=\"color: rgb(0, 0, 0); font-family: Verdana, Arial, 'Bitstream Vera Sans', Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal;\">\n<li>\n<strong>result</strong> - <strong>OK</strong> means that customer has been deleted successfully. String.</li>\n<li>XMLRPC fault in case of any error.</li>\n</ul>",
+  "description_text": " deleteCustomer()\n  This application is used to delete a customer. Only customer that belongs to authenticated customer can be delete.  Implementation details\n   This function supports trusted mode in which case i_wholesaler (integer) parameter should be supplied.   Parameters:   i_customer - i_customer of deleted customer. Integer. Required.   Returns:  \n \nresult - OK means that customer has been deleted successfully. String. \n XMLRPC fault in case of any error. \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 1,
+  "hits": 331,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMDc0MjEtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDk0fQ.Ce7nhtUsDr7Dfik1ae5ydtUr99dqjknuNBVYMdLBbCQ"
+  }
+}

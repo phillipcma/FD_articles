@@ -1,0 +1,32 @@
+{
+  "id": 3000094710,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3005443018,
+  "created_at": "2019-12-03T10:11:46Z",
+  "category_id": 81138,
+  "folder_id": 133138,
+  "title": "Users",
+  "updated_at": "2020-02-19T00:42:05Z",
+  "description": "<p data-identifyelement=\"449\">Sippy allows several users to access and work with the softswitch simultaneously. The Users page allows you to create new Web Users or to log in as existing ones. \u00a0Web users are switch operators with specific access permissions.\u00a0</p><p data-identifyelement=\"450\"><br></p><p data-identifyelement=\"452\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3049262995/original/7F21Gag9B79gd9dw0aEPLhh8xun3tEPJLw.png?1575368279\" style=\"width: auto;\" class=\"fr-fil fr-dib\" data-id=\"3049262995\"></p><p data-identifyelement=\"452\"><br></p><p data-identifyelement=\"454\">Each Web User can have his own username and password for log in to the web GUI. \u00a0Web GUI elements that users can see are limited in accordance with the user's Access Level. \u00a0See a detailed list of permissions for each Access Level <a href=\"https://support.sippysoft.com/a/solutions/articles/3000083958\">here</a>.</p><p data-identifyelement=\"456\">By default, the softswitch has two system users: the Default User ssp-root which represents the switch owner, and the Remote Assistance user that is used by Sippy's Support Team when some troubleshooting is required.</p><p data-identifyelement=\"457\"><br></p><p data-identifyelement=\"459\"><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3049263011/original/DxRG-zkAqL8_cLrcoUbw7nJMJKhM25apog.png?1575368316\" style=\"width: auto;\" class=\"fr-fil fr-dib\" data-id=\"3049263011\"></p><p data-identifyelement=\"461\"><br></p><ul data-identifyelement=\"463\"><li><strong>Language\u00a0</strong>and <strong>Timezone\u00a0</strong>settings of a User affect his own web GUI\u00a0</li><li><strong>Download Format\u00a0</strong>defines file extension for downloaded reports, .CSV or .XLSX format</li><li><strong>E-Mail\u00a0</strong>is the e-mail address where a password recovery e-mail would be sent if requested</li><li><strong>Start Page\u00a0</strong>defines the first page that a User sees upon a login</li><li><strong>Web Access Control\u00a0</strong>allows you to specify a list of IP addresses from which a User can log in. See more about security features <a href=\"https://support.sippysoft.com/a/solutions/articles/3000058057\">here</a>.\u00a0</li></ul><p data-identifyelement=\"475\"><br></p>",
+  "description_text": " Sippy allows several users to access and work with the softswitch simultaneously. The Users page allows you to create new Web Users or to log in as existing ones. \u00a0Web users are switch operators with specific access permissions.\u00a0          Each Web User can have his own username and password for log in to the web GUI. \u00a0Web GUI elements that users can see are limited in accordance with the user's Access Level. \u00a0See a detailed list of permissions for each Access Level here.  By default, the softswitch has two system users: the Default User ssp-root which represents the switch owner, and the Remote Assistance user that is used by Sippy's Support Team when some troubleshooting is required.           Language\u00a0and Timezone\u00a0settings of a User affect his own web GUI\u00a0  Download Format\u00a0defines file extension for downloaded reports, .CSV or .XLSX format  E-Mail\u00a0is the e-mail address where a password recovery e-mail would be sent if requested  Start Page\u00a0defines the first page that a User sees upon a login  Web Access Control\u00a0allows you to specify a list of IP addresses from which a User can log in. See more about security features here.\u00a0     ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": ""
+  },
+  "tags": [
+    "Permissions",
+    "web users",
+    "NOC"
+  ],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 1,
+  "thumbs_down": 2,
+  "hits": 168,
+  "suggested": 0,
+  "feedback_count": 1,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDk0NzEwLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAyMn0.BPKlZ7Loghe0IMwzuUzxHcQh7w04UZBqaqwxk8nEbNg"
+  }
+}

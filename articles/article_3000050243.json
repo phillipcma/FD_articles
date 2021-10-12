@@ -1,0 +1,29 @@
+{
+  "id": 3000050243,
+  "type": 1,
+  "status": 2,
+  "agent_id": 4048869,
+  "created_at": "2016-03-11T15:38:15Z",
+  "category_id": 107132,
+  "folder_id": 176892,
+  "title": "XML-RPC API - System Config",
+  "updated_at": "2017-03-29T03:55:24Z",
+  "description": "<p>The following functions are only available to the root customer user.</p><p>These functions work with the <em>system_config</em>* tables only and do not affect the <em>system</em> table.<br></p><p><br></p><h2><span style=\"font-size: large;\">getSystemConfig()</span></h2><p><span style=\"font-size: large;\">\u00a0</span></p><h4>\n<span rel=\"tempredactor\">Available since: V4.5</span><br>\n</h4><p><br></p><p>Retrieve configuration. Returns all known keys and their current values.<br></p><p><br></p><p>Parameters:</p><ul><li>\n<em>key</em> Result should be returned for this key only. String. Optional.<br>\n</li></ul><p>Returns:</p><ul><li>\n<em>config\u00a0</em>- list of configuration records where each record contains the following fields:<ul>\n<li>\n<em>key</em> - String<br>\n</li>\n<li><em>current_value - String</em></li>\n<li><em>default_value - String</em></li>\n</ul>\n</li></ul><blockquote><br></blockquote><h2><span style=\"font-size: large;\">setSystemConfig()</span></h2><p>Set a configuration value.</p><p><br></p><h4>Available since: V4.5</h4><p><br></p><p>Parameters:</p><ul>\n<li>\n<em>key\u00a0</em>The key name. Only values which are present in the <em>system_config_defaults</em> table are allowed. String.<br>\n</li>\n<li>\n<em>value\u00a0</em>The value. String.<br>\n</li>\n</ul><div>Returns nothing<br>\n</div>",
+  "description_text": " The following functions are only available to the root customer user.  These functions work with the system_config* tables only and do not affect the system table.      getSystemConfig()  \u00a0  \nAvailable since: V4.5 \n     Retrieve configuration. Returns all known keys and their current values.      Parameters:   \nkey Result should be returned for this key only. String. Optional. \n   Returns:   \nconfig\u00a0- list of configuration records where each record contains the following fields: \n \nkey - String \n \n current_value - String \n default_value - String \n \n      setSystemConfig()  Set a configuration value.     Available since: V4.5     Parameters:  \n \nkey\u00a0The key name. Only values which are present in the system_config_defaults table are allowed. String. \n \n \nvalue\u00a0The value. String. \n \n  Returns nothing \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 376,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDUwMjQzLWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTExMX0.d2q-QVW4ERjYORHR4QkFZC3UaWiNQV-EUTelatp0S70"
+  }
+}

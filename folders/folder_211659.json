@@ -1,0 +1,28 @@
+[
+  {
+    "id": 130361,
+    "type": 1,
+    "status": 2,
+    "agent_id": 3763909,
+    "created_at": "2013-09-02T10:49:57Z",
+    "category_id": 81239,
+    "folder_id": 211659,
+    "title": "Sophisticated translation rule scenarios",
+    "updated_at": "2021-06-10T11:11:09Z",
+    "description": "<div dir=\"ltr\">\n<div dir=\"ltr\" align=\"center\"><p><font size=\"5\">Please, follow <a href=\"https://sippysoft.atlassian.net/wiki/display/SUP/TrRules\" target=\"\">TrRules </a>documentation on Confluence</font><br></p></div>\n</div>",
+    "description_text": " \n  Please, follow TrRules documentation on Confluence   \n ",
+    "seo_data": {
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": ""
+    },
+    "tags": [],
+    "attachments": [],
+    "cloud_files": [],
+    "thumbs_up": 0,
+    "thumbs_down": 0,
+    "hits": 0,
+    "suggested": 0,
+    "feedback_count": 0
+  }
+]

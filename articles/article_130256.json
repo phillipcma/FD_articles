@@ -1,0 +1,29 @@
+{
+  "id": 130256,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3763909,
+  "created_at": "2013-09-02T08:30:37Z",
+  "category_id": 81239,
+  "folder_id": 211616,
+  "title": "Announce minutes instead of balance",
+  "updated_at": "2021-06-10T11:12:00Z",
+  "description": "<p>into DB table <strong>ivr_config</strong> \n\n</p>\n<pre class=\"wiki\"><span style=\"background-color: rgb(255, 230, 148);\">INSERT INTO ivr_config (section, option, value, i_ivr_instance) VALUES ('callingcard', 'onlyminutesduration', 'true', 2);</span>\n\n</pre>\n<p>\n<strong>i_ivr_instance</strong> - unique value, set as 2 or above <br></p>\n<p><br></p>\n<p>\nIn CLD translation rule 'instanceX' word with corresponding digits must be inserted, e.g.<br></p>\n<pre class=\"wiki\">s/^/balance_earlymedia_cld/\n</pre>\n<p>\n  \nturns into<br></p>\n<pre class=\"wiki\"><span style=\"background-color: rgb(183, 221, 232);\">s/^/balance_nobalance_earlymedia_instance2_cld/</span>\n</pre>\n<br>",
+  "description_text": " into DB table ivr_config \n\n \n INSERT INTO ivr_config (section, option, value, i_ivr_instance) VALUES ('callingcard', 'onlyminutesduration', 'true', 2);\n\n \n \ni_ivr_instance - unique value, set as 2 or above   \n   \n \nIn CLD translation rule 'instanceX' word with corresponding digits must be inserted, e.g.  \n s/^/balance_earlymedia_cld/\n \n \n  \nturns into  \n s/^/balance_nobalance_earlymedia_instance2_cld/\n \n ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 0,
+  "thumbs_down": 0,
+  "hits": 0,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIxMzAyNTYtZW4iLCJVc2VySWQiOiIzMDEyMDg5NTI0IiwiZXhwIjoxNjM1MzcxMDc0fQ.tY9MsA2pR1ljUTYBPxHMg5VZAcMn5-tY6OAaDlLcv7U"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": 3000024616,
+  "type": 1,
+  "status": 2,
+  "agent_id": 3000808274,
+  "created_at": "2014-12-23T23:38:51Z",
+  "category_id": 81138,
+  "folder_id": 133030,
+  "title": "Choose Good Hardware",
+  "updated_at": "2020-01-08T22:31:32Z",
+  "description": "<p><br></p><p>Choosing high-grade, efficient server components for your system makes a big difference in terms of reliability and system performance.<br><br>The following monitoring graphs show the CPU bottleneck of handling ~300 'All Out' CPS traffic (without media proxying at all) on a server with a configuration of 2 X Intel Xeon CPU E5-2620 2.00GHz (12 physical cores in total).<br>The system with 16+ physical cores CPU configuration works steadily under ~300 ' All Out' CPS with the same CPT stats of less than 100ms.<br><img class=\"fr-dib fr-fil\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3041190278/original/0afh8AxwNxZsVCpdFDGLZr13d31pJy2rLA.png?1545228744\" data-filelink=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3041190278/original/0afh8AxwNxZsVCpdFDGLZr13d31pJy2rLA.png?1545228744\" data-fileid=\"3041190278\" data-uniquekey=\"1545228701753\"></p><hr><p>Here is a sample graph showing traffic on a Sippy Media Gateway. \u00a0On the left side, the graph shows Packets Per Second, CPU and Bandwidth usage when running a Broadcom Network card. \u00a0The day after we installed a server grade Intel Network card. \u00a0As you can see, at equivalent PPS and bandwidth levels, this system had a 15% CPU reduction, and overall, the system was able to handle significantly more network traffic.</p><p><br></p><p><img src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/3006425019/original/Broadcom_Vs_Intel.png?1419377910\" class=\"inline-image fr-dii\" data-id=\"3006425019\"></p><p><br></p>",
+  "description_text": "    Choosing high-grade, efficient server components for your system makes a big difference in terms of reliability and system performance.  The following monitoring graphs show the CPU bottleneck of handling ~300 'All Out' CPS traffic (without media proxying at all) on a server with a configuration of 2 X Intel Xeon CPU E5-2620 2.00GHz (12 physical cores in total). The system with 16+ physical cores CPU configuration works steadily under ~300 ' All Out' CPS with the same CPT stats of less than 100ms.    Here is a sample graph showing traffic on a Sippy Media Gateway. \u00a0On the left side, the graph shows Packets Per Second, CPU and Bandwidth usage when running a Broadcom Network card. \u00a0The day after we installed a server grade Intel Network card. \u00a0As you can see, at equivalent PPS and bandwidth levels, this system had a 15% CPU reduction, and overall, the system was able to handle significantly more network traffic.         ",
+  "seo_data": {
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": ""
+  },
+  "tags": [],
+  "attachments": [],
+  "cloud_files": [],
+  "thumbs_up": 3,
+  "thumbs_down": 0,
+  "hits": 1096,
+  "suggested": 0,
+  "feedback_count": 0,
+  "collaboration": {
+    "convo_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJUeXBlIjoiYXJ0aWNsZSIsIkNvbnZvSWQiOiIzMDAwMDI0NjE2LWVuIiwiVXNlcklkIjoiMzAxMjA4OTUyNCIsImV4cCI6MTYzNTM3MTAwOH0.lL7J6BA_wciDUBPEhU85bUY7tE6l2rLYYgHWvIB3cgE"
+  }
+}
